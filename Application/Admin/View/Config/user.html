@@ -1,0 +1,145 @@
+<include file="Common:header"/>
+<!--BEGIN FORM STYLE-->
+<link rel="stylesheet" type="text/css" href="__METRONIC_CSS__/uniform.default.css"/>
+<link rel="stylesheet" type="text/css" href="__METRONIC_CSS__/select2_metro.css" />
+<link rel="stylesheet" type="text/css" href="__METRONIC_CSS__/chosen.css" />
+<link rel="stylesheet" type="text/css" href="__METRONIC_CSS__/bootstrap-fileupload.css" />
+<link rel="stylesheet" type="text/css" href="__METRONIC_CSS__/jquery.gritter.css" />
+<link rel="stylesheet" type="text/css" href="__METRONIC_CSS__/chosen.css" />
+<link rel="stylesheet" type="text/css" href="__METRONIC_CSS__/select2_metro.css" />
+<link rel="stylesheet" type="text/css" href="__METRONIC_CSS__/jquery.tagsinput.css" />
+<link rel="stylesheet" type="text/css" href="__METRONIC_CSS__/clockface.css" />
+<link rel="stylesheet" type="text/css" href="__METRONIC_CSS__/bootstrap-wysihtml5.css" />
+<link rel="stylesheet" type="text/css" href="__METRONIC_CSS__/bootstrap-toggle-buttons.css" />
+<link rel="stylesheet" type="text/css" href="__METRONIC_CSS__/multi-select-metro.css" />
+<!--END FORM STYLE-->
+<!-- BEGIN CONTAINER -->
+<div class="page-container">
+    <!-- BEGIN SIDEBAR -->
+    <include file="Common:nav"/>
+    <!-- END SIDEBAR -->
+    <!-- BEGIN PAGE -->
+    <div class="page-content fill-content">
+        <!-- BEGIN PAGE CONTAINER-->
+        <div class="container-fluid">
+            <!-- BEGIN PAGE HEADER-->
+            <div class="row-fluid">
+                <div class="span12">
+                    <!-- BEGIN PAGE TITLE & BREADCRUMB-->
+                    <h3 class="page-title">
+                        Dashboard <small>statistics and more</small>
+                    </h3>
+                    <ul class="breadcrumb">
+                        <li>
+                            <i class="icon-home"></i>
+                            <a href="{:U('Index/index')}">{$Think.lang.home}</a>
+                            <i class="icon-angle-right"></i>
+                        </li>
+                        <notempty name="breadcrumb">
+                            {$breadcrumb}
+                            <else/>
+                            <li><a href="#">Dashboard</a></li>
+                        </notempty>
+                        <li class="pull-right no-text-shadow">
+                            <div id="dashboard-report-range" class="dashboard-date-range tooltips no-tooltip-on-touch-device responsive"
+                                 data-tablet="" data-desktop="tooltips" data-placement="top" data-original-title="Change dashboard date range">
+                                <i class="icon-calendar"></i>
+                                <span></span>
+                                <i class="icon-angle-down"></i>
+                            </div>
+                        </li>
+                    </ul>
+                    <!-- END PAGE TITLE & BREADCRUMB-->
+                </div>
+            </div>
+            <!-- END PAGE HEADER-->
+            <!--BEGIN PAGER FORM-->
+            <div class="row-fluid">
+                <div class="span12">
+                    <div class="portlet box purple">
+                        <div class="portlet-title">
+                            <div class="caption"><i class="icon-reorder"></i>{$model.name|default='添加栏目'}</div>
+                            <div class="tools">
+                                <a href="javascript:;" class="collapse"></a>
+                                <a href="#portlet-config" data-toggle="modal" class="config"></a>
+                                <a href="javascript:;" class="reload" data-role="__METRONIC_IMG__/fancybox_loading.gif" data-form="form_sample_1" data-reset="0"></a>
+                                <a href="javascript:;" class="remove"></a>
+                            </div>
+                        </div>
+                        <div class="portlet-body form">
+                            <!-- BEGIN FORM-->
+                            <form action="__URL__/adduserhandler" method="post" id="form_sample_1" class="form-horizontal" novalidate="novalidate" enctype="multipart/form-data">
+                                <div class="alert alert-error hide">
+                                    <button class="close" data-dismiss="alert"></button>
+                                    {$Think.lang.form_error}
+                                </div>
+                                <div class="alert alert-success hide">
+                                    <button class="close" data-dismiss="alert"></button>
+                                    {$Think.lang.form_success}
+                                </div>
+                                <div class="alert alert-error hide control-name">
+                                    <button class="close" data-dismiss="alert"></button>
+                                    {$Think.lang.column}{$Think.lang.not_null}
+                                </div>
+
+                                <div class="control-group">
+                                    <label class="control-label">{$Think.lang.register}</label>
+                                    <div class="controls">
+                                        <select name="register" id="register">
+                                            <option value="0"  <eq name="user.register" value="0">selected<else/>selected</eq>>{$Think.lang.register_on}</option>
+                                            <option value="1" <eq name="user.register" value="1">selected</eq>>{$Think.lang.register_off}</option>
+                                        </select>
+                                        <label class="line-height35">({$Think.lang.register_tip})</label>
+                                    </div>
+                                </div>
+
+                                <div class="form-actions">
+                                    <button type="submit" class="btn purple">{$Think.lang.submit}</button>
+                                    <button type="button" class="btn" onclick="window.history.go(-1);">{$Think.lang.go_back}</button>
+                                </div>
+                            </form>
+                            <!-- END FORM-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--END PAGER FORM-->
+        </div>
+        <!-- END PAGE CONTAINER-->
+    </div>
+    <!-- END PAGE -->
+</div>
+<!-- END CONTAINER -->
+<!-- BEGIN PAGE LEVEL PLUGINS -->
+<script type="text/javascript" src="__METRONIC_JS__/ckeditor.js"></script>
+<script type="text/javascript" src="__METRONIC_JS__/bootstrap-fileupload.js"></script>
+<script type="text/javascript" src="__METRONIC_JS__/chosen.jquery.min.js"></script>
+<script type="text/javascript" src="__METRONIC_JS__/select2.min.js"></script>
+<script type="text/javascript" src="__METRONIC_JS__/wysihtml5-0.3.0.js"></script>
+<script type="text/javascript" src="__METRONIC_JS__/bootstrap-wysihtml5.js"></script>
+<script type="text/javascript" src="__METRONIC_JS__/jquery.tagsinput.min.js"></script>
+<script type="text/javascript" src="__METRONIC_JS__/jquery.toggle.buttons.js"></script>
+<script type="text/javascript" src="__METRONIC_JS__/bootstrap-datepicker.js"></script>
+<script type="text/javascript" src="__METRONIC_JS__/bootstrap-datetimepicker.js"></script>
+<script type="text/javascript" src="__METRONIC_JS__/clockface.js"></script>
+<script type="text/javascript" src="__METRONIC_JS__/date.js"></script>
+<script type="text/javascript" src="__METRONIC_JS__/daterangepicker.js"></script>
+<script type="text/javascript" src="__METRONIC_JS__/bootstrap-colorpicker.js"></script>
+<script type="text/javascript" src="__METRONIC_JS__/bootstrap-timepicker.js"></script>
+<script type="text/javascript" src="__METRONIC_JS__/jquery.inputmask.bundle.min.js"></script>
+<script type="text/javascript" src="__METRONIC_JS__/jquery.input-ip-address-control-1.0.min.js"></script>
+<script type="text/javascript" src="__METRONIC_JS__/jquery.multi-select.js"></script>
+<!-- END PAGE LEVEL PLUGINS -->
+<!-- BEGIN PAGE LEVEL STYLES -->
+<script type="text/javascript" src="__METRONIC_JS__/jquery.validate.min.js"></script>
+<script type="text/javascript" src="__METRONIC_JS__/form-validation.js"></script>
+<script type="text/javascript" src="__JS__/jquery.han2pin.min.js"></script>
+<script type="text/javascript" src="__METRONIC_JS__/form-components.js"></script>
+<script type="text/javascript">
+    $(function(){
+        FormValidation.init();
+        FormComponents.init();
+    });
+</script>
+<!-- END PAGE LEVEL STYLES -->
+<include file="Common:footer"/>

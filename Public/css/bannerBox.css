@@ -1,0 +1,10 @@
+*{margin:0;padding:0;}
+div.banner-container{margin:10px;width:950px;height:auto; overflow:hidden;position:relative;}
+div.banner-container>div.banner-image{height:auto;width:auto;overflow:hidden;position:relative;}
+div.banner-container>div.banner-image>ul.banner-image-content{list-style-type:none;width:999999px;}
+div.banner-container>div.banner-image>ul.banner-image-content li{float: left;}
+div.banner-container>div.banner-image>ul.banner-image-content li img{width:950px;height:250px;}
+div.banner-container>div.banner-list{position:relative;top:-50px;float: right;right:50%;}
+div.banner-container>div.banner-list-content{width:100px;}
+ul.banner-list-content>li{float:left;list-style-type:none;color:#666;font-size:50px;cursor: pointer;}
+ul.banner-list-content>li.active{color:orange;}

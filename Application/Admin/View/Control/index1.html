@@ -1,0 +1,215 @@
+<include file="Common:header"/>
+<link rel="stylesheet" type="text/css" href="__METRONIC_CSS__/select2_metro.css" />
+<link rel="stylesheet" href="__METRONIC_CSS__/DT_bootstrap.css" />
+<!-- BEGIN CONTAINER -->
+	<div class="page-container">
+		<!-- BEGIN SIDEBAR -->
+		<include file="Common:nav"/>
+		<!-- END SIDEBAR -->
+		<!-- BEGIN PAGE -->
+		<div class="page-content fill-content">
+			<!-- BEGIN PAGE CONTAINER-->
+			<div class="container-fluid">
+				<!-- BEGIN PAGE HEADER-->
+				<div class="row-fluid">
+					<div class="span12">
+						<!-- BEGIN PAGE TITLE & BREADCRUMB-->
+						<h3 class="page-title">
+							Dashboard <small>statistics and more</small>
+						</h3>
+						<ul class="breadcrumb">
+							<li>
+								<i class="icon-home"></i>
+								<a href="{:U('Index/index')}">首页</a> 
+								<i class="icon-angle-right"></i>
+							</li>
+							<notempty name="breadcrumb">
+								{$breadcrumb}
+								<else/>
+								<li><a href="#">Dashboard</a></li>
+							</notempty>
+							
+							<li class="pull-right no-text-shadow">
+								<div id="dashboard-report-range" class="dashboard-date-range tooltips no-tooltip-on-touch-device responsive" data-tablet="" data-desktop="tooltips" data-placement="top" data-original-title="Change dashboard date range">
+									<i class="icon-calendar"></i>
+									<span></span>
+									<i class="icon-angle-down"></i>
+								</div>
+							</li>
+						</ul>
+						<!-- END PAGE TITLE & BREADCRUMB-->
+					</div>
+				</div>
+				<!-- END PAGE HEADER-->
+                <!--BEGIN CONTAINER -->
+                <!--BEGIN SEARCH -->
+                <div class="row-fluid">
+                    <div class="span12">
+                        <div class="span6">
+                            <a href="#2" class="btn grey">启 用</a>
+                            <a href="#2" class="btn grey">禁 用</a>
+                            <a href="#2" class="btn grey">删 除</a>
+                        </div>
+                        <div class="span6">
+                            <div class="search">
+                                <select name="" class="span2 pull-left" id="search-status">
+                                    <option value="-1">所有</option>
+                                    <option value="0">正常</option>
+                                    <option value="1">禁用</option>
+                                    <option value="2">待审核</option>
+                                </select>
+                                <input type="text" value="" name="" id="search-key span1 inline-block">
+                                <botton id="search-submit" class="btn blue margin-10">搜素<i class="m-icon-swapright m-icon-white"></i></botton>
+                                <!--<div class="btn-group margin-10">
+                                    <button class="btn purple dropdown-toggle" data-toggle="dropdown">Success <i class="icon-angle-down"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a href="#">Another action</a>
+                                        </li>
+                                        <li><a href="#">Another action</a></li>
+                                    </ul>
+                                </div>-->
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                        <hr class="divider"/>
+                    </div>
+                </div>
+                <!--END SEARCH -->
+                <!--BEGIN DATA CONTAINER -->
+                <div class="row-fluid">
+                    <div class="span12">
+                        <table class="table table-striped table-bordered table-hover" id="sample_1">
+                            <thead>
+                                <tr>
+                                    <th style="width:8px;"><input type="checkbox" class="group-checkable" data-set="#sample_1 .checkboxes"></th>
+                                    <th>Username</th>
+                                    <th class="hidden-480">Email</th>
+                                    <th class="hidden-480">Points</th>
+                                    <th class="hidden-480">Joined</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="odd gradeX">
+                                    <td><input type="checkbox" class="checkboxes" value="1"></td>
+                                    <td>shuxer</td>
+                                    <td class="hidden-480"><a href="mailto:shuxer@gmail.com">shuxer@gmail.com</a></td>
+                                    <td class="hidden-480">120</td>
+                                    <td class="center hidden-480">12 Jan 2012</td>
+                                    <td><span class="label label-success">Approved</span></td>
+                                </tr>
+                                <tr class="odd gradeX">
+                                    <td><input type="checkbox" class="checkboxes" value="1"></td>
+                                    <td>looper</td>
+                                    <td class="hidden-480"><a href="mailto:looper90@gmail.com">looper90@gmail.com</a></td>
+                                    <td class="hidden-480">120</td>
+                                    <td class="center hidden-480">12.12.2011</td>
+                                    <td><span class="label label-warning">Suspended</span></td>
+                                </tr>
+                                <tr class="odd gradeX">
+                                    <td><input type="checkbox" class="checkboxes" value="1"></td>
+                                    <td>userwow</td>
+                                    <td class="hidden-480"><a href="mailto:userwow@yahoo.com">userwow@yahoo.com</a></td>
+                                    <td class="hidden-480">20</td>
+                                    <td class="center hidden-480">12.12.2012</td>
+                                    <td><span class="label label-success">Approved</span></td>
+                                </tr>
+                                <tr class="odd gradeX">
+                                    <td><input type="checkbox" class="checkboxes" value="1"></td>
+                                    <td>user1wow</td>
+                                    <td class="hidden-480"><a href="mailto:userwow@gmail.com">userwow@gmail.com</a></td>
+                                    <td class="hidden-480">20</td>
+                                    <td class="center hidden-480">12.12.2012</td>
+                                    <td><span class="label label-inverse">Blocked</span></td>
+                                </tr>
+                                <tr class="odd gradeX">
+                                    <td><input type="checkbox" class="checkboxes" value="1"></td>
+                                    <td>restest</td>
+                                    <td class="hidden-480"><a href="mailto:userwow@gmail.com">test@gmail.com</a></td>
+                                    <td class="hidden-480">20</td>
+                                    <td class="center hidden-480">12.12.2012</td>
+                                    <td><span class="label label-success">Approved</span></td>
+                                </tr>
+                                <tr class="odd gradeX">
+                                    <td><input type="checkbox" class="checkboxes" value="1"></td>
+                                    <td>foopl</td>
+                                    <td class="hidden-480"><a href="mailto:userwow@gmail.com">good@gmail.com</a></td>
+                                    <td class="hidden-480">20</td>
+                                    <td class="center hidden-480">19.11.2010</td>
+                                    <td><span class="label label-success">Approved</span></td>
+                                </tr>
+                                <tr class="odd gradeX">
+                                    <td><input type="checkbox" class="checkboxes" value="1"></td>
+                                    <td>weep</td>
+                                    <td class="hidden-480"><a href="mailto:userwow@gmail.com">good@gmail.com</a></td>
+                                    <td class="hidden-480">20</td>
+                                    <td class="center hidden-480">19.11.2010</td>
+                                    <td><span class="label label-success">Approved</span></td>
+                                </tr>
+                                <tr class="odd gradeX">
+                                    <td><input type="checkbox" class="checkboxes" value="1"></td>
+                                    <td>coop</td>
+                                    <td class="hidden-480"><a href="mailto:userwow@gmail.com">good@gmail.com</a></td>
+                                    <td class="hidden-480">20</td>
+                                    <td class="center hidden-480">19.11.2010</td>
+                                    <td><span class="label label-success">Approved</span></td>
+                                </tr>
+                                <tr class="odd gradeX">
+                                    <td><input type="checkbox" class="checkboxes" value="1"></td>
+                                    <td>pppol</td>
+                                    <td class="hidden-480"><a href="mailto:userwow@gmail.com">good@gmail.com</a></td>
+                                    <td class="hidden-480">20</td>
+                                    <td class="center hidden-480">19.11.2010</td>
+                                    <td><span class="label label-success">Approved</span></td>
+                                </tr>
+                                <tr class="odd gradeX">
+                                    <td><input type="checkbox" class="checkboxes" value="1"></td>
+                                    <td>test</td>
+                                    <td class="hidden-480"><a href="mailto:userwow@gmail.com">good@gmail.com</a></td>
+                                    <td class="hidden-480">20</td>
+                                    <td class="center hidden-480">19.11.2010</td>
+                                    <td><span class="label label-success">Approved</span></td>
+                                </tr>
+                                <tr class="odd gradeX">
+                                    <td><input type="checkbox" class="checkboxes" value="1"></td>
+                                    <td>userwow</td>
+                                    <td class="hidden-480"><a href="mailto:userwow@gmail.com">userwow@gmail.com</a></td>
+                                    <td class="hidden-480">20</td>
+                                    <td class="center hidden-480">12.12.2012</td>
+                                    <td><span class="label label-inverse">Blocked</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="clear"></div>
+                        <div class="pagination">
+                            <ul>
+                                <li class="disabled"><a href="#">&lt;&lt;</a></li>
+                                <li class="active"><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">&gt;&gt;</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--END DATA CONTAINER -->
+                <!--END CONTAINER -->
+			</div>
+			<!-- END PAGE CONTAINER-->    
+		</div>
+		<!-- END PAGE -->
+	</div>
+	<!-- END CONTAINER -->
+    <script type="text/javascript" src="__METRONIC_JS__/select2.min.js"></script>
+    <script type="text/javascript" src="__METRONIC_JS__/jquery.dataTables.js"></script>
+    <script type="text/javascript" src="__METRONIC_JS__/DT_bootstrap.js"></script>
+    <script src="__METRONIC_JS__/table-managed.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            TableManaged.init();
+        });
+    </script>
+<include file="Common:footer"/>

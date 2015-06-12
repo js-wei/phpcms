@@ -1,0 +1,1 @@
+<?php return array('admin_config'=>array('document'=>'0,首页','document_show'=>'0','draft'=>'1','auto_save'=>'60','admin_page_size'=>'10','register'=>'1','data_backup'=>'./Data/','data_backup_size'=>'20971520','zip'=>'0','zip_level'=>'2',),);

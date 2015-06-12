@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* Date Picker 日期拾取器 */
+table.jCalendar{border-collapse:collapse;font-family:Arial;width:100%;}
+table.jCalendar th{background:#fff;color:#3c3c3c;font-weight:normal;height:27px;line-height:27px;vertical-align:middle;}
+table.jCalendar td{background:#EBF6FF;color:#3c3c3c;font-size:11px;border:1px solid #cdcfd3;height:27px;line-height:27px;text-align:center;}
+table.jCalendar td.other-month{background:#f7f7f7;color:#555;}
+table.jCalendar td.today{background:#8ca4c8;color:#fff;}
+table.jCalendar td.selected,table.jCalendar td.selected.dp-hover{background:#3366cc;color:#fff;}
+table.jCalendar td.dp-hover,table.jCalendar tr.activeWeekHover td{background:#8ca4c8;color:#fff;}
+table.jCalendar tr.selectedWeek td{background:#f66;color:#fff;}
+table.jCalendar td.disabled, table.jCalendar td.disabled.dp-hover{background:#ECF1F4;color:#888;}
+table.jCalendar td.unselectable,table.jCalendar td.unselectable:hover,table.jCalendar td.unselectable.dp-hover{background:#8ca4c8;color:#fff;}
+/* For the popup *//* NOTE - you will probably want to style a.dp-choose-date - see how I did it in demo.css */
+div.dp-popup{position:relative;font-size:12px;font-family:arial, sans-serif;padding:0 2px 2px 2px;width:260px;line-height:1.2em;border:solid 1px #ddd;background:#F4F4F4;}
+div#dp-popup{position:absolute;z-index:199;}
+div.dp-popup h2{font-size:14px;text-align:center;margin:0;padding:0;height:32px;line-height:32px;border-bottom:solid 1px #cdcfd3;border-top:solid 1px #fff;color:#3c3c3c;}
+a#dp-close{font-size:11px;padding:4px 0;text-align:center;display:block;}
+a#dp-close:hover{text-decoration:underline;}
+div.dp-popup a{color:#000;text-decoration:none;width:19px;height:19px;line-height:999em;overflow:hidden;background:url(../images/arrowicon.gif) no-repeat;margin:6px 2px 0 2px;display:inline;}
+div.dp-popup a#dp-nav-prev-year.disabled{background-position:0 -19px;}
+div.dp-popup a#dp-nav-prev-month.disabled{background-position:-19px -19px;}
+div.dp-popup a#dp-nav-prev-year{background-position:0 0;}
+div.dp-popup a#dp-nav-prev-month{background-position:-19px 0;}
+div.dp-popup a#dp-nav-next-year{background-position:-57px 0;}
+div.dp-popup a#dp-nav-next-month{background-position:-38px 0;}
+div.dp-popup div.dp-nav-prev{position:absolute;top:2px;left:12px;width:100px;}
+div.dp-popup div.dp-nav-prev a{float:left;}
+/* Opera needs the rules to be this specific otherwise it doesn't change the cursor back to pointer after you have disabled and re-enabled a link */
+div.dp-popup div.dp-nav-prev a, div.dp-popup div.dp-nav-next a{cursor:pointer;}
+div.dp-popup div.dp-nav-prev a.disabled, div.dp-popup div.dp-nav-next a.disabled{cursor:default;}
+div.dp-popup div.dp-nav-next{position:absolute;top:2px;right:12px;width:100px;}
+div.dp-popup div.dp-nav-next a{float:right;}
+div.dp-popup a.disabled{cursor:default;color:#aaa;}
+div.dp-popup td{cursor:pointer;font-size:14px;}
+div.dp-popup td.disabled{cursor:default;}

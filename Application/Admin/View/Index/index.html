@@ -1,0 +1,227 @@
+<include file="Common:header"/>
+<!-- BEGIN CONTAINER -->
+<div class="page-container">
+    <!-- BEGIN SIDEBAR -->
+    <include file="Common:nav"/>
+    <!-- END SIDEBAR -->
+    <!-- BEGIN PAGE -->
+    <div class="page-content fill-content">
+        <!-- BEGIN PAGE CONTAINER-->
+        <div class="container-fluid">
+            <!-- BEGIN PAGE HEADER-->
+            <div class="row-fluid">
+                <div class="span12">
+                    <!-- BEGIN PAGE TITLE & BREADCRUMB-->
+                    <h3 class="page-title">
+                        Dashboard <small>statistics and more</small>
+                    </h3>
+                    <ul class="breadcrumb">
+                        <li class="">
+                            <i class="icon-home"></i>
+                            <a href="{:U('Index/index')}">首页</a>
+                            <i class="icon-angle-right"></i>
+                        </li>
+                        <notempty name="breadcrumb">
+                            {$breadcrumb}
+                            <else/>
+                            <li><a href="#">Dashboard</a></li>
+                        </notempty>
+
+                        <li class="pull-right no-text-shadow">
+                            <div id="dashboard-report-range" class="dashboard-date-range tooltips no-tooltip-on-touch-device responsive" data-tablet="" data-desktop="tooltips" data-placement="top" data-original-title="Change dashboard date range">
+                                <i class="icon-calendar"></i>
+                                <span></span>
+                                <i class="icon-angle-down"></i>
+                            </div>
+                        </li>
+                    </ul>
+                    <!-- END PAGE TITLE & BREADCRUMB-->
+                </div>
+            </div>
+            <!-- END PAGE HEADER-->
+            <!--BEGIN TIP-->
+            <div class="row-fluid">
+                <div class="span3 responsive" data-tablet="span6" data-desktop="span3">
+                    <div class="dashboard-stat blue">
+                        <div class="visual">
+                            <i class="icon-won"></i>
+                        </div>
+                        <div class="details">
+                            <div class="number">
+                                1349
+                            </div>
+                            <div class="desc">
+                              新文档
+                            </div>
+                        </div>
+                        <a class="more" href="#">
+                           查看更多<i class="m-icon-swapright m-icon-white"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="span3 responsive" data-tablet="span6" data-desktop="span3">
+                    <div class="dashboard-stat green">
+                        <div class="visual">
+                            <i class="icon-comments"></i>
+                        </div>
+                        <div class="details">
+                            <div class="number">549</div>
+                            <div class="desc">新消息</div>
+                        </div>
+                        <a class="more" href="#">
+                            查看更多 <i class="m-icon-swapright m-icon-white"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="span3 responsive" data-tablet="span6  fix-offset" data-desktop="span3">
+                    <div class="dashboard-stat purple">
+                        <div class="visual">
+                            <i class="icon-sitemap"></i>
+                        </div>
+                        <div class="details">
+                            <div class="number">{$count}</div>
+                            <div class="desc">栏目数</div>
+                        </div>
+                        <a class="more" href="#">
+                            查看更多<i class="m-icon-swapright m-icon-white"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="span3 responsive" data-tablet="span6" data-desktop="span3">
+                    <div class="dashboard-stat yellow">
+                        <div class="visual">
+                            <i class="icon-group"></i>
+                        </div>
+                        <div class="details">
+                            <div class="number">1,125</div>
+                            <div class="desc">访问量</div>
+                        </div>
+                        <a class="more" href="#">
+                            查看更多<i class="m-icon-swapright m-icon-white"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--END TIP-->
+            <div class="clearfix"></div>
+            <!--START SYSTEM INFO-->
+            <div class="row-fluid">
+                <div class="span12">
+                    <div class="span6">
+                        <h3 class="table-title">系统信息</h3>
+                        <table class="table table-striped table-bordered table-hover dataTable" id="sample_1" aria-describedby="sample_1_info">
+                            <tbody role="alert" aria-live="polite" aria-relevant="all">
+                                <tr class="gradeX even">
+                                    <td class=" sorting_1" style="width:100px;">服务器操作系统</td>
+                                    <td class=" ">{$os.os}</td>
+                                </tr>
+                                <tr class="gradeX odd">
+                                    <td class=" sorting_1">ThinkPHP版本</td>
+                                    <td class=" ">{$os.think_ver}</td>
+                                </tr>
+                                <tr class="gradeX even">
+                                    <td class=" sorting_1">运行环境</td>
+                                    <td class=" ">{$os.server}</td>
+                                </tr>
+                                <tr class="gradeX odd">
+                                    <td class=" sorting_1">PHP版本</td>
+                                    <td class=" ">{$os.php}</td>
+                                </tr>
+                                <tr class="gradeX even">
+                                    <td class=" sorting_1">PHP安装地址</td>
+                                    <td class=" ">{$os.php_dir}</td>
+                                </tr>
+                                <tr class="gradeX odd">
+                                    <td class=" sorting_1">GD绘图库</td>
+                                    <td class=" "><eq name="os.gd" value="1"><label class="label label-success">支持</label><else/><label class="label label-danger">不支持</label></eq></td>
+                                </tr>
+                                <tr class="gradeX even">
+                                    <td class=" sorting_1">MYSQL版本</td>
+                                    <td class=" ">{$os.mysql}</td>
+                                </tr>
+                                <tr class="gradeX odd">
+                                    <td class=" sorting_1">上传限制</td>
+                                    <td class=" ">{$os.file_size}</td>
+                                </tr>
+                                <tr class="gradeX even">
+                                    <td class=" sorting_1">可用内存</td>
+                                    <td class=" ">{$os.memory_limit}</td>
+                                </tr>
+                                <tr class="gradeX odd">
+                                    <td class=" sorting_1">系统时间</td>
+                                    <td class="" id="sys-time"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="span6">
+                        <h3 class="table-title">网站配置</h3>
+                        <table class="table table-striped table-bordered table-hover dataTable" id="sample_1" aria-describedby="sample_1_info">
+                            <tbody role="alert" aria-live="polite" aria-relevant="all">
+                            <tr class="gradeX even">
+                                <td class=" sorting_1" style="width:100px;">服务器操作系统</td>
+                                <td class=" ">{$os.os}</td>
+                            </tr>
+                            <tr class="gradeX odd">
+                                <td class=" sorting_1">ThinkPHP版本</td>
+                                <td class=" ">{$os.think_ver}</td>
+                            </tr>
+                            <tr class="gradeX even">
+                                <td class=" sorting_1">运行环境</td>
+                                <td class=" ">{$os.server}</td>
+                            </tr>
+                            <tr class="gradeX odd">
+                                <td class=" sorting_1">PHP版本</td>
+                                <td class=" ">{$os.php}</td>
+                            </tr>
+                            <tr class="gradeX even">
+                                <td class=" sorting_1">PHP安装地址</td>
+                                <td class=" ">{$os.php_dir}</td>
+                            </tr>
+                            <tr class="gradeX odd">
+                                <td class=" sorting_1">GD绘图库</td>
+                                <td class=" "><eq name="os.gd" value="1"><label class="label label-success">支持</label><else/><label class="label label-danger">不支持</label></eq></td>
+                            </tr>
+                            <tr class="gradeX even">
+                                <td class=" sorting_1">MYSQL版本</td>
+                                <td class=" ">{$os.mysql}</td>
+                            </tr>
+                            <tr class="gradeX odd">
+                                <td class=" sorting_1">上传限制</td>
+                                <td class=" ">{$os.file_size}</td>
+                            </tr>
+                            <tr class="gradeX even">
+                                <td class=" sorting_1">可用内存</td>
+                                <td class=" ">{$os.memory_limit}</td>
+                            </tr>
+                            <tr class="gradeX odd">
+                                <td class=" sorting_1">系统时间</td>
+                                <td></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <!--END SYSTEM INFO-->
+        </div>
+        <!-- END PAGE CONTAINER-->
+    </div>
+    <!-- END PAGE -->
+</div>
+<script type="text/javascript">
+    function current(){
+        var d=new Date(),str='';
+        str +=d.getFullYear()+'年'; //获取当前年份
+        str +=d.getMonth()+1+'月'; //获取当前月份（0——11）
+        str +=d.getDate()+'日';
+        str +=' '+d.getHours()+'时';
+        str +=d.getMinutes()+'分';
+        str +=d.getSeconds()+'秒';
+        return str;
+    }
+    $("#sys-time").html(current);
+    setInterval(function(){$("#sys-time").html(current)},1000);
+</script>
+<!-- END CONTAINER -->
+<include file="Common:footer"/>

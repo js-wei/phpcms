@@ -1,0 +1,24 @@
+[ 2015-02-09T15:49:02+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009002s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007501s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: attr D:\wamp\www\91market\ThinkPHP\Library\Think\Template\TagLib\Custom.class.php 第 1062 行.
+NOTIC: [8] Undefined index: limit D:\wamp\www\91market\ThinkPHP\Library\Think\Template\TagLib\Custom.class.php 第 54 行.
+NOTIC: [8] Undefined index: order D:\wamp\www\91market\ThinkPHP\Library\Think\Template\TagLib\Custom.class.php 第 55 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000500s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000500s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047507s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047507s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010002s ]
+

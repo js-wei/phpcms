@@ -1,0 +1,309 @@
+<include file="Common:header"/>
+<!--BEGIN FORM STYLE-->
+<link rel="stylesheet" type="text/css" href="__METRONIC_CSS__/uniform.default.css"/>
+<link rel="stylesheet" type="text/css" href="__METRONIC_CSS__/select2_metro.css" />
+<link rel="stylesheet" type="text/css" href="__METRONIC_CSS__/chosen.css" />
+<link rel="stylesheet" type="text/css" href="__METRONIC_CSS__/bootstrap-fileupload.css" />
+<link rel="stylesheet" type="text/css" href="__METRONIC_CSS__/jquery.gritter.css" />
+<link rel="stylesheet" type="text/css" href="__METRONIC_CSS__/chosen.css" />
+<link rel="stylesheet" type="text/css" href="__METRONIC_CSS__/select2_metro.css" />
+<link rel="stylesheet" type="text/css" href="__METRONIC_CSS__/jquery.tagsinput.css" />
+<link rel="stylesheet" type="text/css" href="__METRONIC_CSS__/clockface.css" />
+<link rel="stylesheet" type="text/css" href="__METRONIC_CSS__/bootstrap-wysihtml5.css" />
+<link rel="stylesheet" type="text/css" href="__METRONIC_CSS__/datepicker.css" />
+<link rel="stylesheet" type="text/css" href="__METRONIC_CSS__/timepicker.css" />
+<link rel="stylesheet" type="text/css" href="__METRONIC_CSS__/colorpicker.css" />
+<link rel="stylesheet" type="text/css" href="__METRONIC_CSS__/bootstrap-toggle-buttons.css" />
+<link rel="stylesheet" type="text/css" href="__METRONIC_CSS__/daterangepicker.css" />
+<link rel="stylesheet" type="text/css" href="__METRONIC_CSS__/datetimepicker.css" />
+<link rel="stylesheet" type="text/css" href="__METRONIC_CSS__/multi-select-metro.css" />
+<link rel="stylesheet" type="text/css" href="__METRONIC_CSS__/bootstrap-modal.css"/>
+<!--END FORM STYLE-->
+<!-- BEGIN CONTAINER -->
+<div class="page-container">
+    <!-- BEGIN SIDEBAR -->
+    <include file="Common:nav"/>
+    <!-- END SIDEBAR -->
+    <!-- BEGIN PAGE -->
+    <div class="page-content fill-content">
+        <!-- BEGIN PAGE CONTAINER-->
+        <div class="container-fluid">
+            <!-- BEGIN PAGE HEADER-->
+            <div class="row-fluid">
+                <div class="span12">
+                    <!-- BEGIN PAGE TITLE & BREADCRUMB-->
+                    <h3 class="page-title">
+                        Dashboard <small>statistics and more</small>
+                    </h3>
+                    <ul class="breadcrumb">
+                        <li>
+                            <i class="icon-home"></i>
+                            <a href="{:U('Index/index')}">{$Think.lang.home}</a>
+                            <i class="icon-angle-right"></i>
+                        </li>
+                        <notempty name="breadcrumb">
+                            {$breadcrumb}
+                            <else/>
+                            <li><a href="#">Dashboard</a></li>
+                        </notempty>
+                        <li class="pull-right no-text-shadow">
+                            <div id="dashboard-report-range" class="dashboard-date-range tooltips no-tooltip-on-touch-device responsive"
+                                 data-tablet="" data-desktop="tooltips" data-placement="top" data-original-title="Change dashboard date range">
+                                <i class="icon-calendar"></i>
+                                <span></span>
+                                <i class="icon-angle-down"></i>
+                            </div>
+                        </li>
+                    </ul>
+                    <!-- END PAGE TITLE & BREADCRUMB-->
+                </div>
+            </div>
+            <!-- END PAGE HEADER-->
+            <!--BEGIN PAGER FORM-->
+            <div class="row-fluid">
+                <div class="span12">
+                    <div class="portlet box purple">
+                        <div class="portlet-title">
+                            <div class="caption"><i class="icon-reorder"></i>{$model.name|default='添加栏目'}</div>
+                            <div class="tools">
+                                <a href="javascript:;" class="collapse"></a>
+                                <a href="#portlet-config" data-toggle="modal" class="config"></a>
+                                <a href="javascript:;" class="reload" data-role="__METRONIC_IMG__/fancybox_loading.gif" data-form="form_sample_1" data-reset="1"></a>
+                                <a href="javascript:;" class="remove"></a>
+                            </div>
+                        </div>
+                        <div class="portlet-body form">
+                            <!-- BEGIN FORM-->
+                            <form action="__URL__/addhandler" method="post" id="form_sample_1" class="form-horizontal" novalidate="novalidate" enctype="multipart/form-data">
+                                <div class="alert alert-error hide">
+                                    <button class="close" data-dismiss="alert"></button>
+                                    {$Think.lang.form_error}
+                                </div>
+                                <div class="alert alert-success hide">
+                                    <button class="close" data-dismiss="alert"></button>
+                                    {$Think.lang.form_success}
+                                </div>
+                                <div class="alert alert-error hide control-name">
+                                    <button class="close" data-dismiss="alert"></button>
+                                    {$Think.lang.column}{$Think.lang.not_null}
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">{$Think.lang.father}{$Think.lang.column}<span class="required">*</span></label>
+                                    <div class="controls">
+                                        <select class="span4 m-wrap" name="fid">
+                                            <option value="0">{$Think.lang.top}{$Think.lang.column}</option>
+                                            <volist name="column_list" id="cate">
+                                                <option value="{$cate.id}">{$cate.html}{$cate.name}</option>
+                                            </volist>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">{$Think.lang.column}{$Think.lang.title}<span class="required">*</span></label>
+                                    <div class="controls">
+                                        <input type="text" name="title" id="control-name" data-required="1" class="span4 m-wrap" placeholder="{$Think.lang.column}{$Think.lang.title}">
+                                        <button type="button" id="Pinyin" class="btn blue">{$Think.lang.Pinyin}</button>
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">{$Think.lang.column}{$Think.lang.name}<span class="required">*</span></label>
+                                    <div class="controls">
+                                        <input type="text" name="name" id="control-title" class="span4 m-wrap" placeholder="{$Think.lang.column}{$Think.lang.name}">
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">{$Think.lang.column}{$Think.lang.ico}</label>
+                                    <div class="controls">
+                                        <input type="text" name="ico" value="" placeholder="{$Think.lang.column}{$Think.lang.ico}"/>
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">{$Think.lang.column}{$Think.lang.banner}</label>
+                                    <div class="controls">
+                                        <div class="fileupload fileupload-new" data-provides="fileupload">
+                                            <input type="hidden" value="" name="banner">
+                                            <div class="input-append">
+                                                <div class="uneditable-input">
+                                                    <i class="icon-file fileupload-exists"></i>
+                                                    <span class="fileupload-preview"></span>
+                                                </div>
+												<span class="btn btn-file">
+													<span class="fileupload-new">{$Think.lang.selected}{$Think.lang.file}</span>
+													<span class="fileupload-exists">{$Think.lang.revise}{$Think.lang.file}</span>
+													<input type="file" class="default" name="banner">
+                                                </span>
+                                                <a href="#" class="btn fileupload-exists" data-dismiss="fileupload">{$Think.lang.delete}</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">{$Think.lang.column}{$Think.lang.description}</label>
+                                    <div class="controls">
+                                        <textarea name="description" class="span4 m-wrap" placeholder="{$Think.lang.column}{$Think.lang.description}"></textarea>
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">{$Think.lang.column}{$Think.lang.type}</label>
+                                    <div class="controls">
+                                        <label class="radio-inline inline-width">
+                                            <input type="radio" name="type"  value="1" class="reset-radio" checked>{$Think.lang.list}
+                                        </label>
+                                        <label class="radio-inline inline-width">
+                                            <input type="radio" name="type" class="reset-radio"  value="2">{$Think.lang.download}
+                                        </label>
+                                        <label class="radio-inline inline-width">
+                                            <input type="radio" name="type" class="reset-radio"  value="3">{$Think.lang.single}
+                                        </label>
+                                        <label class="radio-inline inline-width">
+                                            <input type="radio" name="type" class="reset-radio"  value="4">{$Think.lang.cover}
+                                        </label>
+                                        <label class="radio-inline inline-width">
+                                            <input type="radio" name="type" class="reset-radio"  value="5">{$Think.lang.form}
+                                        </label>
+                                        <label class="radio-inline inline-width">
+                                            <input type="radio" name="type" class="reset-radio"  value="6">{$Think.lang.redirect}
+                                        </label>
+                                        <label for="cover" class="hide data-cover"><input type="text" placeholder="{$Think.lang.cover}{$Think.lang.address}" id="cover" name="tpl"/></label>
+                                        <label for="uri" class="hide data-redirect"><input type="text" placeholder="{$Think.lang.redirect}{$Think.lang.address}eg:http://www.baidu.com" id="uri" name="uri"/></label>
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">{$Think.lang.column}{$Think.lang.position}</label>
+                                    <div class="controls">
+                                        <label class="radio-inline inline-width">
+                                            <input type="radio" name="position"  value="1" class="reset-radio" checked>{$Think.lang.top}
+                                        </label>
+                                        <label class="radio-inline inline-width">
+                                            <input type="radio" name="position" class="reset-radio"  value="2">{$Think.lang.center}
+                                        </label>
+                                        <label class="radio-inline inline-width">
+                                            <input type="radio" name="position" class="reset-radio"  value="3">{$Think.lang.left}
+                                        </label>
+                                        <label class="radio-inline inline-width">
+                                            <input type="radio" name="position" class="reset-radio"  value="4">{$Think.lang.right}
+                                        </label>
+                                        <label class="radio-inline inline-width">
+                                            <input type="radio" name="position" class="reset-radio"  value="5">{$Think.lang.bottom}
+                                        </label>
+                                    </div>
+                                </div>
+                                <script type="text/javascript" src="__PLUG__/My97DatePicker/WdatePicker.js"></script>
+                                <div class="control-group">
+                                    <label class="control-label">{$Think.lang.column}{$Think.lang.effective}</label>
+                                    <div class="controls">
+                                        <label class="radio-inline ">
+                                            <input type="text" name="effective"  class="Wdate" onfocus="WdatePicker();" >
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">{$Think.lang.column}{$Think.lang.show}</label>
+                                    <div class="controls">
+                                        <label class="radio-inline inline-width">
+                                            <input type="radio" name="isnav"  value="0" class="reset-radio" checked>{$Think.lang.show}
+                                        </label>
+                                        <label class="radio-inline inline-width">
+                                            <input type="radio" name="isnav" class="reset-radio"  value="1">{$Think.lang.un_show}
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">{$Think.lang.column}{$Think.lang.status}</label>
+                                    <div class="controls">
+                                        <label class="radio-inline inline-width">
+                                            <input type="radio" name="status"  value="0" class="reset-radio" checked>{$Think.lang.enable}
+                                        </label>
+                                        <label class="radio-inline inline-width">
+                                            <input type="radio" name="status" class="reset-radio"  value="1">{$Think.lang.forbidden}
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">{$Think.lang.column}{$Think.lang.sort}</label>
+                                    <div class="controls">
+                                        <input type="text" name="sort" value="100" placeholder="{$Think.lang.sort}"/>
+                                    </div>
+                                </div>
+                                <div class="form-actions">
+                                    <button type="submit" class="btn purple">{$Think.lang.submit}</button>
+                                    <button type="button" class="btn" onclick="window.history.go(-1);">{$Think.lang.go_back}</button>
+                                </div>
+                            </form>
+                            <!-- END FORM-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--END PAGER FORM-->
+        </div>
+        <!-- END PAGE CONTAINER-->
+    </div>
+    <!-- END PAGE -->
+</div>
+<!-- END CONTAINER -->
+<!-- BEGIN PAGE LEVEL PLUGINS -->
+<script type="text/javascript" src="__METRONIC_JS__/ckeditor.js"></script>
+<script type="text/javascript" src="__METRONIC_JS__/bootstrap-fileupload.js"></script>
+<script type="text/javascript" src="__METRONIC_JS__/chosen.jquery.min.js"></script>
+<script type="text/javascript" src="__METRONIC_JS__/select2.min.js"></script>
+<script type="text/javascript" src="__METRONIC_JS__/wysihtml5-0.3.0.js"></script>
+<script type="text/javascript" src="__METRONIC_JS__/bootstrap-wysihtml5.js"></script>
+<script type="text/javascript" src="__METRONIC_JS__/jquery.tagsinput.min.js"></script>
+<script type="text/javascript" src="__METRONIC_JS__/jquery.toggle.buttons.js"></script>
+<script type="text/javascript" src="__METRONIC_JS__/bootstrap-datepicker.js"></script>
+<script type="text/javascript" src="__METRONIC_JS__/bootstrap-datetimepicker.js"></script>
+<script type="text/javascript" src="__METRONIC_JS__/clockface.js"></script>
+<script type="text/javascript" src="__METRONIC_JS__/date.js"></script>
+<script type="text/javascript" src="__METRONIC_JS__/daterangepicker.js"></script>
+<script type="text/javascript" src="__METRONIC_JS__/bootstrap-colorpicker.js"></script>
+<script type="text/javascript" src="__METRONIC_JS__/bootstrap-timepicker.js"></script>
+<script type="text/javascript" src="__METRONIC_JS__/jquery.inputmask.bundle.min.js"></script>
+<script type="text/javascript" src="__METRONIC_JS__/jquery.input-ip-address-control-1.0.min.js"></script>
+<script type="text/javascript" src="__METRONIC_JS__/jquery.multi-select.js"></script>
+<script type="text/javascript" src="__METRONIC_JS__/bootstrap-modal.js"></script>
+<script type="text/javascript" src="__METRONIC_JS__/bootstrap-modalmanager.js"></script>
+<script  type="text/javascript" src="__METRONIC_JS__/form-components.js"></script>
+<!-- END PAGE LEVEL PLUGINS -->
+<!-- BEGIN PAGE LEVEL STYLES -->
+<script type="text/javascript" src="__METRONIC_JS__/jquery.validate.min.js"></script>
+<script type="text/javascript" src="__METRONIC_JS__/form-validation.js"></script>
+<script type="text/javascript" src="__JS__/jquery.han2pin.min.js"></script>
+<script type="text/javascript" src="__METRONIC_JS__/form-components.js"></script>
+<script type="text/javascript">
+    $(function(){
+        FormValidation.init();
+        FormComponents.init();
+        $('#Pinyin').click(function(){
+            if($('#control-name').val()==''){
+                $('.control-name').show();
+                return false;
+            }else{
+                $('#control-title').val($('#control-name').toPinyin());
+                $('.control-name').hide();
+            }
+        });
+        $('.reset-radio').click(function(){
+            $val=$(this).val();
+            if($val==6 || $val==4){
+                if($val==6){
+                    $('.data-redirect').show();
+                    $('#cover').val('');
+                    $('.data-cover').hide();
+                }
+                if($val==4){
+                    $('.data-cover').show();
+                    $('#uri').val('');
+                    $('.data-redirect').hide();
+                }
+            }else{
+                $('.data-redirect').hide();
+                $('.data-cover').hide();
+                $('#uri').val('');
+                $('#cover').val('');
+            }
+        });
+    });
+</script>
+<!-- END PAGE LEVEL STYLES -->
+<include file="Common:footer"/>

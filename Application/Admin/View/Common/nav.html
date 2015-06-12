@@ -1,0 +1,106 @@
+<div class="page-sidebar nav-collapse collapse">
+	<!-- BEGIN SIDEBAR MENU -->        
+	<ul class="page-sidebar-menu">
+		<li>
+			<!-- BEGIN SIDEBAR TOGGLER BUTTON -->
+			<div class="sidebar-toggler hidden-phone"></div>
+			<!-- BEGIN SIDEBAR TOGGLER BUTTON -->
+		</li>
+		<li>
+			<!-- BEGIN RESPONSIVE QUICK SEARCH FORM -->
+			<form class="sidebar-search">
+				<div class="input-box">
+					<a href="javascript:;" class="remove"></a>
+					<input type="text" placeholder="搜索..." />
+					<input type="button" class="submit" value="" />
+				</div>
+			</form>
+			<!-- END RESPONSIVE QUICK SEARCH FORM -->
+		</li>
+		<li class="<eq name='control' value='Index'>start active</eq>">
+			<a href="{:U('Index/index')}">
+				<i class="icon-home"></i> 
+				<span class="title">Dashboard</span>
+				<span class="selected"></span>
+			</a>
+		</li>				
+		<volist name="nav" id="volt">	
+			<li class="nav">
+				<a href="javascript:;">
+					<!--<i class="icon-folder-open"></i> -->
+					<!--<span class="title">{$volt.name}</span>-->
+                    <notempty name="volt.ico">
+                        <i class="{$volt.ico}"></i>
+                        <else/>
+                        <i class="icon-folder-open"></i>
+                    </notempty>
+                    <span class="title">{$volt.name}</span>
+                    <span class="arrow"></span>
+				</a>
+				<notempty name="volt.child">
+						<ul class="sub-menu">
+							<volist name="volt.child" id="volt1">
+								<notempty name="volt1.child">
+									<ul class="sub-menu">
+										<li  class="nav-item">
+											<a href="javascript:;">
+												<notempty name="volt1.ico">
+													<i class="{$volt1.ico}"></i>
+													<else/>
+													<i class="icon-folder-open"></i>
+												</notempty>
+												<span class="title">{$volt1.name}</span>
+												<span class="arrow "></span>
+											</a>
+											<volost name="volt1.child" id="volt2">
+												<li  class="nav-item-sub">
+													<a href="#">
+														<notempty name="volt2.ico">
+															<i class="{$volt2.ico}"></i>
+															<else/>
+															<i class="icon-folder-open"></i>
+														</notempty>
+														{$volt2.name}
+													</a>
+												</li>
+											</volost>
+										</li>
+									</ul>
+									<else/>
+									<li  class="nav-item">
+										<a href="{$rd}/{$volt.title}/{$volt1.title}">
+											<notempty name="volt1.ico">
+												<i class="{$volt1.ico}"></i>
+												<else/>
+												<i class="icon-folder-open"></i>
+											</notempty>
+											{$volt1.name}
+										</a>
+									</li>
+								</notempty>
+									
+							</volist>
+						</ul>
+					<else/>
+						<li  class="nav">
+							<a href="{$uri}/{$volt.title}">
+								<notempty name="volt.ico">
+									<i class="{$volt.ico}"></i>
+									<else/>
+									<i class="icon-folder-open"></i>
+								</notempty>
+								{$volt.name}
+							</a>
+						</li>	
+				</notempty>
+			</li>
+		</volist>	
+		<li class="last ">
+			<a href="#charts.html">
+				<i class="icon-bar-chart"></i> 
+				<span class="title">Visual Charts</span>
+			</a>
+		</li>
+	</ul>
+	<!-- END SIDEBAR MENU -->
+  </div>		

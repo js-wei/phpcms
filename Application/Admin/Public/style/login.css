@@ -1,0 +1,25 @@
+body { margin: 0; padding: 0; font-size: 9pt; }
+.login { margin: auto; width: 975px; height: 368px; margin-top: 120px; }
+.login .left { float: left; width: 691px; }
+.login .left .support { margin-top: 15px; background: url(../images/login/login_18.gif) no-repeat 0px 0px; height: 38px; }
+.login .left .support .info { width: 100px; height: 22px; color: White; font-size: 16px; font-weight: bold; margin-top: 12px; margin-left: 17px; float: left; display: block; }
+.login .left .support .copyright { margin-top: 15px; margin-left: 17px; float: left; display: block; }
+
+
+.login .middle { float: left; }
+.login .middle .area { background: url(../images/login/bg_login.gif) repeat-y 0px 0px; margin-top: -5px; width: 248px; height: 260px; }
+
+.tblogin { width: 200px; margin: 0px auto; }
+.tblogin tr td { height: 30px; line-height: 30px; }
+
+
+.login .middle .area .btn { margin-left: 30px; margin-top: 20px; height: 25px; margin-right: 28px; text-align: center; }
+.login .middle .area .btn a, .login .middle .area .btn .button { display: block; line-height: 24px; background: url(../images/login/bt_bg.gif); border: solid 1px #b6b6b6; width: 65px; float: left; text-decoration: none; color: #000; cursor: pointer; }
+
+
+.login .right { float: left; margin-top: 80px; }
+
+
+.tbox { border: 1px solid #ACA7A7; width: 120px; height: 18px; line-height: 18px; }
+.tbox_focus { border: 1px solid #128DE0; }
+.w60px { width: 95px; }

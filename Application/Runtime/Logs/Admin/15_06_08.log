@@ -1,0 +1,1861 @@
+[ 2015-06-08T00:50:44+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001442s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001617s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.016286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018122s ]
+
+[ 2015-06-08T00:50:44+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001608s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004934s ]
+
+[ 2015-06-08T00:50:44+08:00 ] 127.0.0.1 /Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000923s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001251s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004881s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000236s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000379s ]
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\32ec6c906c117a7c2bf504769276d87a.php 第 91 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035762s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035876s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001268s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001371s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001891s ]
+
+[ 2015-06-08T00:50:45+08:00 ] 127.0.0.1 /Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001028s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001365s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003801s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001264s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001449s ]
+
+[ 2015-06-08T00:51:25+08:00 ] 127.0.0.1 /Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001034s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001319s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005464s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.008171s ]
+SQL: SELECT * FROM `think_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.001066s ]
+NOTIC: [8] Use of undefined constant intval - assumed 'intval' G:\phpStudy\www\phpcms\Application\Admin\Controller\PublicController.class.php 第 33 行.
+NOTIC: [8] A session had already been started - ignoring session_start() G:\phpStudy\www\phpcms\ThinkPHP\Common\functions.php 第 1191 行.
+SQL: UPDATE `think_admin` SET `last_date`=1433695885,`last_ip`='127.0.0.1' WHERE `id` = 0 [ RunTime:0.043965s ]
+NOTIC: [8] Undefined index: logintime G:\phpStudy\www\phpcms\Application\Admin\Controller\PublicController.class.php 第 53 行.
+NOTIC: [8] Undefined index: loginip G:\phpStudy\www\phpcms\Application\Admin\Controller\PublicController.class.php 第 54 行.
+
+[ 2015-06-08T00:51:27+08:00 ] 127.0.0.1 /Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001422s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003866s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.008547s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 and lang="zh-cn" )  [ RunTime:0.030466s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 1 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.009700s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 9 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000695s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 13 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000670s ]
+SQL: SHOW COLUMNS FROM `think_site_conf` [ RunTime:0.006602s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_site_conf`
+SQL: SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1   [ RunTime:0.065172s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.008235s ]
+SQL: SELECT * FROM `think_column` WHERE ( type=3 and lang=zh-cn )  [ RunTime:0.000416s ]
+ERR: 1054:Unknown column 'zh' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_column` WHERE ( type=3 and lang=zh-cn ) 
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.000429s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 60 行.
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-cn' AND `title` = 'Index' LIMIT 1   [ RunTime:0.000547s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=2 and title="index" and lang=zh-cn ) LIMIT 1   [ RunTime:0.000312s ]
+ERR: 1054:Unknown column 'zh' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_model` WHERE ( fid=2 and title="index" and lang=zh-cn ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.011145s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `column_id` = 3 AND `lang` = 'zh-cn' LIMIT 1   [ RunTime:0.000398s ]
+SQL: SELECT * FROM `think_article` WHERE `column_id` = 3 AND `lang` = 'zh-cn' ORDER BY create_time desc,id desc LIMIT 0,1   [ RunTime:0.000621s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_column` WHERE ( fid=0 ) LIMIT 1   [ RunTime:0.000286s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000561s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000671s ]
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 5 行.
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 539 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080160s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080307s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000984s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001500s ]
+
+[ 2015-06-08T00:52:04+08:00 ] 127.0.0.1 /Admin/Control/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001172s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005355s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.008872s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 and lang="zh-cn" )  [ RunTime:0.001153s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 1 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.001140s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 9 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000906s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 13 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000983s ]
+SQL: SHOW COLUMNS FROM `think_site_conf` [ RunTime:0.009016s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_site_conf`
+SQL: SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1   [ RunTime:0.000826s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.010761s ]
+SQL: SELECT * FROM `think_column` WHERE ( type=3 and lang=zh-cn )  [ RunTime:0.000678s ]
+ERR: 1054:Unknown column 'zh' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_column` WHERE ( type=3 and lang=zh-cn ) 
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.000462s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 60 行.
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-cn' AND `title` = 'Control' LIMIT 1   [ RunTime:0.000530s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=1 and title="index" and lang=zh-cn ) LIMIT 1   [ RunTime:0.000347s ]
+ERR: 1054:Unknown column 'zh' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_model` WHERE ( fid=1 and title="index" and lang=zh-cn ) LIMIT 1  
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-cn'  [ RunTime:0.000746s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000749s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000910s ]
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 5 行.
+NOTIC: [8] Undefined variable: search G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 380 行.
+NOTIC: [8] Undefined variable: search G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 381 行.
+NOTIC: [8] Undefined variable: search G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 384 行.
+NOTIC: [8] Undefined variable: data G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 395 行.
+NOTIC: [8] Undefined variable: data G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 395 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 455 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 459 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 455 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 459 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 455 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 459 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 455 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 459 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 455 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 459 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 455 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 459 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 457 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 459 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 455 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 459 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 455 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 459 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 455 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 459 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 455 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 459 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 455 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 459 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 455 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 459 行.
+NOTIC: [8] Undefined variable: page G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 468 行.
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 580 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077470s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077617s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001167s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001490s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001651s ]
+
+[ 2015-06-08T00:56:54+08:00 ] 127.0.0.1 /Admin/Control/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001935s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005683s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.012685s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 and lang="zh-cn" )  [ RunTime:0.001101s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 1 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000821s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 9 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000733s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 13 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.002567s ]
+SQL: SHOW COLUMNS FROM `think_site_conf` [ RunTime:0.007878s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_site_conf`
+SQL: SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1   [ RunTime:0.000631s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.010557s ]
+SQL: SELECT * FROM `think_column` WHERE ( type=3 and lang=zh-cn )  [ RunTime:0.000510s ]
+ERR: 1054:Unknown column 'zh' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_column` WHERE ( type=3 and lang=zh-cn ) 
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.000739s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 60 行.
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-cn' AND `title` = 'Control' LIMIT 1   [ RunTime:0.000684s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=1 and title="index" and lang=zh-cn ) LIMIT 1   [ RunTime:0.002106s ]
+ERR: 1054:Unknown column 'zh' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_model` WHERE ( fid=1 and title="index" and lang=zh-cn ) LIMIT 1  
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-cn'  [ RunTime:0.000729s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000797s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000918s ]
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 5 行.
+NOTIC: [8] Undefined variable: search G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 380 行.
+NOTIC: [8] Undefined variable: search G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 381 行.
+NOTIC: [8] Undefined variable: search G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 384 行.
+NOTIC: [8] Undefined variable: data G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 395 行.
+NOTIC: [8] Undefined variable: data G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 395 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 455 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 459 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 455 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 459 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 455 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 459 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 455 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 459 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 455 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 459 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 455 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 459 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 457 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 459 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 455 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 459 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 455 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 459 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 455 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 459 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 455 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 459 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 455 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 459 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 455 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 459 行.
+NOTIC: [8] Undefined variable: page G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 468 行.
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 580 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071662s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071814s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001294s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002224s ]
+
+[ 2015-06-08T01:02:23+08:00 ] 127.0.0.1 /Admin/Control/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001350s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.038514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.040090s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.007611s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 and lang="zh-cn" )  [ RunTime:0.001143s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 1 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000789s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 9 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000688s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 13 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.001148s ]
+SQL: SHOW COLUMNS FROM `think_site_conf` [ RunTime:0.007875s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_site_conf`
+SQL: SELECT * FROM `think_site_conf` WHERE ( lang=en-us ) ORDER BY id desc LIMIT 1   [ RunTime:0.000898s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_site_conf` WHERE ( lang=en-us ) ORDER BY id desc LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.009138s ]
+SQL: SELECT * FROM `think_column` WHERE ( type=3 and lang=en-us )  [ RunTime:0.000367s ]
+ERR: 1054:Unknown column 'en' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_column` WHERE ( type=3 and lang=en-us ) 
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.000446s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 60 行.
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'en-us' AND `title` = 'Control' LIMIT 1   [ RunTime:0.000705s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid= and title="index" and lang=en-us ) LIMIT 1   [ RunTime:0.000215s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and title="index" and lang=en-us ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_model` WHERE ( fid= and title="index" and lang=en-us ) LIMIT 1  
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'en-us'  [ RunTime:0.000692s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 20 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000960s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001072s ]
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 5 行.
+NOTIC: [8] Undefined variable: search G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 380 行.
+NOTIC: [8] Undefined variable: search G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 381 行.
+NOTIC: [8] Undefined variable: search G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 384 行.
+NOTIC: [8] Undefined variable: data G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 395 行.
+NOTIC: [8] Undefined variable: data G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 395 行.
+NOTIC: [8] Undefined variable: page G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 468 行.
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 580 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074174s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074353s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001016s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002413s ]
+
+[ 2015-06-08T01:02:24+08:00 ] 127.0.0.1 /Admin/Control/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000250s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001102s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001331s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.010959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012514s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.008360s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 and lang="en-us" )  [ RunTime:0.000769s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Admin\Controller\BaseController.class.php 第 192 行.
+SQL: SHOW COLUMNS FROM `think_site_conf` [ RunTime:0.007369s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_site_conf`
+SQL: SELECT * FROM `think_site_conf` WHERE ( lang=en-us ) ORDER BY id desc LIMIT 1   [ RunTime:0.000627s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_site_conf` WHERE ( lang=en-us ) ORDER BY id desc LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.010010s ]
+SQL: SELECT * FROM `think_column` WHERE ( type=3 and lang=en-us )  [ RunTime:0.000436s ]
+ERR: 1054:Unknown column 'en' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_column` WHERE ( type=3 and lang=en-us ) 
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.000714s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 60 行.
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'en-us' AND `title` = 'Control' LIMIT 1   [ RunTime:0.000713s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid= and title="index" and lang=en-us ) LIMIT 1   [ RunTime:0.000311s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and title="index" and lang=en-us ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_model` WHERE ( fid= and title="index" and lang=en-us ) LIMIT 1  
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'en-us'  [ RunTime:0.000660s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 20 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000810s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000973s ]
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 5 行.
+NOTIC: [8] Undefined variable: search G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 380 行.
+NOTIC: [8] Undefined variable: search G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 381 行.
+NOTIC: [8] Undefined variable: search G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 384 行.
+NOTIC: [8] Undefined variable: data G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 395 行.
+NOTIC: [8] Undefined variable: data G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 395 行.
+NOTIC: [8] Undefined variable: page G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 468 行.
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 580 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048285s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048422s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001369s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002089s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002233s ]
+
+[ 2015-06-08T01:02:30+08:00 ] 127.0.0.1 /Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000905s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001119s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003652s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.008468s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 and lang="en-us" )  [ RunTime:0.000768s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Admin\Controller\BaseController.class.php 第 192 行.
+SQL: SHOW COLUMNS FROM `think_site_conf` [ RunTime:0.008380s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_site_conf`
+SQL: SELECT * FROM `think_site_conf` WHERE ( lang=en-us ) ORDER BY id desc LIMIT 1   [ RunTime:0.000911s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_site_conf` WHERE ( lang=en-us ) ORDER BY id desc LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.009963s ]
+SQL: SELECT * FROM `think_column` WHERE ( type=3 and lang=en-us )  [ RunTime:0.000444s ]
+ERR: 1054:Unknown column 'en' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_column` WHERE ( type=3 and lang=en-us ) 
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.000642s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 60 行.
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'en-us' AND `title` = 'Index' LIMIT 1   [ RunTime:0.000871s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid= and title="index" and lang=en-us ) LIMIT 1   [ RunTime:0.000483s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and title="index" and lang=en-us ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_model` WHERE ( fid= and title="index" and lang=en-us ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.009821s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `column_id` = 3 AND `lang` = 'en-us' LIMIT 1   [ RunTime:0.001448s ]
+SQL: SELECT * FROM `think_article` WHERE `column_id` = 3 AND `lang` = 'en-us' ORDER BY create_time desc,id desc LIMIT 0,1   [ RunTime:0.000815s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_column` WHERE ( fid=0 ) LIMIT 1   [ RunTime:0.000826s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000562s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000675s ]
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 5 行.
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 539 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066745s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001466s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001584s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005170s ]
+
+[ 2015-06-08T01:02:35+08:00 ] 127.0.0.1 /Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001551s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004339s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.011141s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 and lang="en-us" )  [ RunTime:0.000939s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Admin\Controller\BaseController.class.php 第 192 行.
+SQL: SHOW COLUMNS FROM `think_site_conf` [ RunTime:0.007252s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_site_conf`
+SQL: SELECT * FROM `think_site_conf` WHERE ( lang=en-us ) ORDER BY id desc LIMIT 1   [ RunTime:0.000582s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_site_conf` WHERE ( lang=en-us ) ORDER BY id desc LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.010559s ]
+SQL: SELECT * FROM `think_column` WHERE ( type=3 and lang=en-us )  [ RunTime:0.000895s ]
+ERR: 1054:Unknown column 'en' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_column` WHERE ( type=3 and lang=en-us ) 
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.000603s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 60 行.
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'en-us' AND `title` = 'Index' LIMIT 1   [ RunTime:0.000715s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid= and title="index" and lang=en-us ) LIMIT 1   [ RunTime:0.000214s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and title="index" and lang=en-us ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_model` WHERE ( fid= and title="index" and lang=en-us ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.011339s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `column_id` = 3 AND `lang` = 'en-us' LIMIT 1   [ RunTime:0.000509s ]
+SQL: SELECT * FROM `think_article` WHERE `column_id` = 3 AND `lang` = 'en-us' ORDER BY create_time desc,id desc LIMIT 0,1   [ RunTime:0.000835s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_column` WHERE ( fid=0 ) LIMIT 1   [ RunTime:0.000428s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000710s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000838s ]
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 5 行.
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 539 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075298s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075481s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005584s ]
+
+[ 2015-06-08T01:02:40+08:00 ] 127.0.0.1 /Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000919s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001227s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.036588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.038027s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.008941s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 and lang="en-us" )  [ RunTime:0.000990s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Admin\Controller\BaseController.class.php 第 192 行.
+SQL: SHOW COLUMNS FROM `think_site_conf` [ RunTime:0.008150s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_site_conf`
+SQL: SELECT * FROM `think_site_conf` WHERE ( lang=en-us ) ORDER BY id desc LIMIT 1   [ RunTime:0.000683s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_site_conf` WHERE ( lang=en-us ) ORDER BY id desc LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.010901s ]
+SQL: SELECT * FROM `think_column` WHERE ( type=3 and lang=en-us )  [ RunTime:0.000852s ]
+ERR: 1054:Unknown column 'en' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_column` WHERE ( type=3 and lang=en-us ) 
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.000772s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 60 行.
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'en-us' AND `title` = 'Index' LIMIT 1   [ RunTime:0.001060s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid= and title="index" and lang=en-us ) LIMIT 1   [ RunTime:0.000318s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and title="index" and lang=en-us ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_model` WHERE ( fid= and title="index" and lang=en-us ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.010919s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `column_id` = 3 AND `lang` = 'en-us' LIMIT 1   [ RunTime:0.000833s ]
+SQL: SELECT * FROM `think_article` WHERE `column_id` = 3 AND `lang` = 'en-us' ORDER BY create_time desc,id desc LIMIT 0,1   [ RunTime:0.000619s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_column` WHERE ( fid=0 ) LIMIT 1   [ RunTime:0.000434s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000640s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000781s ]
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 5 行.
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 539 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044065s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044351s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001688s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001833s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002300s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002456s ]
+
+[ 2015-06-08T01:02:43+08:00 ] 127.0.0.1 /Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001583s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003956s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.007377s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 and lang="en-us" )  [ RunTime:0.001484s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Admin\Controller\BaseController.class.php 第 192 行.
+SQL: SHOW COLUMNS FROM `think_site_conf` [ RunTime:0.008372s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_site_conf`
+SQL: SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1   [ RunTime:0.000785s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.009359s ]
+SQL: SELECT * FROM `think_column` WHERE ( type=3 and lang=zh-cn )  [ RunTime:0.000353s ]
+ERR: 1054:Unknown column 'zh' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_column` WHERE ( type=3 and lang=zh-cn ) 
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.000489s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 60 行.
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-cn' AND `title` = 'Index' LIMIT 1   [ RunTime:0.000874s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=2 and title="index" and lang=zh-cn ) LIMIT 1   [ RunTime:0.000337s ]
+ERR: 1054:Unknown column 'zh' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_model` WHERE ( fid=2 and title="index" and lang=zh-cn ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.008700s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `column_id` = 3 AND `lang` = 'zh-cn' LIMIT 1   [ RunTime:0.000483s ]
+SQL: SELECT * FROM `think_article` WHERE `column_id` = 3 AND `lang` = 'zh-cn' ORDER BY create_time desc,id desc LIMIT 0,1   [ RunTime:0.000604s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_column` WHERE ( fid=0 ) LIMIT 1   [ RunTime:0.000723s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000622s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000726s ]
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 5 行.
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 539 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036130s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036307s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000880s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001448s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001769s ]
+
+[ 2015-06-08T01:02:44+08:00 ] 127.0.0.1 /Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001103s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001344s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.030900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.032468s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.008965s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 and lang="zh-cn" )  [ RunTime:0.000885s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 1 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000806s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 9 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000833s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 13 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.001264s ]
+SQL: SHOW COLUMNS FROM `think_site_conf` [ RunTime:0.007487s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_site_conf`
+SQL: SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1   [ RunTime:0.001112s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.009586s ]
+SQL: SELECT * FROM `think_column` WHERE ( type=3 and lang=zh-cn )  [ RunTime:0.000337s ]
+ERR: 1054:Unknown column 'zh' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_column` WHERE ( type=3 and lang=zh-cn ) 
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.000390s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 60 行.
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-cn' AND `title` = 'Index' LIMIT 1   [ RunTime:0.000692s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=2 and title="index" and lang=zh-cn ) LIMIT 1   [ RunTime:0.000944s ]
+ERR: 1054:Unknown column 'zh' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_model` WHERE ( fid=2 and title="index" and lang=zh-cn ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.012381s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `column_id` = 3 AND `lang` = 'zh-cn' LIMIT 1   [ RunTime:0.000608s ]
+SQL: SELECT * FROM `think_article` WHERE `column_id` = 3 AND `lang` = 'zh-cn' ORDER BY create_time desc,id desc LIMIT 0,1   [ RunTime:0.003773s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_column` WHERE ( fid=0 ) LIMIT 1   [ RunTime:0.000703s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000565s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000679s ]
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 5 行.
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 539 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039137s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039297s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000920s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003789s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003986s ]
+
+[ 2015-06-08T01:02:51+08:00 ] 127.0.0.1 /Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000277s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001816s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001477s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005599s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.010519s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 and lang="zh-cn" )  [ RunTime:0.000890s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 1 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.001065s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 9 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000985s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 13 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000904s ]
+SQL: SHOW COLUMNS FROM `think_site_conf` [ RunTime:0.006794s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_site_conf`
+SQL: SELECT * FROM `think_site_conf` WHERE ( lang=zh-tw ) ORDER BY id desc LIMIT 1   [ RunTime:0.000802s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_site_conf` WHERE ( lang=zh-tw ) ORDER BY id desc LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.009120s ]
+SQL: SELECT * FROM `think_column` WHERE ( type=3 and lang=zh-tw )  [ RunTime:0.000405s ]
+ERR: 1054:Unknown column 'zh' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_column` WHERE ( type=3 and lang=zh-tw ) 
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.000462s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 60 行.
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-tw' AND `title` = 'Index' LIMIT 1   [ RunTime:0.000553s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid= and title="index" and lang=zh-tw ) LIMIT 1   [ RunTime:0.000266s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and title="index" and lang=zh-tw ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_model` WHERE ( fid= and title="index" and lang=zh-tw ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.009847s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `column_id` = 3 AND `lang` = 'zh-tw' LIMIT 1   [ RunTime:0.000400s ]
+SQL: SELECT * FROM `think_article` WHERE `column_id` = 3 AND `lang` = 'zh-tw' ORDER BY create_time desc,id desc LIMIT 0,1   [ RunTime:0.000516s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_column` WHERE ( fid=0 ) LIMIT 1   [ RunTime:0.000487s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000569s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000674s ]
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 5 行.
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 539 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039253s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039390s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001348s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002862s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002998s ]
+
+[ 2015-06-08T01:02:52+08:00 ] 127.0.0.1 /Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001069s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001784s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.013904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017482s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.007883s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 and lang="zh-tw" )  [ RunTime:0.001116s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Admin\Controller\BaseController.class.php 第 192 行.
+SQL: SHOW COLUMNS FROM `think_site_conf` [ RunTime:0.008050s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_site_conf`
+SQL: SELECT * FROM `think_site_conf` WHERE ( lang=zh-tw ) ORDER BY id desc LIMIT 1   [ RunTime:0.000696s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_site_conf` WHERE ( lang=zh-tw ) ORDER BY id desc LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.010098s ]
+SQL: SELECT * FROM `think_column` WHERE ( type=3 and lang=zh-tw )  [ RunTime:0.000568s ]
+ERR: 1054:Unknown column 'zh' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_column` WHERE ( type=3 and lang=zh-tw ) 
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.000574s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 60 行.
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-tw' AND `title` = 'Index' LIMIT 1   [ RunTime:0.000830s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid= and title="index" and lang=zh-tw ) LIMIT 1   [ RunTime:0.000727s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and title="index" and lang=zh-tw ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_model` WHERE ( fid= and title="index" and lang=zh-tw ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.010512s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `column_id` = 3 AND `lang` = 'zh-tw' LIMIT 1   [ RunTime:0.000528s ]
+SQL: SELECT * FROM `think_article` WHERE `column_id` = 3 AND `lang` = 'zh-tw' ORDER BY create_time desc,id desc LIMIT 0,1   [ RunTime:0.000691s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_column` WHERE ( fid=0 ) LIMIT 1   [ RunTime:0.000430s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000567s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000693s ]
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 5 行.
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 539 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039189s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039331s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001256s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001355s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004578s ]
+
+[ 2015-06-08T01:02:56+08:00 ] 127.0.0.1 /Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000966s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001322s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.005075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006615s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.008415s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 and lang="zh-tw" )  [ RunTime:0.000841s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Admin\Controller\BaseController.class.php 第 192 行.
+SQL: SHOW COLUMNS FROM `think_site_conf` [ RunTime:0.006618s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_site_conf`
+SQL: SELECT * FROM `think_site_conf` WHERE ( lang=zh-tw ) ORDER BY id desc LIMIT 1   [ RunTime:0.000651s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_site_conf` WHERE ( lang=zh-tw ) ORDER BY id desc LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.011016s ]
+SQL: SELECT * FROM `think_column` WHERE ( type=3 and lang=zh-tw )  [ RunTime:0.000747s ]
+ERR: 1054:Unknown column 'zh' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_column` WHERE ( type=3 and lang=zh-tw ) 
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.000610s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 60 行.
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-tw' AND `title` = 'Index' LIMIT 1   [ RunTime:0.001006s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid= and title="index" and lang=zh-tw ) LIMIT 1   [ RunTime:0.000343s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and title="index" and lang=zh-tw ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_model` WHERE ( fid= and title="index" and lang=zh-tw ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.008413s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `column_id` = 3 AND `lang` = 'zh-tw' LIMIT 1   [ RunTime:0.000405s ]
+SQL: SELECT * FROM `think_article` WHERE `column_id` = 3 AND `lang` = 'zh-tw' ORDER BY create_time desc,id desc LIMIT 0,1   [ RunTime:0.000566s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_column` WHERE ( fid=0 ) LIMIT 1   [ RunTime:0.000399s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000990s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001121s ]
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 5 行.
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 539 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036652s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036795s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000912s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001613s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002387s ]
+
+[ 2015-06-08T01:02:57+08:00 ] 127.0.0.1 /Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000936s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001451s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004198s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.009996s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 and lang="zh-tw" )  [ RunTime:0.000860s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Admin\Controller\BaseController.class.php 第 192 行.
+SQL: SHOW COLUMNS FROM `think_site_conf` [ RunTime:0.007984s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_site_conf`
+SQL: SELECT * FROM `think_site_conf` WHERE ( lang=zh-tw ) ORDER BY id desc LIMIT 1   [ RunTime:0.000630s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_site_conf` WHERE ( lang=zh-tw ) ORDER BY id desc LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.009887s ]
+SQL: SELECT * FROM `think_column` WHERE ( type=3 and lang=zh-tw )  [ RunTime:0.000351s ]
+ERR: 1054:Unknown column 'zh' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_column` WHERE ( type=3 and lang=zh-tw ) 
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.000459s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 60 行.
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-tw' AND `title` = 'Index' LIMIT 1   [ RunTime:0.000558s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid= and title="index" and lang=zh-tw ) LIMIT 1   [ RunTime:0.000331s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and title="index" and lang=zh-tw ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_model` WHERE ( fid= and title="index" and lang=zh-tw ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.011271s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `column_id` = 3 AND `lang` = 'zh-tw' LIMIT 1   [ RunTime:0.000477s ]
+SQL: SELECT * FROM `think_article` WHERE `column_id` = 3 AND `lang` = 'zh-tw' ORDER BY create_time desc,id desc LIMIT 0,1   [ RunTime:0.000824s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_column` WHERE ( fid=0 ) LIMIT 1   [ RunTime:0.001076s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000625s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000759s ]
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 5 行.
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 539 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039938s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040094s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000844s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003986s ]
+
+[ 2015-06-08T01:03:01+08:00 ] 127.0.0.1 /Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000772s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001306s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.006009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007853s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.008294s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 and lang="zh-tw" )  [ RunTime:0.000713s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Admin\Controller\BaseController.class.php 第 192 行.
+SQL: SHOW COLUMNS FROM `think_site_conf` [ RunTime:0.008125s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_site_conf`
+SQL: SELECT * FROM `think_site_conf` WHERE ( lang=en-us ) ORDER BY id desc LIMIT 1   [ RunTime:0.000592s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_site_conf` WHERE ( lang=en-us ) ORDER BY id desc LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.008496s ]
+SQL: SELECT * FROM `think_column` WHERE ( type=3 and lang=en-us )  [ RunTime:0.000867s ]
+ERR: 1054:Unknown column 'en' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_column` WHERE ( type=3 and lang=en-us ) 
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.000645s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 60 行.
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'en-us' AND `title` = 'Index' LIMIT 1   [ RunTime:0.001264s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid= and title="index" and lang=en-us ) LIMIT 1   [ RunTime:0.000384s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and title="index" and lang=en-us ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_model` WHERE ( fid= and title="index" and lang=en-us ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.015881s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `column_id` = 3 AND `lang` = 'en-us' LIMIT 1   [ RunTime:0.000511s ]
+SQL: SELECT * FROM `think_article` WHERE `column_id` = 3 AND `lang` = 'en-us' ORDER BY create_time desc,id desc LIMIT 0,1   [ RunTime:0.000790s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_column` WHERE ( fid=0 ) LIMIT 1   [ RunTime:0.000487s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000654s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000760s ]
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 5 行.
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 539 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041152s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041308s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001514s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001635s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001802s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001958s ]
+
+[ 2015-06-08T01:03:03+08:00 ] 127.0.0.1 /Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001595s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002449s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.031272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.033962s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.008909s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 and lang="en-us" )  [ RunTime:0.000911s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Admin\Controller\BaseController.class.php 第 192 行.
+SQL: SHOW COLUMNS FROM `think_site_conf` [ RunTime:0.008568s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_site_conf`
+SQL: SELECT * FROM `think_site_conf` WHERE ( lang=en-us ) ORDER BY id desc LIMIT 1   [ RunTime:0.000722s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_site_conf` WHERE ( lang=en-us ) ORDER BY id desc LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.010248s ]
+SQL: SELECT * FROM `think_column` WHERE ( type=3 and lang=en-us )  [ RunTime:0.000402s ]
+ERR: 1054:Unknown column 'en' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_column` WHERE ( type=3 and lang=en-us ) 
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.000687s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 60 行.
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'en-us' AND `title` = 'Index' LIMIT 1   [ RunTime:0.000690s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid= and title="index" and lang=en-us ) LIMIT 1   [ RunTime:0.000243s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and title="index" and lang=en-us ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_model` WHERE ( fid= and title="index" and lang=en-us ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.009825s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `column_id` = 3 AND `lang` = 'en-us' LIMIT 1   [ RunTime:0.000477s ]
+SQL: SELECT * FROM `think_article` WHERE `column_id` = 3 AND `lang` = 'en-us' ORDER BY create_time desc,id desc LIMIT 0,1   [ RunTime:0.000608s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_column` WHERE ( fid=0 ) LIMIT 1   [ RunTime:0.000473s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000607s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000748s ]
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 5 行.
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 539 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047540s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047689s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001416s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001539s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002086s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002363s ]
+
+[ 2015-06-08T01:03:07+08:00 ] 127.0.0.1 /Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000960s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001409s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004201s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.007472s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 and lang="en-us" )  [ RunTime:0.000764s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Admin\Controller\BaseController.class.php 第 192 行.
+SQL: SHOW COLUMNS FROM `think_site_conf` [ RunTime:0.007115s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_site_conf`
+SQL: SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1   [ RunTime:0.000598s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.009938s ]
+SQL: SELECT * FROM `think_column` WHERE ( type=3 and lang=zh-cn )  [ RunTime:0.000532s ]
+ERR: 1054:Unknown column 'zh' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_column` WHERE ( type=3 and lang=zh-cn ) 
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.000601s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 60 行.
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-cn' AND `title` = 'Index' LIMIT 1   [ RunTime:0.000576s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=2 and title="index" and lang=zh-cn ) LIMIT 1   [ RunTime:0.000254s ]
+ERR: 1054:Unknown column 'zh' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_model` WHERE ( fid=2 and title="index" and lang=zh-cn ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.009789s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `column_id` = 3 AND `lang` = 'zh-cn' LIMIT 1   [ RunTime:0.000436s ]
+SQL: SELECT * FROM `think_article` WHERE `column_id` = 3 AND `lang` = 'zh-cn' ORDER BY create_time desc,id desc LIMIT 0,1   [ RunTime:0.000625s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_column` WHERE ( fid=0 ) LIMIT 1   [ RunTime:0.000341s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000596s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000713s ]
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 5 行.
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 539 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036091s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036220s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000861s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001723s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001873s ]
+
+[ 2015-06-08T01:03:08+08:00 ] 127.0.0.1 /Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000949s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005546s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.009622s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 and lang="zh-cn" )  [ RunTime:0.001087s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 1 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000873s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 9 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000643s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 13 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000799s ]
+SQL: SHOW COLUMNS FROM `think_site_conf` [ RunTime:0.007106s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_site_conf`
+SQL: SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1   [ RunTime:0.001634s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.011637s ]
+SQL: SELECT * FROM `think_column` WHERE ( type=3 and lang=zh-cn )  [ RunTime:0.000345s ]
+ERR: 1054:Unknown column 'zh' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_column` WHERE ( type=3 and lang=zh-cn ) 
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.000546s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 60 行.
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-cn' AND `title` = 'Index' LIMIT 1   [ RunTime:0.000539s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=2 and title="index" and lang=zh-cn ) LIMIT 1   [ RunTime:0.000249s ]
+ERR: 1054:Unknown column 'zh' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_model` WHERE ( fid=2 and title="index" and lang=zh-cn ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.010724s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `column_id` = 3 AND `lang` = 'zh-cn' LIMIT 1   [ RunTime:0.000494s ]
+SQL: SELECT * FROM `think_article` WHERE `column_id` = 3 AND `lang` = 'zh-cn' ORDER BY create_time desc,id desc LIMIT 0,1   [ RunTime:0.000864s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_column` WHERE ( fid=0 ) LIMIT 1   [ RunTime:0.000470s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000678s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000838s ]
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 5 行.
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 539 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035616s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035757s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003148s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003312s ]
+
+[ 2015-06-08T01:03:13+08:00 ] 127.0.0.1 /Admin/Column/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001385s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003562s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.009661s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 and lang="zh-cn" )  [ RunTime:0.000955s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 1 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000759s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 9 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.002291s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 13 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000957s ]
+SQL: SHOW COLUMNS FROM `think_site_conf` [ RunTime:0.010343s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_site_conf`
+SQL: SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1   [ RunTime:0.000648s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.009488s ]
+SQL: SELECT * FROM `think_column` WHERE ( type=3 and lang=zh-cn )  [ RunTime:0.000477s ]
+ERR: 1054:Unknown column 'zh' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_column` WHERE ( type=3 and lang=zh-cn ) 
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.000704s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 60 行.
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-cn' AND `title` = 'Column' LIMIT 1   [ RunTime:0.000791s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=9 and title="index" and lang=zh-cn ) LIMIT 1   [ RunTime:0.000355s ]
+ERR: 1054:Unknown column 'zh' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_model` WHERE ( fid=9 and title="index" and lang=zh-cn ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.014666s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_column` WHERE `lang` = 'zh-cn' LIMIT 1   [ RunTime:0.000618s ]
+SQL: SELECT * FROM `think_column` WHERE `lang` = 'zh-cn' LIMIT 0,10   [ RunTime:0.000797s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000742s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000865s ]
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\90b12976a70ff28c3142c03a9c9c55ca.php 第 5 行.
+NOTIC: [8] Undefined variable: search G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\90b12976a70ff28c3142c03a9c9c55ca.php 第 380 行.
+NOTIC: [8] Undefined variable: search G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\90b12976a70ff28c3142c03a9c9c55ca.php 第 381 行.
+NOTIC: [8] Undefined variable: search G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\90b12976a70ff28c3142c03a9c9c55ca.php 第 384 行.
+NOTIC: [8] Undefined variable: data G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\90b12976a70ff28c3142c03a9c9c55ca.php 第 396 行.
+NOTIC: [8] Undefined variable: data G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\90b12976a70ff28c3142c03a9c9c55ca.php 第 396 行.
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\90b12976a70ff28c3142c03a9c9c55ca.php 第 581 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081691s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081827s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004512s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004629s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001677s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001821s ]
+
+[ 2015-06-08T01:03:19+08:00 ] 127.0.0.1 /Column/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000845s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001731s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004304s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.008353s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 and lang="zh-cn" )  [ RunTime:0.000814s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 1 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.001282s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 9 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.001309s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 13 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000956s ]
+SQL: SHOW COLUMNS FROM `think_site_conf` [ RunTime:0.007961s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_site_conf`
+SQL: SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1   [ RunTime:0.000609s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.008706s ]
+SQL: SELECT * FROM `think_column` WHERE ( type=3 and lang=zh-cn )  [ RunTime:0.000516s ]
+ERR: 1054:Unknown column 'zh' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_column` WHERE ( type=3 and lang=zh-cn ) 
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.000815s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 60 行.
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-cn' AND `title` = 'Column' LIMIT 1   [ RunTime:0.000586s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=9 and title="add" and lang=zh-cn ) LIMIT 1   [ RunTime:0.000279s ]
+ERR: 1054:Unknown column 'zh' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_model` WHERE ( fid=9 and title="add" and lang=zh-cn ) LIMIT 1  
+SQL: SELECT * FROM `think_column` WHERE `lang` = 'zh-cn'  [ RunTime:0.000394s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 41 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000871s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000988s ]
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\23e64621e2c31cfbea8044c1e832e89d.php 第 5 行.
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\23e64621e2c31cfbea8044c1e832e89d.php 第 606 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.138876s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.139002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000923s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004316s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004455s ]
+
+[ 2015-06-08T01:03:50+08:00 ] 127.0.0.1 /Public/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001832s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004449s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029856s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001443s ]
+
+[ 2015-06-08T01:03:51+08:00 ] 127.0.0.1 /Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001973s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001488s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003717s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000222s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000351s ]
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\32ec6c906c117a7c2bf504769276d87a.php 第 91 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015242s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015352s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002643s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002770s ]
+
+[ 2015-06-08T01:03:51+08:00 ] 127.0.0.1 /Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001429s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003954s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002343s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002485s ]
+
+[ 2015-06-08T23:44:51+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004061s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001931s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.059640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.062079s ]
+
+[ 2015-06-08T23:44:51+08:00 ] 127.0.0.1 /Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002263s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001521s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003962s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000223s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000371s ]
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\32ec6c906c117a7c2bf504769276d87a.php 第 91 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058035s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058154s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001322s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001871s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001987s ]
+
+[ 2015-06-08T23:44:53+08:00 ] 127.0.0.1 /Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001453s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003104s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003271s ]
+
+[ 2015-06-08T23:45:05+08:00 ] 127.0.0.1 /Admin/Login/verify?id0.5446835353504866
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005776s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001466s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003496s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001701s ]
+
+[ 2015-06-08T23:45:22+08:00 ] 127.0.0.1 /Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001702s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003512s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.004844s ]
+SQL: SELECT * FROM `think_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.000560s ]
+NOTIC: [8] Use of undefined constant intval - assumed 'intval' G:\phpStudy\www\phpcms\Application\Admin\Controller\PublicController.class.php 第 33 行.
+NOTIC: [8] A session had already been started - ignoring session_start() G:\phpStudy\www\phpcms\ThinkPHP\Common\functions.php 第 1191 行.
+SQL: UPDATE `think_admin` SET `last_date`=1433778322,`last_ip`='127.0.0.1' WHERE `id` = 0 [ RunTime:0.006113s ]
+NOTIC: [8] Undefined index: logintime G:\phpStudy\www\phpcms\Application\Admin\Controller\PublicController.class.php 第 53 行.
+NOTIC: [8] Undefined index: loginip G:\phpStudy\www\phpcms\Application\Admin\Controller\PublicController.class.php 第 54 行.
+
+[ 2015-06-08T23:45:24+08:00 ] 127.0.0.1 /Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001151s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001165s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004484s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.006598s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 and lang="zh-cn" )  [ RunTime:0.048034s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 1 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.021812s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 9 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000831s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 13 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000646s ]
+SQL: SHOW COLUMNS FROM `think_site_conf` [ RunTime:0.005300s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_site_conf`
+SQL: SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1   [ RunTime:0.045679s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.007690s ]
+SQL: SELECT * FROM `think_column` WHERE ( type=3 and lang=zh-cn )  [ RunTime:0.000390s ]
+ERR: 1054:Unknown column 'zh' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_column` WHERE ( type=3 and lang=zh-cn ) 
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.001020s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 60 行.
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-cn' AND `title` = 'Index' LIMIT 1   [ RunTime:0.000518s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=2 and title="index" and lang=zh-cn ) LIMIT 1   [ RunTime:0.000586s ]
+ERR: 1054:Unknown column 'zh' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_model` WHERE ( fid=2 and title="index" and lang=zh-cn ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.005636s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `column_id` = 3 AND `lang` = 'zh-cn' LIMIT 1   [ RunTime:0.003105s ]
+SQL: SELECT * FROM `think_article` WHERE `column_id` = 3 AND `lang` = 'zh-cn' ORDER BY create_time desc,id desc LIMIT 0,1   [ RunTime:0.000579s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_column` WHERE ( fid=0 ) LIMIT 1   [ RunTime:0.000253s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000627s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000762s ]
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 5 行.
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 539 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084407s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084549s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000929s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001043s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001585s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001848s ]
+
+[ 2015-06-08T23:45:41+08:00 ] 127.0.0.1 /Admin/Control/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000997s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001253s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003412s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.006430s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 and lang="zh-cn" )  [ RunTime:0.001026s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 1 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000826s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 9 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.001087s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 13 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.001105s ]
+SQL: SHOW COLUMNS FROM `think_site_conf` [ RunTime:0.005241s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_site_conf`
+SQL: SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1   [ RunTime:0.000637s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.006068s ]
+SQL: SELECT * FROM `think_column` WHERE ( type=3 and lang=zh-cn )  [ RunTime:0.000491s ]
+ERR: 1054:Unknown column 'zh' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_column` WHERE ( type=3 and lang=zh-cn ) 
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.000796s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 60 行.
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-cn' AND `title` = 'Control' LIMIT 1   [ RunTime:0.000678s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=1 and title="index" and lang=zh-cn ) LIMIT 1   [ RunTime:0.000486s ]
+ERR: 1054:Unknown column 'zh' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_model` WHERE ( fid=1 and title="index" and lang=zh-cn ) LIMIT 1  
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-cn'  [ RunTime:0.000553s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001687s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001839s ]
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 5 行.
+NOTIC: [8] Undefined variable: search G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 380 行.
+NOTIC: [8] Undefined variable: search G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 381 行.
+NOTIC: [8] Undefined variable: search G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 384 行.
+NOTIC: [8] Undefined variable: data G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 395 行.
+NOTIC: [8] Undefined variable: data G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 395 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 455 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 459 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 455 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 459 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 455 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 459 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 455 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 459 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 455 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 459 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 455 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 459 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 457 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 459 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 455 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 459 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 455 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 459 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 455 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 459 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 455 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 459 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 455 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 459 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 455 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 459 行.
+NOTIC: [8] Undefined variable: page G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 468 行.
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 580 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.086010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086150s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002902s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001972s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002120s ]
+
+[ 2015-06-08T23:53:48+08:00 ] 127.0.0.1 /Admin/Control/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001423s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009398s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.024584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.034311s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.005444s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 and lang="zh-cn" )  [ RunTime:0.000784s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 1 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000587s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 9 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000546s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 13 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000592s ]
+SQL: SHOW COLUMNS FROM `think_site_conf` [ RunTime:0.004707s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_site_conf`
+SQL: SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1   [ RunTime:0.000540s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.051652s ]
+SQL: SELECT * FROM `think_column` WHERE ( type=3 and lang=zh-cn )  [ RunTime:0.000529s ]
+ERR: 1054:Unknown column 'zh' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_column` WHERE ( type=3 and lang=zh-cn ) 
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.000721s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 60 行.
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-cn' AND `title` = 'Control' LIMIT 1   [ RunTime:0.000568s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=1 and title="index" and lang=zh-cn ) LIMIT 1   [ RunTime:0.000435s ]
+ERR: 1054:Unknown column 'zh' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_model` WHERE ( fid=1 and title="index" and lang=zh-cn ) LIMIT 1  
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-cn'  [ RunTime:0.000605s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000715s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000839s ]
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 5 行.
+NOTIC: [8] Undefined variable: search G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 380 行.
+NOTIC: [8] Undefined variable: search G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 381 行.
+NOTIC: [8] Undefined variable: search G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 384 行.
+NOTIC: [8] Undefined variable: data G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 395 行.
+NOTIC: [8] Undefined variable: data G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 395 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 455 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 459 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 455 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 459 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 455 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 459 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 455 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 459 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 455 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 459 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 455 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 459 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 457 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 459 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 455 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 459 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 455 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 459 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 455 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 459 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 455 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 459 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 455 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 459 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 455 行.
+NOTIC: [8] Undefined index: p G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 459 行.
+NOTIC: [8] Undefined variable: page G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 468 行.
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\28f580850b84d680f4020db4d6e5c748.php 第 580 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093632s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.094028s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.021810s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.021930s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010544s ]
+
+[ 2015-06-08T23:53:50+08:00 ] 127.0.0.1 /Control/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001169s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003725s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.005501s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 and lang="zh-cn" )  [ RunTime:0.001823s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 1 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000802s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 9 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.001028s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 13 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.001352s ]
+SQL: SHOW COLUMNS FROM `think_site_conf` [ RunTime:0.004494s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_site_conf`
+SQL: SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1   [ RunTime:0.000507s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.005701s ]
+SQL: SELECT * FROM `think_column` WHERE ( type=3 and lang=zh-cn )  [ RunTime:0.000418s ]
+ERR: 1054:Unknown column 'zh' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_column` WHERE ( type=3 and lang=zh-cn ) 
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.000644s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 60 行.
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-cn' AND `title` = 'Control' LIMIT 1   [ RunTime:0.000769s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=1 and title="add" and lang=zh-cn ) LIMIT 1   [ RunTime:0.000776s ]
+ERR: 1054:Unknown column 'zh' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_model` WHERE ( fid=1 and title="add" and lang=zh-cn ) LIMIT 1  
+SQL: SELECT * FROM `think_model` WHERE `id` = 0 LIMIT 1   [ RunTime:0.000461s ]
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-cn'  [ RunTime:0.000758s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000738s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001294s ]
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\41cd274229f4ada3848674957bec0ad8.php 第 5 行.
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\41cd274229f4ada3848674957bec0ad8.php 第 491 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041274s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041426s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004087s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004227s ]
+
+[ 2015-06-08T23:54:20+08:00 ] 127.0.0.1 /Control/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008016s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.006883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015259s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.005823s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 and lang="zh-cn" )  [ RunTime:0.001150s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 1 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000870s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 9 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.001235s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 13 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.001484s ]
+SQL: SHOW COLUMNS FROM `think_site_conf` [ RunTime:0.005228s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_site_conf`
+SQL: SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1   [ RunTime:0.000580s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.006108s ]
+SQL: SELECT * FROM `think_column` WHERE ( type=3 and lang=zh-cn )  [ RunTime:0.001148s ]
+ERR: 1054:Unknown column 'zh' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_column` WHERE ( type=3 and lang=zh-cn ) 
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.000481s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 60 行.
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-cn' AND `title` = 'Control' LIMIT 1   [ RunTime:0.000665s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=1 and title="add" and lang=zh-cn ) LIMIT 1   [ RunTime:0.004072s ]
+ERR: 1054:Unknown column 'zh' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_model` WHERE ( fid=1 and title="add" and lang=zh-cn ) LIMIT 1  
+SQL: SELECT * FROM `think_model` WHERE `id` = 0 LIMIT 1   [ RunTime:0.000448s ]
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-cn'  [ RunTime:0.000564s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000634s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000753s ]
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\41cd274229f4ada3848674957bec0ad8.php 第 5 行.
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\41cd274229f4ada3848674957bec0ad8.php 第 491 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041899s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042038s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001936s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002182s ]
+
+[ 2015-06-08T23:55:26+08:00 ] 127.0.0.1 /Control/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001098s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001455s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.012446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014141s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.005164s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 and lang="zh-cn" )  [ RunTime:0.000788s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 1 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000869s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 9 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000789s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 13 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000999s ]
+SQL: SHOW COLUMNS FROM `think_site_conf` [ RunTime:0.005438s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_site_conf`
+SQL: SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1   [ RunTime:0.000640s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.006543s ]
+SQL: SELECT * FROM `think_column` WHERE ( type=3 and lang=zh-cn )  [ RunTime:0.000396s ]
+ERR: 1054:Unknown column 'zh' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_column` WHERE ( type=3 and lang=zh-cn ) 
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.000536s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 60 行.
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-cn' AND `title` = 'Control' LIMIT 1   [ RunTime:0.000855s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=1 and title="add" and lang=zh-cn ) LIMIT 1   [ RunTime:0.000508s ]
+ERR: 1054:Unknown column 'zh' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_model` WHERE ( fid=1 and title="add" and lang=zh-cn ) LIMIT 1  
+SQL: SELECT * FROM `think_model` WHERE `id` = 0 LIMIT 1   [ RunTime:0.000442s ]
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-cn'  [ RunTime:0.000534s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000596s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000708s ]
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\41cd274229f4ada3848674957bec0ad8.php 第 5 行.
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\41cd274229f4ada3848674957bec0ad8.php 第 491 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041960s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003185s ]
+
+[ 2015-06-08T23:56:05+08:00 ] 127.0.0.1 /Control/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000137s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001215s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001128s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004328s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.007455s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 and lang="zh-cn" )  [ RunTime:0.000951s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 1 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000608s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 9 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000554s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 13 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000583s ]
+SQL: SHOW COLUMNS FROM `think_site_conf` [ RunTime:0.003842s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_site_conf`
+SQL: SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1   [ RunTime:0.000480s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.007362s ]
+SQL: SELECT * FROM `think_column` WHERE ( type=3 and lang=zh-cn )  [ RunTime:0.000648s ]
+ERR: 1054:Unknown column 'zh' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_column` WHERE ( type=3 and lang=zh-cn ) 
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.000525s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 60 行.
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-cn' AND `title` = 'Control' LIMIT 1   [ RunTime:0.000659s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=1 and title="add" and lang=zh-cn ) LIMIT 1   [ RunTime:0.000473s ]
+ERR: 1054:Unknown column 'zh' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_model` WHERE ( fid=1 and title="add" and lang=zh-cn ) LIMIT 1  
+SQL: SELECT * FROM `think_model` WHERE `id` = 0 LIMIT 1   [ RunTime:0.000496s ]
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-cn'  [ RunTime:0.000520s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000649s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001079s ]
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\41cd274229f4ada3848674957bec0ad8.php 第 5 行.
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\41cd274229f4ada3848674957bec0ad8.php 第 491 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040894s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000947s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001763s ]
+
+[ 2015-06-08T23:56:29+08:00 ] 127.0.0.1 /Control/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000849s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001720s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005079s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.006012s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 and lang="zh-cn" )  [ RunTime:0.000950s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 1 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000994s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 9 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000863s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 13 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000674s ]
+SQL: SHOW COLUMNS FROM `think_site_conf` [ RunTime:0.003982s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_site_conf`
+SQL: SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1   [ RunTime:0.000507s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.006344s ]
+SQL: SELECT * FROM `think_column` WHERE ( type=3 and lang=zh-cn )  [ RunTime:0.000394s ]
+ERR: 1054:Unknown column 'zh' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_column` WHERE ( type=3 and lang=zh-cn ) 
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.000600s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 60 行.
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-cn' AND `title` = 'Control' LIMIT 1   [ RunTime:0.000758s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=1 and title="add" and lang=zh-cn ) LIMIT 1   [ RunTime:0.001087s ]
+ERR: 1054:Unknown column 'zh' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_model` WHERE ( fid=1 and title="add" and lang=zh-cn ) LIMIT 1  
+SQL: SELECT * FROM `think_model` WHERE `id` = 0 LIMIT 1   [ RunTime:0.000842s ]
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-cn'  [ RunTime:0.000952s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000793s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000949s ]
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\41cd274229f4ada3848674957bec0ad8.php 第 5 行.
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\41cd274229f4ada3848674957bec0ad8.php 第 491 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038057s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038218s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001446s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001946s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002104s ]
+
+[ 2015-06-08T23:57:08+08:00 ] 127.0.0.1 /Control/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000954s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001232s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.008285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010843s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.007111s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 and lang="zh-cn" )  [ RunTime:0.000978s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 1 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000722s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 9 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000785s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 13 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000888s ]
+SQL: SHOW COLUMNS FROM `think_site_conf` [ RunTime:0.004800s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_site_conf`
+SQL: SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1   [ RunTime:0.000952s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.005959s ]
+SQL: SELECT * FROM `think_column` WHERE ( type=3 and lang=zh-cn )  [ RunTime:0.000376s ]
+ERR: 1054:Unknown column 'zh' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_column` WHERE ( type=3 and lang=zh-cn ) 
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.000624s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 60 行.
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-cn' AND `title` = 'Control' LIMIT 1   [ RunTime:0.000601s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=1 and title="add" and lang=zh-cn ) LIMIT 1   [ RunTime:0.000291s ]
+ERR: 1054:Unknown column 'zh' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_model` WHERE ( fid=1 and title="add" and lang=zh-cn ) LIMIT 1  
+SQL: SELECT * FROM `think_model` WHERE `id` = 0 LIMIT 1   [ RunTime:0.000320s ]
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-cn'  [ RunTime:0.000449s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000688s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000803s ]
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\41cd274229f4ada3848674957bec0ad8.php 第 5 行.
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\41cd274229f4ada3848674957bec0ad8.php 第 491 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043365s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043508s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001582s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001711s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003755s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003922s ]
+
+[ 2015-06-08T23:57:20+08:00 ] 127.0.0.1 /Control/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001335s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.005078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006628s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.005680s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 and lang="zh-cn" )  [ RunTime:0.000765s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 1 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000800s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 9 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000847s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 13 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.001099s ]
+SQL: SHOW COLUMNS FROM `think_site_conf` [ RunTime:0.005032s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_site_conf`
+SQL: SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1   [ RunTime:0.000671s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.006990s ]
+SQL: SELECT * FROM `think_column` WHERE ( type=3 and lang=zh-cn )  [ RunTime:0.000637s ]
+ERR: 1054:Unknown column 'zh' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_column` WHERE ( type=3 and lang=zh-cn ) 
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.000461s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 60 行.
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-cn' AND `title` = 'Control' LIMIT 1   [ RunTime:0.000460s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=1 and title="add" and lang=zh-cn ) LIMIT 1   [ RunTime:0.000238s ]
+ERR: 1054:Unknown column 'zh' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_model` WHERE ( fid=1 and title="add" and lang=zh-cn ) LIMIT 1  
+SQL: SELECT * FROM `think_model` WHERE `id` = 0 LIMIT 1   [ RunTime:0.000300s ]
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-cn'  [ RunTime:0.001401s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000776s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000915s ]
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\41cd274229f4ada3848674957bec0ad8.php 第 5 行.
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\41cd274229f4ada3848674957bec0ad8.php 第 491 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042541s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042686s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003961s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004124s ]
+
+[ 2015-06-08T23:57:45+08:00 ] 127.0.0.1 /Control/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002675s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006878s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.005026s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 and lang="zh-cn" )  [ RunTime:0.000846s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 1 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000677s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 9 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000557s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 13 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.002032s ]
+SQL: SHOW COLUMNS FROM `think_site_conf` [ RunTime:0.006572s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_site_conf`
+SQL: SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1   [ RunTime:0.000488s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.005784s ]
+SQL: SELECT * FROM `think_column` WHERE ( type=3 and lang=zh-cn )  [ RunTime:0.000678s ]
+ERR: 1054:Unknown column 'zh' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_column` WHERE ( type=3 and lang=zh-cn ) 
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.000660s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 60 行.
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-cn' AND `title` = 'Control' LIMIT 1   [ RunTime:0.000684s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=1 and title="add" and lang=zh-cn ) LIMIT 1   [ RunTime:0.000593s ]
+ERR: 1054:Unknown column 'zh' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_model` WHERE ( fid=1 and title="add" and lang=zh-cn ) LIMIT 1  
+SQL: SELECT * FROM `think_model` WHERE `id` = 0 LIMIT 1   [ RunTime:0.000613s ]
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-cn'  [ RunTime:0.000604s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000717s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000879s ]
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\41cd274229f4ada3848674957bec0ad8.php 第 5 行.
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\41cd274229f4ada3848674957bec0ad8.php 第 491 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039893s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040032s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002672s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002803s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002008s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002158s ]
+
+[ 2015-06-08T23:58:03+08:00 ] 127.0.0.1 /Control/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000920s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001162s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004889s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.006234s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 and lang="zh-cn" )  [ RunTime:0.000811s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 1 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.001765s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 9 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.001344s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 13 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000804s ]
+SQL: SHOW COLUMNS FROM `think_site_conf` [ RunTime:0.004820s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_site_conf`
+SQL: SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1   [ RunTime:0.000758s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.007495s ]
+SQL: SELECT * FROM `think_column` WHERE ( type=3 and lang=zh-cn )  [ RunTime:0.000384s ]
+ERR: 1054:Unknown column 'zh' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_column` WHERE ( type=3 and lang=zh-cn ) 
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.000539s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 60 行.
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-cn' AND `title` = 'Control' LIMIT 1   [ RunTime:0.000607s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=1 and title="add" and lang=zh-cn ) LIMIT 1   [ RunTime:0.000391s ]
+ERR: 1054:Unknown column 'zh' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_model` WHERE ( fid=1 and title="add" and lang=zh-cn ) LIMIT 1  
+SQL: SELECT * FROM `think_model` WHERE `id` = 0 LIMIT 1   [ RunTime:0.000503s ]
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-cn'  [ RunTime:0.000754s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000820s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000945s ]
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\41cd274229f4ada3848674957bec0ad8.php 第 5 行.
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\41cd274229f4ada3848674957bec0ad8.php 第 491 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045100s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045249s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003094s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003373s ]
+

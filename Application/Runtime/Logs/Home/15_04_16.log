@@ -1,0 +1,70 @@
+[ 2015-04-16T18:05:22+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.023002s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+NOTIC: [8] Undefined variable: filter1 D:\wamp\www\91market\Application\Tool\Fenci.class.php 第 114 行.
+NOTIC: [2048] Redefining already defined constructor for class PSCWS4 D:\wamp\www\91market\ThinkPHP\Library\Vendor\pscws4\class.pscws4.php 第 123 行.
+NOTIC: [2048] Redefining already defined constructor for class XDB_R D:\wamp\www\91market\ThinkPHP\Library\Vendor\pscws4\class.xdb_r.php 第 34 行.
+
+[ 2015-04-16T18:06:35+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000500s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: filter1 D:\wamp\www\91market\Application\Tool\Fenci.class.php 第 114 行.
+NOTIC: [2048] Redefining already defined constructor for class PSCWS4 D:\wamp\www\91market\ThinkPHP\Library\Vendor\pscws4\class.pscws4.php 第 123 行.
+NOTIC: [2048] Redefining already defined constructor for class XDB_R D:\wamp\www\91market\ThinkPHP\Library\Vendor\pscws4\class.xdb_r.php 第 34 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009501s ]
+
+[ 2015-04-16T18:07:45+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+NOTIC: [8] Undefined variable: filter1 D:\wamp\www\91market\Application\Tool\Fenci.class.php 第 114 行.
+NOTIC: [2048] Redefining already defined constructor for class PSCWS4 D:\wamp\www\91market\ThinkPHP\Library\Vendor\pscws4\class.pscws4.php 第 123 行.
+NOTIC: [2048] Redefining already defined constructor for class XDB_R D:\wamp\www\91market\ThinkPHP\Library\Vendor\pscws4\class.xdb_r.php 第 34 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-16T18:07:58+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+NOTIC: [2048] Redefining already defined constructor for class PSCWS4 D:\wamp\www\91market\ThinkPHP\Library\Vendor\pscws4\class.pscws4.php 第 123 行.
+NOTIC: [2048] Redefining already defined constructor for class XDB_R D:\wamp\www\91market\ThinkPHP\Library\Vendor\pscws4\class.xdb_r.php 第 34 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-16T18:14:32+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001501s ]
+NOTIC: [2048] Redefining already defined constructor for class PSCWS4 D:\wamp\www\91market\ThinkPHP\Library\Vendor\pscws4\class.pscws4.php 第 123 行.
+NOTIC: [2048] Redefining already defined constructor for class XDB_R D:\wamp\www\91market\ThinkPHP\Library\Vendor\pscws4\class.xdb_r.php 第 34 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

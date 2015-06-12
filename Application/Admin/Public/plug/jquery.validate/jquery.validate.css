@@ -1,0 +1,4 @@
+﻿/************jQuery.Validate插件样式开始********************/
+label.error { background: url(error.gif) no-repeat 10px 0px; color: Red; padding-left: 25px; font-weight: bold; }
+input.error { border: solid 1px red; }
+/************jQuery.Validate插件样式结束********************/

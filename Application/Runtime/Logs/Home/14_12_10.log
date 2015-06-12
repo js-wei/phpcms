@@ -1,0 +1,1973 @@
+[ 2014-12-10T13:54:15+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001538s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021095s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021266s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006739s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006898s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007967s ]
+
+[ 2014-12-10T14:04:24+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001170s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_index` [ RunTime:0.046698s ]
+ERR: 1146:Table 'thinkphp.think_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_index`
+SQL: DELETE FROM `think_index` WHERE `create_time` < 1418018664 [ RunTime:0.008625s ]
+ERR: 1146:Table 'thinkphp.think_index' doesn't exist
+ [ SQL语句 ] : DELETE FROM `think_index` WHERE `create_time` < 1418018664
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006957s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007116s ]
+
+[ 2014-12-10T14:04:33+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001268s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000938s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001084s ]
+
+[ 2014-12-10T14:05:03+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002986s ]
+
+[ 2014-12-10T14:05:48+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001198s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000947s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001095s ]
+
+[ 2014-12-10T14:05:56+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001435s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001482s ]
+
+[ 2014-12-10T14:06:24+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001585s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001116s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001278s ]
+
+[ 2014-12-10T14:11:56+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001065s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+
+[ 2014-12-10T14:12:12+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001423s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000940s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001086s ]
+
+[ 2014-12-10T14:12:20+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001228s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+
+[ 2014-12-10T14:13:09+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001510s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+
+[ 2014-12-10T14:13:15+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001176s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+
+[ 2014-12-10T14:27:45+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001042s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+
+[ 2014-12-10T14:27:51+08:00 ] 127.0.0.1 /91market/class
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001206s ]
+ERR: 无法加载控制器:Class
+
+[ 2014-12-10T14:28:10+08:00 ] 127.0.0.1 /91market/Common
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001054s ]
+ERR: 无法加载控制器:Common
+
+[ 2014-12-10T14:28:16+08:00 ] 127.0.0.1 /91market/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028306s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028467s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006863s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001147s ]
+
+[ 2014-12-10T14:29:02+08:00 ] 127.0.0.1 /91market/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001080s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009423s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009577s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000794s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000984s ]
+
+[ 2014-12-10T14:29:10+08:00 ] 127.0.0.1 /91market/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001134s ]
+ERR: 无法加载控制器:Test
+
+[ 2014-12-10T14:29:56+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000987s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000267s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009232s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009392s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001116s ]
+
+[ 2014-12-10T14:30:03+08:00 ] 127.0.0.1 /91market/Test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001104s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001401s ]
+ERR: 无法加载控制器:Test
+
+[ 2014-12-10T14:30:07+08:00 ] 127.0.0.1 /91market/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003696s ]
+ERR: 无法加载控制器:Test
+
+[ 2014-12-10T14:30:12+08:00 ] 127.0.0.1 /91market/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001195s ]
+ERR: 无法加载控制器:Test
+
+[ 2014-12-10T14:30:49+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000320s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001077s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000971s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000277s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009621s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009779s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000868s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001014s ]
+
+[ 2014-12-10T14:30:53+08:00 ] 127.0.0.1 /91market/go
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001056s ]
+ERR: 无法加载控制器:Go
+
+[ 2014-12-10T14:31:28+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000928s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000263s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012121s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012289s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001858s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001070s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001214s ]
+
+[ 2014-12-10T14:31:32+08:00 ] 127.0.0.1 /91market/go
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000972s ]
+ERR: 无法加载控制器:Go
+
+[ 2014-12-10T14:31:37+08:00 ] 127.0.0.1 /91market/go
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+ERR: 无法加载控制器:Go
+
+[ 2014-12-10T14:36:11+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008552s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008701s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002274s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008721s ]
+
+[ 2014-12-10T14:38:31+08:00 ] 127.0.0.1 /91market/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000858s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001623s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000542s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009220s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009368s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000931s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001057s ]
+
+[ 2014-12-10T14:39:09+08:00 ] 127.0.0.1 /91market/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000826s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000997s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008132s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001092s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001307s ]
+
+[ 2014-12-10T16:43:25+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003424s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001297s ]
+
+[ 2014-12-10T16:47:28+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001993s ]
+
+[ 2014-12-10T16:50:14+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001167s ]
+
+[ 2014-12-10T16:50:14+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001258s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+
+[ 2014-12-10T16:50:15+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+
+[ 2014-12-10T16:50:15+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001612s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001981s ]
+
+[ 2014-12-10T16:50:15+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+
+[ 2014-12-10T16:50:15+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000882s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002346s ]
+
+[ 2014-12-10T16:50:15+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+
+[ 2014-12-10T16:55:52+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000915s ]
+
+[ 2014-12-10T16:55:52+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+
+[ 2014-12-10T16:55:53+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001010s ]
+
+[ 2014-12-10T16:55:53+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+
+[ 2014-12-10T16:55:53+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+
+[ 2014-12-10T16:56:04+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+
+[ 2014-12-10T16:56:04+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+
+[ 2014-12-10T16:56:05+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+
+[ 2014-12-10T16:56:05+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002248s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000748s ]
+
+[ 2014-12-10T16:56:05+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000717s ]
+
+[ 2014-12-10T17:07:44+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002528s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001368s ]
+
+[ 2014-12-10T17:07:45+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+
+[ 2014-12-10T17:07:46+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+
+[ 2014-12-10T17:07:46+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+
+[ 2014-12-10T17:07:46+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+
+[ 2014-12-10T17:07:46+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+
+[ 2014-12-10T17:07:47+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+
+[ 2014-12-10T17:07:47+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004793s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001812s ]
+
+[ 2014-12-10T17:07:47+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000819s ]
+
+[ 2014-12-10T17:07:47+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+
+[ 2014-12-10T17:07:47+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001189s ]
+
+[ 2014-12-10T17:07:47+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+
+[ 2014-12-10T17:07:48+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001978s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+
+[ 2014-12-10T17:07:48+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
+
+[ 2014-12-10T17:07:48+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+
+[ 2014-12-10T17:07:48+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+
+[ 2014-12-10T17:07:48+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000839s ]
+
+[ 2014-12-10T17:07:48+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+
+[ 2014-12-10T17:07:49+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001025s ]
+
+[ 2014-12-10T17:07:49+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+
+[ 2014-12-10T17:07:49+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+
+[ 2014-12-10T17:07:49+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+
+[ 2014-12-10T17:07:49+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001009s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001244s ]
+
+[ 2014-12-10T17:07:49+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000863s ]
+
+[ 2014-12-10T17:07:50+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+
+[ 2014-12-10T17:07:50+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+
+[ 2014-12-10T17:07:50+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001038s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001095s ]
+
+[ 2014-12-10T17:07:50+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+
+[ 2014-12-10T17:07:50+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+
+[ 2014-12-10T17:08:20+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002576s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001174s ]
+ERR: 无法加载控制器:Index
+
+[ 2014-12-10T17:08:21+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+ERR: 无法加载控制器:Index
+
+[ 2014-12-10T17:08:21+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000792s ]
+ERR: 无法加载控制器:Index
+
+[ 2014-12-10T17:08:35+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000845s ]
+ERR: 无法加载控制器:Index
+
+[ 2014-12-10T17:08:45+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+
+[ 2014-12-10T17:08:45+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002518s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+
+[ 2014-12-10T17:08:45+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000785s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000853s ]
+
+[ 2014-12-10T17:08:46+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+
+[ 2014-12-10T17:09:10+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+
+[ 2014-12-10T17:09:11+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000741s ]
+
+[ 2014-12-10T17:09:11+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+
+[ 2014-12-10T17:09:11+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+
+[ 2014-12-10T17:09:11+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+
+[ 2014-12-10T17:09:11+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000803s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000928s ]
+
+[ 2014-12-10T17:09:11+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000971s ]
+
+[ 2014-12-10T17:09:32+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001752s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009887s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010082s ]
+
+[ 2014-12-10T17:09:33+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000701s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000866s ]
+
+[ 2014-12-10T17:09:33+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000872s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001104s ]
+
+[ 2014-12-10T17:09:38+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+
+[ 2014-12-10T17:09:38+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+
+[ 2014-12-10T17:09:39+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000745s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000997s ]
+
+[ 2014-12-10T17:09:39+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000871s ]
+
+[ 2014-12-10T17:09:39+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+
+[ 2014-12-10T17:10:09+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000982s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001156s ]
+
+[ 2014-12-10T17:10:09+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001420s ]
+
+[ 2014-12-10T17:10:09+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+
+[ 2014-12-10T17:12:20+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000916s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000887s ]
+
+[ 2014-12-10T17:12:20+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+
+[ 2014-12-10T17:12:20+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+
+[ 2014-12-10T17:12:20+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001542s ]
+
+[ 2014-12-10T17:12:20+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+
+[ 2014-12-10T17:12:20+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+
+[ 2014-12-10T17:55:20+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002726s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006010s ]
+
+[ 2014-12-10T17:55:44+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000955s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001125s ]
+
+[ 2014-12-10T17:56:00+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-10T17:56:07+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+
+[ 2014-12-10T17:57:11+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001053s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001050s ]
+
+[ 2014-12-10T17:57:11+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+
+[ 2014-12-10T17:57:12+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001145s ]
+
+[ 2014-12-10T17:57:34+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001141s ]
+
+[ 2014-12-10T17:57:35+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000839s ]
+
+[ 2014-12-10T17:57:36+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001078s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000877s ]
+
+[ 2014-12-10T17:57:36+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+
+[ 2014-12-10T17:57:36+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+
+[ 2014-12-10T17:57:45+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003821s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001010s ]
+
+[ 2014-12-10T17:57:45+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+
+[ 2014-12-10T17:57:45+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+
+[ 2014-12-10T17:57:46+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000964s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+
+[ 2014-12-10T17:58:18+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000854s ]
+
+[ 2014-12-10T17:58:19+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000799s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+
+[ 2014-12-10T17:58:19+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000854s ]
+
+[ 2014-12-10T17:58:19+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+
+[ 2014-12-10T17:58:19+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+
+[ 2014-12-10T17:58:20+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002102s ]
+
+[ 2014-12-10T17:58:20+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+
+[ 2014-12-10T17:58:20+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000988s ]
+
+[ 2014-12-10T17:58:20+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+
+[ 2014-12-10T17:58:20+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000874s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001660s ]
+
+[ 2014-12-10T17:58:20+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+
+[ 2014-12-10T17:58:21+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000830s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001153s ]
+
+[ 2014-12-10T17:58:21+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003241s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000846s ]
+
+[ 2014-12-10T17:58:49+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+
+[ 2014-12-10T17:58:49+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000629s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+
+[ 2014-12-10T17:58:49+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+
+[ 2014-12-10T17:58:50+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+
+[ 2014-12-10T17:58:50+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001092s ]
+
+[ 2014-12-10T17:58:50+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+
+[ 2014-12-10T18:00:16+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001585s ]
+
+[ 2014-12-10T18:00:16+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+
+[ 2014-12-10T18:00:16+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000833s ]
+
+[ 2014-12-10T18:00:16+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001019s ]
+
+[ 2014-12-10T18:00:17+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+
+[ 2014-12-10T18:05:59+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000897s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001551s ]
+
+[ 2014-12-10T18:06:00+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000800s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000842s ]
+
+[ 2014-12-10T18:06:00+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001160s ]
+
+[ 2014-12-10T18:06:00+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000778s ]
+
+[ 2014-12-10T18:06:00+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+
+[ 2014-12-10T18:07:17+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000742s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001223s ]
+
+[ 2014-12-10T18:07:18+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001071s ]
+
+[ 2014-12-10T18:07:18+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000932s ]
+
+[ 2014-12-10T18:07:18+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001708s ]
+
+[ 2014-12-10T18:07:29+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000842s ]
+ERR: 无法加载控制器:Index
+
+[ 2014-12-10T18:07:30+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001058s ]
+ERR: 无法加载控制器:Index
+
+[ 2014-12-10T18:07:30+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001574s ]
+ERR: 无法加载控制器:Index
+
+[ 2014-12-10T18:07:59+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+
+[ 2014-12-10T18:07:59+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001061s ]
+
+[ 2014-12-10T18:08:00+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000954s ]
+
+[ 2014-12-10T18:08:00+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+
+[ 2014-12-10T18:08:10+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001099s ]
+
+[ 2014-12-10T18:08:10+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+
+[ 2014-12-10T18:08:10+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+
+[ 2014-12-10T18:08:11+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000198s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000814s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002513s ]
+
+[ 2014-12-10T18:13:10+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000894s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001512s ]
+
+[ 2014-12-10T18:13:11+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000910s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001006s ]
+
+[ 2014-12-10T18:13:11+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000948s ]
+
+[ 2014-12-10T18:13:11+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+
+[ 2014-12-10T18:13:27+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+
+[ 2014-12-10T18:13:28+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000957s ]
+
+[ 2014-12-10T18:13:29+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001315s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+
+[ 2014-12-10T18:13:54+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000943s ]
+
+[ 2014-12-10T18:13:54+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+
+[ 2014-12-10T18:13:54+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+
+[ 2014-12-10T18:13:55+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+
+[ 2014-12-10T18:14:02+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001360s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+
+[ 2014-12-10T18:14:02+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001074s ]
+
+[ 2014-12-10T18:14:03+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000842s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+
+[ 2014-12-10T18:14:12+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.032448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.032645s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008203s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008429s ]
+
+[ 2014-12-10T18:14:14+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000721s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000897s ]
+
+[ 2014-12-10T18:16:56+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000880s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001141s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001357s ]
+
+[ 2014-12-10T18:16:56+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000999s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000769s ]
+
+[ 2014-12-10T18:16:57+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000903s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000769s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000948s ]
+
+[ 2014-12-10T18:16:57+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000771s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001010s ]
+
+[ 2014-12-10T18:17:49+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000845s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001637s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001177s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001464s ]
+
+[ 2014-12-10T18:17:57+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001290s ]
+
+[ 2014-12-10T18:18:46+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001074s ]
+
+[ 2014-12-10T18:19:01+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000819s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.018816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019056s ]
+
+[ 2014-12-10T18:19:17+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001404s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001189s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001441s ]
+
+[ 2014-12-10T18:19:25+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\91market\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004870s ]
+

@@ -1,0 +1,113 @@
+﻿/* reset */
+html,body{ margin:0; padding:0; width:100%; height:100%; overflow:hidden; }
+body{ font:12px/130% 微软雅黑,Verdana,Arial; background-color:#fff; color:#000; width:100%; text-align:center; }
+
+frameset,frame,iframe{ margin:0; padding:0; border:0; }
+
+table,th,td{ margin:0; padding:0; }
+table th{ text-align:center; font-weight:bold; }
+
+div,span,label{ margin:0; padding:0; }
+div{ margin-right:auto; margin-left:auto; }
+p{ margin:0; padding:0; }
+
+strong{ margin:0; padding:0; font-weight:bold; }
+em{ margin:0; padding:0; font-style:italic; line-height:normal; }
+
+ul,li{ margin:0; padding:0; list-style:none; }
+
+img{ margin:0; padding:0; border:0 none; }
+
+a{ margin:0; padding:0; font:12px/130% 微软雅黑,Verdana,Arial; color:#36c; text-decoration:none; }
+a:hover{ color:#f60; text-decoration:underline; }
+
+h1,h2,h3,h4,h5,h6{ margin:0; padding:0; }
+h1{ font-size:24px; font-weight:bold; }
+h2{ font-size:20px; font-weight:bold; }
+h3{ font-size:16px; font-weight:bold; }
+h4{ font-size:14px; font-weight:bold; }
+h5{ font-size:12px; font-weight:bold; }
+h6{ font-size:10px; font-weight:bold; }
+
+.clearfix:after{ display:block; height:0px; visibility:hidden; clear:both; content:".\20" }
+.clearfix{ zoom:1  }
+.clear{ float:none; clear:both; height:1px; border:0 none; background:transparent none; overflow:hidden; }
+
+
+.f_l{ float:left;}
+.f_r{ float:right;}
+
+.f_bold{ font-weight:bolder;}
+
+.f12{ font-size:12px;}
+.f14{ font-size:14px;}
+.f12{ font-size:16px;}
+.f12{ font-size:18px;}
+.f12{ font-size:20px;}
+
+.orange{ color:#f60;}
+.red{ color:#f00;}
+.gray{ color:#999;}
+
+/* loyout */
+#header{ clear:both; width:100%; height:50px; background:#f1f1f1; border-bottom:5px solid #DC3628; }
+#header .logo{ width:190px; line-height:50px; text-align:center; font-size:18px; color:#227A1D; }
+#header .toolbar{ padding-top:5px; width:300px; text-align:left; line-height:20px; }
+    
+/* 页尾 */
+#footer{ clear:both; width:100%; height:26px; background:url(images/frame/bg_footer.gif) no-repeat 0 0; text-align:right; line-height:26px; overflow:hidden; }
+
+
+.main
+{
+    width: 100%;
+    height: 100%;
+    table-layout: fixed;
+}
+.main td, .left td
+{
+    vertical-align: top;
+    font-size: 12px;
+}
+.right
+{
+    width: 100%;
+    height: 100%;
+    table-layout: fixed;
+    clear: both;
+}
+.t_l
+{
+    position: relative;
+    left:0;
+    width: 230px;
+    height: 100%;
+}
+.t_l_c
+{
+    height: 100%;
+    text-align: center;
+    border-right: 1px solid /*#8EC1EE*/#d3d3d3;
+    background:#F5F5F5;
+}
+
+#frameBar
+{
+    position: absolute;
+    z-index: 2;
+    top: 45%;
+    display: block;
+    width: 12px;
+    height: 62px;
+    cursor: pointer;
+}
+.bar_c
+{
+    right: 2px;
+    background: url(images/frame/bar_hit.gif) no-repeat 0px 0px;
+}
+.bar_o
+{
+    right: -1px;
+    background: url(images/frame/bar_hit.gif) no-repeat 0px -62px;
+}

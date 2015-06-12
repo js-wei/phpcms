@@ -1,0 +1,7 @@
+.banner{position: relative;}
+ul.banner-image{list-style:none;height:auto;overflow:hidden;}
+ul.banner-image{height:auto;overflow:hidden;}
+ul.banner-image li{float:left;position:absolute;}
+div.banner-list ul{position:relative;}
+div.banner-list ul li{float:left;width:22px;cursor:pointer;font-size:50px;color:#666;}
+div.banner-list ul li.acrive{color:orange}

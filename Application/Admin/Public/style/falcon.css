@@ -1,0 +1,92 @@
+﻿body, button, input, select, textarea { font: 12px/1.5 tahoma, arial, 宋体b8b\4f53, sans-serif; }
+
+/**********间距*************/
+body, form, ul, table, th, td { margin: 0px; padding: 0px; }
+ul, li { margin: 0; padding: 0; list-style: none; }
+
+
+
+/*******TextBox*******/
+.tbox { border: 1px solid #A3C7EE; width: 200px; height: 18px; line-height: 18px; }
+
+
+/**********宽度************/
+.w50 { width: 50px; }
+.w80 { width: 80px; }
+.w100 { width: 100px; }
+.w100per { width: 100%; }
+.w120 { width: 120px; }
+.w150 { width: 150px; }
+.w180 { width: 180px; }
+.w200 { width: 200px; }
+.w230 { width: 230px; }
+.w250 { width: 250px; }
+.w280 { width: 280px; }
+.w300 { width: 300px; }
+.w350 { width: 350px; }
+.w750 { width: 750px; }
+.w770 { width: 770px; }
+.w960 { width: 960px; }
+.w980 { width: 980px; }
+
+
+/**********颜色************/
+.red { color: Red; }
+.green { color: #0B6A24; }
+.orange { color: #FF6600; }
+.black3 { color: #333333; }
+.black5 { color: #555555; }
+.black6 { color: #666666; }
+.black9 { color: #999999; }
+.blackC { color: #CCCCCC; }
+
+
+/**********字体************/
+.f12 { font-size: 12px; }
+.f13 { font-size: 13px; }
+.f14 { font-size: 14px; }
+.bold { font-weight: bold; }
+.normal { font-weight: normal; }
+
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+
+
+/**********浮动************/
+.f_l { float: left; }
+.f_r { float: right; }
+.clearfix:after { display: block; height: 0px; visibility: hidden; clear: both; content: ".\20"; }
+.clearfix { zoom: 1; }
+.clear { background: none; border: 0; clear: both; display: block; float: none; font-size: 0; margin: 0; padding: 0; overflow: hidden; visibility: hidden; width: 0; height: 0; }
+
+
+/**********可见性************/
+.hidden { display: none; }
+
+
+/**********位置************/
+.center { text-align: center; }
+.left { text-align: left; }
+.right { text-align: right; }
+
+
+/*******提示*******/
+.tis { padding: 0 3px; color: #666; }
+
+
+/*******按钮*******/
+/*
+.button { margin: 0; padding: 0 5px; height: 22px; cursor: pointer; font-size: 13px; color: #FFFFFF; text-align: center; line-height: 20px; background: #8D1707 url(/Admin/Content/images/bg_button.gif) repeat-x 0 100%; /*border: 1px solid #B5B8C8; border: 0 none; }
+
+.button { border-style: none; border-color: inherit; border-width: 0; margin: 0; padding: 0 3px; cursor: pointer; color: #FFFFFF; text-align: center; line-height: 25px; font-size:14px; font-weight:bold; background: #8D1707 url(/images/btnfalcon.jpg) repeat-x 0 100%; /*border: 1px solid #B5B8C8;* }*/
+
+.button {border-style: none; border-color: inherit; border-width: 0; margin: 0; padding: 0 3px; cursor: pointer; color: #FFFFFF; text-align: center; line-height: 25px; font-size:14px; font-weight:bold; background: #8D1707 url(/mc/images/grid/btnfalcon.jpg) repeat-x 0 100%; /*border: 1px solid #B5B8C8;*/ }
+
+/*AspNetpager分页控件淘宝风格--- CssClass="pager" CurrentPageButtonClass="cpb" */
+.pager { font: 12px Arial, Helvetica, sans-serif; padding: 0px 20px 10px 10px; margin: 10px; }
+.pager a { border: solid 1px #ccc; color: #0063dc; cursor: pointer; text-decoration: none; }
+.pager a:visited { padding: 1px 6px; border: solid 1px #ddd; background: #fff; text-decoration: none; }
+.pager .cpb { border: 1px solid #F50; font-weight: 700; color: #F50; background-color: #ffeee5; }
+.pager a:hover { border: solid 1px #F50; color: #f60; text-decoration: none; }
+.pager a, .pager a:visited, .pager .cpb, .pager a:hover { float: left; height: 16px; line-height: 16px; min-width: 10px; _width: 10px; margin-right: 5px; text-align: center; white-space: nowrap; font-size: 12px; font-family: Arial,SimSun; padding: 0 3px; }

@@ -1,0 +1,1632 @@
+[ 2014-12-06T18:22:13+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001349s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009829s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010023s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000948s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001072s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001118s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001245s ]
+
+[ 2014-12-06T18:22:22+08:00 ] 127.0.0.1 /91market/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001144s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000655s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000807s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000876s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000872s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000996s ]
+
+[ 2014-12-06T18:22:28+08:00 ] 127.0.0.1 /91market/Home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001132s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000616s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000763s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000936s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001059s ]
+
+[ 2014-12-06T18:25:37+08:00 ] 127.0.0.1 /91market/Home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001611s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000545s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000679s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000936s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001055s ]
+
+[ 2014-12-06T18:25:38+08:00 ] 127.0.0.1 /91market/Home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001649s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000872s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000965s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001643s ]
+
+[ 2014-12-06T18:26:28+08:00 ] 127.0.0.1 /91market/Home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000275s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001399s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001031s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001168s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000830s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001158s ]
+
+[ 2014-12-06T18:27:08+08:00 ] 127.0.0.1 /91market/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000744s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001080s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000532s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000665s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000815s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000935s ]
+
+[ 2014-12-06T18:27:37+08:00 ] 127.0.0.1 /91market/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001048s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000615s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000761s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001175s ]
+
+[ 2014-12-06T18:32:17+08:00 ] 127.0.0.1 /91market/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000785s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000890s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001009s ]
+
+[ 2014-12-06T18:32:23+08:00 ] 127.0.0.1 /91market/home/index/say
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000902s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001047s ]
+
+[ 2014-12-06T18:40:05+08:00 ] 127.0.0.1 /91market/home/index/say
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001995s ]
+
+[ 2014-12-06T18:41:17+08:00 ] 127.0.0.1 /91market/home/index/say
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001813s ]
+
+[ 2014-12-06T18:44:05+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000773s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001421s ]
+
+[ 2014-12-06T18:44:46+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+
+[ 2014-12-06T18:44:47+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001315s ]
+
+[ 2014-12-06T18:44:47+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001516s ]
+
+[ 2014-12-06T18:44:47+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001380s ]
+
+[ 2014-12-06T18:44:47+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001052s ]
+
+[ 2014-12-06T18:47:04+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000674s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000823s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000852s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001613s ]
+
+[ 2014-12-06T18:48:36+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001274s ]
+ERR: 模板不存在:./Application/Home/View/Index/index.html
+
+[ 2014-12-06T18:49:10+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001430s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000295s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010074s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000966s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001763s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001916s ]
+
+[ 2014-12-06T18:50:28+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001164s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001291s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010887s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011028s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000864s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001207s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001329s ]
+
+[ 2014-12-06T18:50:43+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001635s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000268s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008954s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009102s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000908s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001089s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001271s ]
+
+[ 2014-12-06T18:50:54+08:00 ] 127.0.0.1 /91market/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001171s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000475s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000681s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009714s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009886s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000917s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001234s ]
+
+[ 2014-12-06T19:01:50+08:00 ] 127.0.0.1 /91market/home/index/say
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002324s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+ERR: 非法操作:say
+
+[ 2014-12-06T19:01:52+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001126s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+ERR: Think\Controller:getActionName方法不存在！
+
+[ 2014-12-06T19:02:47+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001113s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+ERR: Think\Controller:getActionName方法不存在！
+
+[ 2014-12-06T19:02:48+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000965s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001186s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+ERR: Think\Controller:getActionName方法不存在！
+
+[ 2014-12-06T19:02:48+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001606s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+ERR: Think\Controller:getActionName方法不存在！
+
+[ 2014-12-06T19:02:48+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001234s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+ERR: Think\Controller:getActionName方法不存在！
+
+[ 2014-12-06T19:03:09+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001155s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+ERR: Think\Controller:getActionName方法不存在！
+
+[ 2014-12-06T19:03:10+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001455s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+ERR: Think\Controller:getActionName方法不存在！
+
+[ 2014-12-06T19:03:10+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000908s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001276s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+ERR: Think\Controller:getActionName方法不存在！
+
+[ 2014-12-06T19:03:10+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001235s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+ERR: Think\Controller:getActionName方法不存在！
+
+[ 2014-12-06T19:03:10+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001418s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+ERR: Think\Controller:getActionName方法不存在！
+
+[ 2014-12-06T19:03:11+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001260s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+ERR: Think\Controller:getActionName方法不存在！
+
+[ 2014-12-06T19:03:11+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000902s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001236s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+ERR: Think\Controller:getActionName方法不存在！
+
+[ 2014-12-06T19:03:11+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001122s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+ERR: Think\Controller:getActionName方法不存在！
+
+[ 2014-12-06T19:03:11+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001355s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+ERR: Think\Controller:getActionName方法不存在！
+
+[ 2014-12-06T19:04:12+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001174s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+ERR: Think\Controller:getActionName方法不存在！
+
+[ 2014-12-06T19:04:13+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001024s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+ERR: Think\Controller:getActionName方法不存在！
+
+[ 2014-12-06T19:04:13+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001244s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+ERR: Think\Controller:getActionName方法不存在！
+
+[ 2014-12-06T19:06:07+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001123s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001197s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001386s ]
+
+[ 2014-12-06T19:07:04+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001409s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001005s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001148s ]
+
+[ 2014-12-06T19:07:26+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001365s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001116s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001294s ]
+
+[ 2014-12-06T19:07:26+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000906s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001475s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001622s ]
+
+[ 2014-12-06T19:07:26+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000992s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001218s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001205s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001373s ]
+
+[ 2014-12-06T19:07:27+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001300s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001111s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001292s ]
+
+[ 2014-12-06T19:08:59+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003773s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004528s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001227s ]
+
+[ 2014-12-06T19:09:00+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001233s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001216s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001378s ]
+
+[ 2014-12-06T19:09:37+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001383s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001096s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001253s ]
+
+[ 2014-12-06T19:09:38+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001267s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001122s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001272s ]
+
+[ 2014-12-06T19:09:38+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001194s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001181s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001356s ]
+
+[ 2014-12-06T19:16:16+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001563s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001121s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001284s ]
+
+[ 2014-12-06T19:16:17+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002038s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001199s ]
+
+[ 2014-12-06T19:19:14+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000744s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001255s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001304s ]
+
+[ 2014-12-06T19:19:46+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001378s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: name D:\wamp\www\91market\ThinkPHP\Library\Think\Controller.class.php 第 303 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001242s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001393s ]
+
+[ 2014-12-06T19:19:47+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001206s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: name D:\wamp\www\91market\ThinkPHP\Library\Think\Controller.class.php 第 303 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001169s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001342s ]
+
+[ 2014-12-06T19:19:47+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001205s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: name D:\wamp\www\91market\ThinkPHP\Library\Think\Controller.class.php 第 303 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001136s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001277s ]
+
+[ 2014-12-06T19:19:47+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001288s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: name D:\wamp\www\91market\ThinkPHP\Library\Think\Controller.class.php 第 303 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001081s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001237s ]
+
+[ 2014-12-06T19:20:19+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000748s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001343s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: name D:\wamp\www\91market\ThinkPHP\Library\Think\Controller.class.php 第 303 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001520s ]
+
+[ 2014-12-06T19:20:20+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000800s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001391s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: name D:\wamp\www\91market\ThinkPHP\Library\Think\Controller.class.php 第 303 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001207s ]
+
+[ 2014-12-06T19:20:20+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001561s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: name D:\wamp\www\91market\ThinkPHP\Library\Think\Controller.class.php 第 303 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001227s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001390s ]
+
+[ 2014-12-06T19:20:21+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000927s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001265s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: name D:\wamp\www\91market\ThinkPHP\Library\Think\Controller.class.php 第 303 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001136s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001278s ]
+
+[ 2014-12-06T19:20:42+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000875s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001113s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001261s ]
+
+[ 2014-12-06T19:20:48+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001293s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001250s ]
+
+[ 2014-12-06T19:21:45+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000804s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001349s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: name D:\wamp\www\91market\ThinkPHP\Library\Think\Controller.class.php 第 303 行.
+
+[ 2014-12-06T19:21:59+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001292s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: name D:\wamp\www\91market\ThinkPHP\Library\Think\Controller.class.php 第 303 行.
+
+[ 2014-12-06T19:22:15+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001419s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: name D:\wamp\www\91market\ThinkPHP\Library\Think\Controller.class.php 第 303 行.
+
+[ 2014-12-06T19:22:16+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001450s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: name D:\wamp\www\91market\ThinkPHP\Library\Think\Controller.class.php 第 303 行.
+
+[ 2014-12-06T19:22:16+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005111s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: name D:\wamp\www\91market\ThinkPHP\Library\Think\Controller.class.php 第 303 行.
+
+[ 2014-12-06T19:22:16+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: name D:\wamp\www\91market\ThinkPHP\Library\Think\Controller.class.php 第 303 行.
+
+[ 2014-12-06T19:23:22+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001449s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: foo D:\wamp\www\91market\ThinkPHP\Library\Think\Controller.class.php 第 303 行.
+
+[ 2014-12-06T19:23:23+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001286s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: foo D:\wamp\www\91market\ThinkPHP\Library\Think\Controller.class.php 第 303 行.
+
+[ 2014-12-06T19:23:23+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001334s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: foo D:\wamp\www\91market\ThinkPHP\Library\Think\Controller.class.php 第 303 行.
+
+[ 2014-12-06T19:23:23+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001263s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: foo D:\wamp\www\91market\ThinkPHP\Library\Think\Controller.class.php 第 303 行.
+
+[ 2014-12-06T19:23:23+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001272s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: foo D:\wamp\www\91market\ThinkPHP\Library\Think\Controller.class.php 第 303 行.
+
+[ 2014-12-06T19:23:34+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001141s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+
+[ 2014-12-06T19:24:18+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001343s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+
+[ 2014-12-06T19:24:37+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001164s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001117s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001269s ]
+
+[ 2014-12-06T19:24:44+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001209s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000998s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001139s ]
+
+[ 2014-12-06T19:25:41+08:00 ] 127.0.0.1 /91market/home/Market/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000785s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001206s ]
+NOTIC: [2048] Declaration of Home\Controller\MarketController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\MarketController.class.php 第 5 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001587s ]
+
+[ 2014-12-06T19:29:11+08:00 ] 127.0.0.1 /91market/home/Market/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000979s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002220s ]
+NOTIC: [2048] Declaration of Home\Controller\MarketController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\MarketController.class.php 第 5 行.
+
+[ 2014-12-06T19:29:12+08:00 ] 127.0.0.1 /91market/home/Market/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001261s ]
+NOTIC: [2048] Declaration of Home\Controller\MarketController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\MarketController.class.php 第 5 行.
+
+[ 2014-12-06T19:29:53+08:00 ] 127.0.0.1 /91market/home/Market/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001155s ]
+NOTIC: [2048] Declaration of Home\Controller\MarketController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\MarketController.class.php 第 5 行.
+ERR: 非法操作:show
+
+[ 2014-12-06T19:46:00+08:00 ] 127.0.0.1 /91market/home/Market/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000834s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001585s ]
+NOTIC: [2048] Declaration of Home\Controller\MarketController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\MarketController.class.php 第 5 行.
+ERR: Think\Controller:getActionName方法不存在！
+
+[ 2014-12-06T19:51:39+08:00 ] 127.0.0.1 /91market/home/Market/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000919s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001444s ]
+NOTIC: [2048] Declaration of Home\Controller\MarketController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\MarketController.class.php 第 5 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001692s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001845s ]
+
+[ 2014-12-06T19:55:02+08:00 ] 127.0.0.1 /91market/home/Market/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001256s ]
+ERR: 无法加载控制器:Market
+
+[ 2014-12-06T19:55:04+08:00 ] 127.0.0.1 /91market/home/Market/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001161s ]
+ERR: 无法加载控制器:Market
+
+[ 2014-12-06T19:55:07+08:00 ] 127.0.0.1 /91market/home/home/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001349s ]
+ERR: 无法加载控制器:Home
+
+[ 2014-12-06T19:55:15+08:00 ] 127.0.0.1 /91market/home/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001618s ]
+ERR: 无法加载控制器:Show
+
+[ 2014-12-06T19:55:22+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001005s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000981s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001111s ]
+
+[ 2014-12-06T19:57:35+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001368s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000989s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001158s ]
+
+[ 2014-12-06T19:57:36+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001430s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001176s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001432s ]
+
+[ 2014-12-06T19:58:46+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001357s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001191s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001388s ]
+
+[ 2014-12-06T19:58:55+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001431s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001190s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001373s ]
+
+[ 2014-12-06T20:01:10+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001323s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+
+[ 2014-12-06T20:01:12+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000903s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001165s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+
+[ 2014-12-06T20:01:12+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001403s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+
+[ 2014-12-06T20:01:13+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001439s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+
+[ 2014-12-06T20:01:13+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001305s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+
+[ 2014-12-06T20:01:13+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001419s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+
+[ 2014-12-06T20:01:13+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001320s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+
+[ 2014-12-06T20:03:04+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000772s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+
+[ 2014-12-06T20:03:12+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000947s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001259s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+ERR: 没有定义数据库配置
+
+[ 2014-12-06T20:03:49+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001113s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+ERR: 没有定义数据库配置
+
+[ 2014-12-06T20:03:49+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001150s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+ERR: 没有定义数据库配置
+
+[ 2014-12-06T20:03:50+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001289s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+ERR: 没有定义数据库配置
+
+[ 2014-12-06T20:07:45+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001112s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) D:\wamp\www\91market\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+ERR: Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2014-12-06T20:08:08+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001357s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+ERR: Unknown database 'thinkphp'
+
+[ 2014-12-06T20:08:45+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000795s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001538s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_index` [ RunTime:0.015807s ]
+ERR: 1146:Table 'thinkphp.think_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_index`
+
+[ 2014-12-06T20:09:01+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001476s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_index` [ RunTime:0.004431s ]
+ERR: 1146:Table 'thinkphp.think_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_index`
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\91market\ThinkPHP\Library\Think\Db.class.php 第 425 行.
+SQL: DELETE FROM `think_index` WHERE ( create_time ) AND (  ( lt ) AND (  ) ) [ RunTime:0.000474s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : DELETE FROM `think_index` WHERE ( create_time ) AND (  ( lt ) AND (  ) )
+
+[ 2014-12-06T20:09:20+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001334s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_index` [ RunTime:0.004145s ]
+ERR: 1146:Table 'thinkphp.think_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_index`
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\91market\ThinkPHP\Library\Think\Db.class.php 第 425 行.
+SQL: DELETE FROM `think_index` WHERE ( create_time ) AND (  ( lt ) AND (  ) ) [ RunTime:0.000351s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : DELETE FROM `think_index` WHERE ( create_time ) AND (  ( lt ) AND (  ) )
+
+[ 2014-12-06T20:09:47+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001356s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_index` [ RunTime:0.003911s ]
+ERR: 1146:Table 'thinkphp.think_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_index`
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\91market\ThinkPHP\Library\Think\Db.class.php 第 425 行.
+SQL: DELETE FROM `think_index` WHERE ( create_time ) AND (  ( lt ) AND (  ) ) [ RunTime:0.000188s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : DELETE FROM `think_index` WHERE ( create_time ) AND (  ( lt ) AND (  ) )
+
+[ 2014-12-06T20:09:47+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000972s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001559s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_index` [ RunTime:0.004764s ]
+ERR: 1146:Table 'thinkphp.think_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_index`
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\91market\ThinkPHP\Library\Think\Db.class.php 第 425 行.
+SQL: DELETE FROM `think_index` WHERE ( create_time ) AND (  ( lt ) AND (  ) ) [ RunTime:0.001368s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : DELETE FROM `think_index` WHERE ( create_time ) AND (  ( lt ) AND (  ) )
+
+[ 2014-12-06T20:09:48+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000759s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001386s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_index` [ RunTime:0.004715s ]
+ERR: 1146:Table 'thinkphp.think_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_index`
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\91market\ThinkPHP\Library\Think\Db.class.php 第 425 行.
+SQL: DELETE FROM `think_index` WHERE ( create_time ) AND (  ( lt ) AND (  ) ) [ RunTime:0.000394s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : DELETE FROM `think_index` WHERE ( create_time ) AND (  ( lt ) AND (  ) )
+
+[ 2014-12-06T20:10:08+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001478s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_index` [ RunTime:0.004335s ]
+ERR: 1146:Table 'thinkphp.think_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_index`
+SQL: DELETE FROM `think_index` WHERE `create_time` < 1417695008 [ RunTime:0.000560s ]
+ERR: 1146:Table 'thinkphp.think_index' doesn't exist
+ [ SQL语句 ] : DELETE FROM `think_index` WHERE `create_time` < 1417695008
+
+[ 2014-12-06T20:10:34+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000827s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001221s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_index` [ RunTime:0.004272s ]
+ERR: 1146:Table 'thinkphp.think_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_index`
+SQL: DELETE FROM `think_index` WHERE `create_time` < 1417695034 [ RunTime:0.000604s ]
+ERR: 1146:Table 'thinkphp.think_index' doesn't exist
+ [ SQL语句 ] : DELETE FROM `think_index` WHERE `create_time` < 1417695034
+
+[ 2014-12-06T20:10:36+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001279s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_index` [ RunTime:0.003985s ]
+ERR: 1146:Table 'thinkphp.think_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_index`
+SQL: DELETE FROM `think_index` WHERE `create_time` < 1417695036 [ RunTime:0.000454s ]
+ERR: 1146:Table 'thinkphp.think_index' doesn't exist
+ [ SQL语句 ] : DELETE FROM `think_index` WHERE `create_time` < 1417695036
+
+[ 2014-12-06T20:10:37+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000788s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001466s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_index` [ RunTime:0.004302s ]
+ERR: 1146:Table 'thinkphp.think_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_index`
+SQL: DELETE FROM `think_index` WHERE `create_time` < 1417695037 [ RunTime:0.000755s ]
+ERR: 1146:Table 'thinkphp.think_index' doesn't exist
+ [ SQL语句 ] : DELETE FROM `think_index` WHERE `create_time` < 1417695037
+
+[ 2014-12-06T20:10:37+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001257s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_index` [ RunTime:0.003855s ]
+ERR: 1146:Table 'thinkphp.think_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_index`
+SQL: DELETE FROM `think_index` WHERE `create_time` < 1417695037 [ RunTime:0.000499s ]
+ERR: 1146:Table 'thinkphp.think_index' doesn't exist
+ [ SQL语句 ] : DELETE FROM `think_index` WHERE `create_time` < 1417695037
+
+[ 2014-12-06T20:10:37+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001202s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_index` [ RunTime:0.004868s ]
+ERR: 1146:Table 'thinkphp.think_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_index`
+SQL: DELETE FROM `think_index` WHERE `create_time` < 1417695037 [ RunTime:0.000386s ]
+ERR: 1146:Table 'thinkphp.think_index' doesn't exist
+ [ SQL语句 ] : DELETE FROM `think_index` WHERE `create_time` < 1417695037
+
+[ 2014-12-06T20:10:37+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001178s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_index` [ RunTime:0.005008s ]
+ERR: 1146:Table 'thinkphp.think_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_index`
+SQL: DELETE FROM `think_index` WHERE `create_time` < 1417695037 [ RunTime:0.000413s ]
+ERR: 1146:Table 'thinkphp.think_index' doesn't exist
+ [ SQL语句 ] : DELETE FROM `think_index` WHERE `create_time` < 1417695037
+
+[ 2014-12-06T20:10:38+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001354s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_index` [ RunTime:0.003562s ]
+ERR: 1146:Table 'thinkphp.think_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_index`
+SQL: DELETE FROM `think_index` WHERE `create_time` < 1417695038 [ RunTime:0.000411s ]
+ERR: 1146:Table 'thinkphp.think_index' doesn't exist
+ [ SQL语句 ] : DELETE FROM `think_index` WHERE `create_time` < 1417695038
+
+[ 2014-12-06T20:10:38+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000857s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001147s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_index` [ RunTime:0.004515s ]
+ERR: 1146:Table 'thinkphp.think_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_index`
+SQL: DELETE FROM `think_index` WHERE `create_time` < 1417695038 [ RunTime:0.000536s ]
+ERR: 1146:Table 'thinkphp.think_index' doesn't exist
+ [ SQL语句 ] : DELETE FROM `think_index` WHERE `create_time` < 1417695038
+
+[ 2014-12-06T20:11:00+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001315s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_index` [ RunTime:0.004388s ]
+ERR: 1146:Table 'thinkphp.think_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_index`
+SQL: DELETE FROM `think_index` WHERE `create_time` < 1417695060 [ RunTime:0.000506s ]
+ERR: 1146:Table 'thinkphp.think_index' doesn't exist
+ [ SQL语句 ] : DELETE FROM `think_index` WHERE `create_time` < 1417695060
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001129s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001271s ]
+
+[ 2014-12-06T20:11:12+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000830s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001170s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_index` [ RunTime:0.003861s ]
+ERR: 1146:Table 'thinkphp.think_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_index`
+SQL: DELETE FROM `think_index` WHERE `create_time` < 1417695072 [ RunTime:0.000578s ]
+ERR: 1146:Table 'thinkphp.think_index' doesn't exist
+ [ SQL语句 ] : DELETE FROM `think_index` WHERE `create_time` < 1417695072
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001215s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001392s ]
+
+[ 2014-12-06T20:11:13+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000774s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001223s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_index` [ RunTime:0.003867s ]
+ERR: 1146:Table 'thinkphp.think_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_index`
+SQL: DELETE FROM `think_index` WHERE `create_time` < 1417695073 [ RunTime:0.000563s ]
+ERR: 1146:Table 'thinkphp.think_index' doesn't exist
+ [ SQL语句 ] : DELETE FROM `think_index` WHERE `create_time` < 1417695073
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008999s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009296s ]
+
+[ 2014-12-06T20:11:50+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001216s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_index` [ RunTime:0.003473s ]
+ERR: 1146:Table 'thinkphp.think_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_index`
+SQL: DELETE FROM `think_index` WHERE `create_time` < 1417695110 [ RunTime:0.000328s ]
+ERR: 1146:Table 'thinkphp.think_index' doesn't exist
+ [ SQL语句 ] : DELETE FROM `think_index` WHERE `create_time` < 1417695110
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001172s ]
+
+[ 2014-12-06T20:11:50+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000841s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001263s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_index` [ RunTime:0.003476s ]
+ERR: 1146:Table 'thinkphp.think_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_index`
+SQL: DELETE FROM `think_index` WHERE `create_time` < 1417695110 [ RunTime:0.000364s ]
+ERR: 1146:Table 'thinkphp.think_index' doesn't exist
+ [ SQL语句 ] : DELETE FROM `think_index` WHERE `create_time` < 1417695110
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001090s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001228s ]
+
+[ 2014-12-06T20:11:50+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001292s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_index` [ RunTime:0.003914s ]
+ERR: 1146:Table 'thinkphp.think_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_index`
+SQL: DELETE FROM `think_index` WHERE `create_time` < 1417695110 [ RunTime:0.000615s ]
+ERR: 1146:Table 'thinkphp.think_index' doesn't exist
+ [ SQL语句 ] : DELETE FROM `think_index` WHERE `create_time` < 1417695110
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001817s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001994s ]
+
+[ 2014-12-06T20:11:51+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001096s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_index` [ RunTime:0.003614s ]
+ERR: 1146:Table 'thinkphp.think_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_index`
+SQL: DELETE FROM `think_index` WHERE `create_time` < 1417695111 [ RunTime:0.000338s ]
+ERR: 1146:Table 'thinkphp.think_index' doesn't exist
+ [ SQL语句 ] : DELETE FROM `think_index` WHERE `create_time` < 1417695111
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001309s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001470s ]
+
+[ 2014-12-06T20:11:51+08:00 ] 127.0.0.1 /91market/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000994s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wamp\www\91market\Application\Home\Controller\IndexController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_index` [ RunTime:0.003401s ]
+ERR: 1146:Table 'thinkphp.think_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_index`
+SQL: DELETE FROM `think_index` WHERE `create_time` < 1417695111 [ RunTime:0.000322s ]
+ERR: 1146:Table 'thinkphp.think_index' doesn't exist
+ [ SQL语句 ] : DELETE FROM `think_index` WHERE `create_time` < 1417695111
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001184s ]
+

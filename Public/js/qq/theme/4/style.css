@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+.kfpopupdiv{z-index: 10000; filter:alpha(opacity=90); display:none; position: absolute; top: 330px; right: 500px; color: #000000; font-size: 12px; cursor: move; height:150px; width:340px; background: url(bg.gif) no-repeat left top;}
+.kfpopupdiv .kfpopupdivtitle{float:left;font-size:14px;color: #FFFFFF;margin: 0px;padding: 10px 0 13px 10px;line-height:17px;overflow: hidden;}
+.kfpopupdiv .kfpopupdivclose{float: right;height: 19px;width: 42px;overflow: hidden;}
+.kfpopupdiv .kfpopupdivmsg{clear:both; font-family:Tahoma;font-size:12px;line-height:24px; height:83px; margin-left:90px; margin-top:2px;word-wrap:break-word;overflow: hidden;}
+.kfpopupdiv .kfpopupdivmsg p{padding:0px; margin:0px; text-align:left;}
+.kfpopupdiv .kfpopupdivbottom{padding-right:10px; text-align:right;}
+.kfpopupdiv .kfpopupdivbnt_talk{ margin-right:10px;}
+.kfpopupdiv .kfpopupdivbnt_next{}

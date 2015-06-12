@@ -1,0 +1,29 @@
+#active-list {
+            font-size: 80%;
+        }
+        
+#active-list a {
+    text-decoration: none;
+	border: solid 1px #AAE;
+	color: #15B;
+}
+
+#active-list a, #active-list span {
+    display: block;
+    float: left;
+    padding: 0.3em 0.5em;
+    margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+#active-list .current {
+    background: #26B;
+    color: #fff;
+	border: solid 1px #AAE;
+}
+
+#active-list .current.prev, #active-list .current.next{
+	color:#999;
+	border-color:#999;
+	background:#fff;
+}
