@@ -17,18 +17,16 @@
 			</form>
 			<!-- END RESPONSIVE QUICK SEARCH FORM -->
 		</li>
-		<li class="<eq name='control' value='Index'>start active</eq>">
+		<li class="<eq name='control' value='index'>start active</eq>">
 			<a href="{:U('Index/index')}">
 				<i class="icon-home"></i> 
 				<span class="title">Dashboard</span>
 				<span class="selected"></span>
 			</a>
 		</li>				
-		<volist name="nav" id="volt">	
+		<volist name="nav" id="volt">
 			<li class="nav">
 				<a href="javascript:;">
-					<!--<i class="icon-folder-open"></i> -->
-					<!--<span class="title">{$volt.name}</span>-->
                     <notempty name="volt.ico">
                         <i class="{$volt.ico}"></i>
                         <else/>
@@ -67,8 +65,8 @@
 										</li>
 									</ul>
 									<else/>
-									<li  class="nav-item">
-										<a href="{$rd}/{$volt.title}/{$volt1.title}">
+									<li  class="nav-item <if condition='volt.title eq control and volt1.title eq action'>active</if> ">
+										<a href="{$rd}/{$volt.title|strtolower}/{$volt1.title|strtolower}">
 											<notempty name="volt1.ico">
 												<i class="{$volt1.ico}"></i>
 												<else/>
@@ -83,7 +81,7 @@
 						</ul>
 					<else/>
 						<li  class="nav">
-							<a href="{$uri}/{$volt.title}">
+							<a href="{$uri}/{$volt.title|strtolower}">
 								<notempty name="volt.ico">
 									<i class="{$volt.ico}"></i>
 									<else/>

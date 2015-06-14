@@ -7,25 +7,25 @@
 	<meta content="" name="description" />
 	<meta content="" name="author" />
 	<!-- BEGIN GLOBAL MANDATORY STYLES -->
-	<link href="/phpcms/Public/Admin/media/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-	<link href="/phpcms/Public/Admin/media/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
-	<link href="/phpcms/Public/Admin/media/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-	<link href="/phpcms/Public/Admin/media/css/style-metro.css" rel="stylesheet" type="text/css"/>
-	<link href="/phpcms/Public/Admin/media/css/style.css" rel="stylesheet" type="text/css"/>
-	<link href="/phpcms/Public/Admin/media/css/style-responsive.css" rel="stylesheet" type="text/css"/>
-	<link href="/phpcms/Public/Admin/media/css/default.css" rel="stylesheet" type="text/css" id="style_color"/>
-	<link href="/phpcms/Public/Admin/media/css/uniform.default.css" rel="stylesheet" type="text/css"/>
+	<link href="/Public/Admin/media/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+	<link href="/Public/Admin/media/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+	<link href="/Public/Admin/media/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+	<link href="/Public/Admin/media/css/style-metro.css" rel="stylesheet" type="text/css"/>
+	<link href="/Public/Admin/media/css/style.css" rel="stylesheet" type="text/css"/>
+	<link href="/Public/Admin/media/css/style-responsive.css" rel="stylesheet" type="text/css"/>
+	<link href="/Public/Admin/media/css/default.css" rel="stylesheet" type="text/css" id="style_color"/>
+	<link href="/Public/Admin/media/css/uniform.default.css" rel="stylesheet" type="text/css"/>
 	<!-- END GLOBAL MANDATORY STYLES -->
 	<!-- BEGIN PAGE LEVEL STYLES -->
-	<link rel="stylesheet" href="/phpcms/Public/static/common.css" />
+	<link rel="stylesheet" href="/Public/static/common.css" />
 	<!-- END PAGE LEVEL STYLES -->
-	<link rel="shortcut icon" href="/phpcms/Public/Admin/media/image/favicon.ico" />
+	<link rel="shortcut icon" href="/Public/Admin/media/image/favicon.ico" />
     <!--BEGIN JQUERY -->
-    <script src="/phpcms/Public/Admin/media/js/jquery-1.10.1.min.js" type="text/javascript"></script>
+    <script src="/Public/Admin/media/js/jquery-1.10.1.min.js" type="text/javascript"></script>
     <!--END JQUERY  -->
 	<script type="text/javascript">
-		$self='/phpcms/Index/index';
-		$url='/phpcms/Admin/Index';
+		$self='/Index/index';
+		$url='/Admin/Index';
 		$module ='<?php echo (MODULE_NAME); ?>';
 		$controller ='<?php echo (CONTROLLER_NAME); ?>';
 		$action = '<?php echo (ACTION_NAME); ?>';
@@ -39,13 +39,13 @@
 			<div class="container-fluid">
 				<!-- BEGIN LOGO -->
 				<a class="brand" href="index.html">
-				<img src="/phpcms/Public/Admin/media/image/logo.png" alt="logo"/>
+				<img src="/Public/Admin/media/image/logo.png" alt="logo"/>
 				</a>
 				<!-- END LOGO -->
 				
 				<!-- BEGIN RESPONSIVE MENU TOGGLER -->
 				<a href="javascript:;" class="btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
-					<img src="/phpcms/Public/Admin/media/image/menu-toggler.png" alt="" />
+					<img src="/Public/Admin/media/image/menu-toggler.png" alt="" />
 				</a>          
 				<!-- END RESPONSIVE MENU TOGGLER -->            
 
@@ -86,7 +86,7 @@
 							</li>
 							<li>
 								<a href="inbox.html?a=view">
-								<span class="photo"><img src="/phpcms/Public/Admin/media/image/avatar2.jpg" alt="" /></span>
+								<span class="photo"><img src="/Public/Admin/media/image/avatar2.jpg" alt="" /></span>
 								<span class="subject">
 									<span class="from">Lisa Wong</span>
 									<span class="time">Just Now</span>
@@ -201,7 +201,7 @@
 					<!-- BEGIN USER LOGIN DROPDOWN -->
 					<li class="dropdown user">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-						<img alt="" src="/phpcms/Public/Admin/media/image/avatar1_small.jpg" />
+						<img alt="" src="/Public/Admin/media/image/avatar1_small.jpg" />
 						<span class="username"><?php echo ((isset($user["username"]) && ($user["username"] !== ""))?($user["username"]):'魏巍'); ?></span>
 						<i class="icon-angle-down"></i>
 						</a>
@@ -245,7 +245,7 @@
 			</form>
 			<!-- END RESPONSIVE QUICK SEARCH FORM -->
 		</li>
-		<li class="<?php if(($control) == "Index"): ?>start active<?php endif; ?>">
+		<li class="<?php if(($control) == "index"): ?>start active<?php endif; ?>">
 			<a href="<?php echo U('Index/index');?>">
 				<i class="icon-home"></i> 
 				<span class="title">Dashboard</span>
@@ -254,8 +254,6 @@
 		</li>				
 		<?php if(is_array($nav)): $i = 0; $__LIST__ = $nav;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$volt): $mod = ($i % 2 );++$i;?><li class="nav">
 				<a href="javascript:;">
-					<!--<i class="icon-folder-open"></i> -->
-					<!--<span class="title"><?php echo ($volt["name"]); ?></span>-->
                     <?php if(!empty($volt["ico"])): ?><i class="<?php echo ($volt["ico"]); ?>"></i>
                         <?php else: ?>
                         <i class="icon-folder-open"></i><?php endif; ?>
@@ -285,8 +283,8 @@
 										</li>
 									</ul>
 									<?php else: ?>
-									<li  class="nav-item">
-										<a href="<?php echo ($rd); ?>/<?php echo ($volt["title"]); ?>/<?php echo ($volt1["title"]); ?>">
+									<li  class="nav-item <?php if(volt.title == control and volt1.title == action): ?>active<?php endif; ?> ">
+										<a href="<?php echo ($rd); ?>/<?php echo (strtolower($volt["title"])); ?>/<?php echo (strtolower($volt1["title"])); ?>">
 											<?php if(!empty($volt1["ico"])): ?><i class="<?php echo ($volt1["ico"]); ?>"></i>
 												<?php else: ?>
 												<i class="icon-folder-open"></i><?php endif; ?>
@@ -296,7 +294,7 @@
 						</ul>
 					<?php else: ?>
 						<li  class="nav">
-							<a href="<?php echo ($uri); ?>/<?php echo ($volt["title"]); ?>">
+							<a href="<?php echo ($uri); ?>/<?php echo (strtolower($volt["title"])); ?>">
 								<?php if(!empty($volt["ico"])): ?><i class="<?php echo ($volt["ico"]); ?>"></i>
 									<?php else: ?>
 									<i class="icon-folder-open"></i><?php endif; ?>
@@ -547,21 +545,21 @@
 	<!-- END FOOTER -->
 	<!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
 	<!-- BEGIN CORE PLUGINS -->
-	<script src="/phpcms/Public/Admin/media/js/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+	<script src="/Public/Admin/media/js/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
 	<!-- IMPORTANT! Load jquery-ui-1.10.1.custom.min.js before bootstrap.min.js to fix bootstrap tooltip conflict with jquery ui tooltip -->
-	<script src="/phpcms/Public/Admin/media/js/jquery-ui-1.10.1.custom.min.js" type="text/javascript"></script>      
-	<script src="/phpcms/Public/Admin/media/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="/Public/Admin/media/js/jquery-ui-1.10.1.custom.min.js" type="text/javascript"></script>      
+	<script src="/Public/Admin/media/js/bootstrap.min.js" type="text/javascript"></script>
     <!--[if lt IE 9]>
-    <script src="/phpcms/Public/Admin/media/js/excanvas.min.js"></script>
-    <script src="/phpcms/Public/Admin/media/js/respond.min.js"></script>
+    <script src="/Public/Admin/media/js/excanvas.min.js"></script>
+    <script src="/Public/Admin/media/js/respond.min.js"></script>
     <![endif]-->
-    <script src="/phpcms/Public/Admin/media/js/jquery.slimscroll.min.js" type="text/javascript"></script>
-    <script src="/phpcms/Public/Admin/media/js/jquery.blockui.min.js" type="text/javascript"></script>
-    <script src="/phpcms/Public/Admin/media/js/jquery.cookie.min.js" type="text/javascript"></script>
-    <script src="/phpcms/Public/Admin/media/js/jquery.uniform.min.js" type="text/javascript" ></script>
+    <script src="/Public/Admin/media/js/jquery.slimscroll.min.js" type="text/javascript"></script>
+    <script src="/Public/Admin/media/js/jquery.blockui.min.js" type="text/javascript"></script>
+    <script src="/Public/Admin/media/js/jquery.cookie.min.js" type="text/javascript"></script>
+    <script src="/Public/Admin/media/js/jquery.uniform.min.js" type="text/javascript" ></script>
     <!-- END CORE PLUGINS -->
     <!-- BEGIN PAGE LEVEL SCRIPTS -->
-	<script src="/phpcms/Public/Admin/media/js/app.js" type="text/javascript"></script>
+	<script src="/Public/Admin/media/js/app.js" type="text/javascript"></script>
 	<!-- END PAGE LEVEL SCRIPTS -->
 
 	<script type="text/javascript">
@@ -570,6 +568,7 @@
 			$u = window.location.pathname;
 			$u = $u.replace('<?php echo ($rd); ?>/','').split('/');
 			$r = $controller+"/"+$action;
+            $r = $r.toLowerCase();
             //更改高亮地址
             if($action=='add' || $action=='del' || $action=='edit' || $action=='check'|| $action=='search'){
                 $r = $controller+"/index";
@@ -604,7 +603,7 @@
             $('#change-lang li').click(function(e){
                 e.preventDefault();
                 $uri = $(this).children('a').attr('href');
-                $.post('/phpcms/Index/index',{l:$uri},function(d){
+                $.post('/Index/index',{l:$uri},function(d){
                     window.location.reload();
                 });
             });

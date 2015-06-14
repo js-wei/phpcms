@@ -26,8 +26,8 @@ class BaseController extends Controller {
 		$this->nav_column=$this->get_column();
         //控制器
         $this->rd = $rd =__ROOT__.'/'.MODULE_NAME ;
-        $this->control=$control=CONTROLLER_NAME;
-        $this->action=$action=ACTION_NAME;
+        $this->control=$control=strtolower(CONTROLLER_NAME);
+        $this->action=$action=strtolower(ACTION_NAME);
         //当前位置
         $this->breadcrumb=$this->_breadcrumb($control,$action);
         //系统信息

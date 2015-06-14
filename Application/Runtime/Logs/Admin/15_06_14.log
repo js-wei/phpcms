@@ -1,0 +1,1889 @@
+[ 2015-06-14T01:30:26+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000794s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003188s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.086093s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.089573s ]
+
+[ 2015-06-14T01:30:26+08:00 ] 127.0.0.1 /Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000934s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002917s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000214s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000336s ]
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\32ec6c906c117a7c2bf504769276d87a.php 第 91 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080835s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080974s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001174s ]
+
+[ 2015-06-14T01:30:27+08:00 ] 127.0.0.1 /Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002358s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001190s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001368s ]
+
+[ 2015-06-14T01:30:38+08:00 ] 127.0.0.1 /Admin/Login/verify?id0.6939948152285069
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001219s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002269s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001596s ]
+
+[ 2015-06-14T01:30:57+08:00 ] 127.0.0.1 /Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002720s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037832s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000615s ]
+
+[ 2015-06-14T01:31:12+08:00 ] 127.0.0.1 /Admin/Login/verify?id0.3602387916762382
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003282s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001450s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006306s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001227s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001371s ]
+
+[ 2015-06-14T01:31:13+08:00 ] 127.0.0.1 /Admin/Login/verify?id0.48133954335935414
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001108s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001527s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.009371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011208s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001584s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001737s ]
+
+[ 2015-06-14T01:31:28+08:00 ] 127.0.0.1 /Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004393s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009883s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019035s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019207s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001010s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001131s ]
+
+[ 2015-06-14T01:31:59+08:00 ] 127.0.0.1 /Admin/Login/verify?id0.5981829653028399
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001718s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000950s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002895s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001220s ]
+
+[ 2015-06-14T01:32:13+08:00 ] 127.0.0.1 /Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000908s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002651s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.103161s ]
+SQL: SELECT * FROM `think_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.000579s ]
+NOTIC: [8] Use of undefined constant intval - assumed 'intval' G:\phpStudy\www\phpcms\Application\Admin\Controller\PublicController.class.php 第 33 行.
+NOTIC: [8] A session had already been started - ignoring session_start() G:\phpStudy\www\phpcms\ThinkPHP\Common\functions.php 第 1191 行.
+SQL: UPDATE `think_admin` SET `last_date`=1434216732,`last_ip`='127.0.0.1' WHERE `id` = 0 [ RunTime:0.085902s ]
+NOTIC: [8] Undefined index: logintime G:\phpStudy\www\phpcms\Application\Admin\Controller\PublicController.class.php 第 53 行.
+NOTIC: [8] Undefined index: loginip G:\phpStudy\www\phpcms\Application\Admin\Controller\PublicController.class.php 第 54 行.
+
+[ 2015-06-14T01:32:14+08:00 ] 127.0.0.1 /Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002328s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.038726s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 and lang="zh-cn" )  [ RunTime:0.001174s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 1 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000936s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 9 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.001595s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 13 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.001256s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 18 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.001147s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 23 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.001216s ]
+SQL: SHOW COLUMNS FROM `think_site_conf` [ RunTime:0.005460s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_site_conf`
+SQL: SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1   [ RunTime:0.000573s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.031555s ]
+SQL: SELECT * FROM `think_column` WHERE ( type=3 and lang="zh-cn" )  [ RunTime:0.001475s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.000668s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 60 行.
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-cn' AND `title` = 'index' LIMIT 1   [ RunTime:0.000602s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=2 and title="index" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000684s ]
+SQL: SELECT * FROM `think_model` WHERE ( title="index" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000822s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=2 and title="index" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000489s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.040274s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `column_id` = 3 AND `lang` = 'zh-cn' LIMIT 1   [ RunTime:0.103008s ]
+SQL: SELECT * FROM `think_article` WHERE `column_id` = 3 AND `lang` = 'zh-cn' ORDER BY create_time desc,id desc LIMIT 0,1   [ RunTime:0.000567s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_column` WHERE ( fid=0 ) LIMIT 1   [ RunTime:0.000306s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000713s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000930s ]
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 5 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 537 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080225s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080340s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000931s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001049s ]
+
+[ 2015-06-14T01:32:21+08:00 ] 127.0.0.1 /Admin/database/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001219s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002982s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.005896s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 and lang="zh-cn" )  [ RunTime:0.001862s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 1 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.001241s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 9 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000905s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 13 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000845s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 18 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000827s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 23 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000849s ]
+SQL: SHOW COLUMNS FROM `think_site_conf` [ RunTime:0.070050s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_site_conf`
+SQL: SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1   [ RunTime:0.000495s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.006666s ]
+SQL: SELECT * FROM `think_column` WHERE ( type=3 and lang="zh-cn" )  [ RunTime:0.000722s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.000469s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 60 行.
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-cn' AND `title` = 'database' LIMIT 1   [ RunTime:0.000737s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=18 and title="index" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000646s ]
+SQL: SELECT * FROM `think_model` WHERE ( title="database" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000506s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=18 and title="index" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000457s ]
+SQL: SHOW TABLE STATUS [ RunTime:0.772091s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000793s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000917s ]
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 5 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] Undefined variable: page G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 413 行.
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 553 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042543s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042668s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002176s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002364s ]
+
+[ 2015-06-14T01:32:28+08:00 ] 127.0.0.1 /Database/backup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000867s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001231s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003698s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.006999s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 and lang="zh-cn" )  [ RunTime:0.041283s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 1 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000821s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 9 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000982s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 13 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.001543s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 18 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000882s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 23 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000810s ]
+SQL: SHOW COLUMNS FROM `think_site_conf` [ RunTime:0.004444s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_site_conf`
+SQL: SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1   [ RunTime:0.000832s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.005416s ]
+SQL: SELECT * FROM `think_column` WHERE ( type=3 and lang="zh-cn" )  [ RunTime:0.000676s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.000693s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 60 行.
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-cn' AND `title` = 'database' LIMIT 1   [ RunTime:0.000989s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=18 and title="backup" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.001619s ]
+SQL: SELECT * FROM `think_model` WHERE ( title="database" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000575s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=18 and title="backup" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.001025s ]
+ERR: 非法操作:backup
+
+[ 2015-06-14T01:32:33+08:00 ] 127.0.0.1 /Admin/database/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000971s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003213s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.005271s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 and lang="zh-cn" )  [ RunTime:0.001220s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 1 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000908s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 9 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000946s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 13 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000867s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 18 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000961s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 23 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.001141s ]
+SQL: SHOW COLUMNS FROM `think_site_conf` [ RunTime:0.004996s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_site_conf`
+SQL: SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1   [ RunTime:0.000792s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.017895s ]
+SQL: SELECT * FROM `think_column` WHERE ( type=3 and lang="zh-cn" )  [ RunTime:0.001068s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.002651s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 60 行.
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-cn' AND `title` = 'database' LIMIT 1   [ RunTime:0.000908s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=18 and title="index" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000524s ]
+SQL: SELECT * FROM `think_model` WHERE ( title="database" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000450s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=18 and title="index" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000467s ]
+SQL: SHOW TABLE STATUS [ RunTime:0.003485s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000633s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000766s ]
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 5 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] Undefined variable: page G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 413 行.
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 553 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044354s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044468s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000815s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008592s ]
+
+[ 2015-06-14T01:32:41+08:00 ] 127.0.0.1 /Admin/Database/optimize
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001213s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004094s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.005134s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 and lang="zh-cn" )  [ RunTime:0.000731s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 1 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000563s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 9 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000531s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 13 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000575s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 18 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000524s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 23 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000542s ]
+SQL: SHOW COLUMNS FROM `think_site_conf` [ RunTime:0.005519s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_site_conf`
+SQL: SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1   [ RunTime:0.000668s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.006366s ]
+SQL: SELECT * FROM `think_column` WHERE ( type=3 and lang="zh-cn" )  [ RunTime:0.000641s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.000469s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 60 行.
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-cn' AND `title` = 'database' LIMIT 1   [ RunTime:0.000542s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=18 and title="optimize" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000569s ]
+SQL: SELECT * FROM `think_model` WHERE ( title="database" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000924s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=18 and title="optimize" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.002228s ]
+SQL: OPTIMIZE TABLE `think_ad,think_address,think_admin,think_article,think_asking,think_banner,think_column,think_config,think_dirty_words,think_express,think_file,think_flink,think_idcard,think_member,think_message,think_model,think_order,think_orderlist,think_safe,think_send,think_service,think_track` [ RunTime:0.036128s ]
+ERR: 1103:Incorrect table name 'think_ad,think_address,think_admin,think_article,think_asking,think_banner,think_column,think_config'
+ [ SQL语句 ] : OPTIMIZE TABLE `think_ad,think_address,think_admin,think_article,think_asking,think_banner,think_column,think_config,think_dirty_words,think_express,think_file,think_flink,think_idcard,think_member,think_message,think_model,think_order,think_orderlist,think_safe,think_send,think_service,think_track`
+
+[ 2015-06-14T01:33:43+08:00 ] 127.0.0.1 /Admin/Database/optimize
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004750s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.004729s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 and lang="zh-cn" )  [ RunTime:0.000666s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 1 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000557s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 9 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000693s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 13 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.001051s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 18 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000672s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 23 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000620s ]
+SQL: SHOW COLUMNS FROM `think_site_conf` [ RunTime:0.005050s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_site_conf`
+SQL: SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1   [ RunTime:0.000673s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.005664s ]
+SQL: SELECT * FROM `think_column` WHERE ( type=3 and lang="zh-cn" )  [ RunTime:0.000492s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.000400s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 60 行.
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-cn' AND `title` = 'database' LIMIT 1   [ RunTime:0.000497s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=18 and title="optimize" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000354s ]
+SQL: SELECT * FROM `think_model` WHERE ( title="database" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000398s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=18 and title="optimize" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000739s ]
+SQL: OPTIMIZE TABLE `think_ad,think_address,think_admin,think_article,think_asking,think_banner,think_column,think_config,think_dirty_words,think_express,think_file,think_flink,think_idcard,think_member,think_message,think_model,think_order,think_orderlist,think_safe,think_send,think_service,think_track` [ RunTime:0.000316s ]
+ERR: 1103:Incorrect table name 'think_ad,think_address,think_admin,think_article,think_asking,think_banner,think_column,think_config'
+ [ SQL语句 ] : OPTIMIZE TABLE `think_ad,think_address,think_admin,think_article,think_asking,think_banner,think_column,think_config,think_dirty_words,think_express,think_file,think_flink,think_idcard,think_member,think_message,think_model,think_order,think_orderlist,think_safe,think_send,think_service,think_track`
+
+[ 2015-06-14T01:35:25+08:00 ] 127.0.0.1 /Admin/Database/optimize
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001507s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003561s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.006131s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 and lang="zh-cn" )  [ RunTime:0.000857s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 1 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.001805s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 9 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.001860s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 13 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000912s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 18 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000643s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 23 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000611s ]
+SQL: SHOW COLUMNS FROM `think_site_conf` [ RunTime:0.004357s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_site_conf`
+SQL: SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1   [ RunTime:0.000996s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.006077s ]
+SQL: SELECT * FROM `think_column` WHERE ( type=3 and lang="zh-cn" )  [ RunTime:0.000449s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.000841s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 60 行.
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-cn' AND `title` = 'database' LIMIT 1   [ RunTime:0.001627s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=18 and title="optimize" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000553s ]
+SQL: SELECT * FROM `think_model` WHERE ( title="database" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000455s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=18 and title="optimize" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000381s ]
+SQL: OPTIMIZE TABLE `think_ad,think_address,think_admin,think_article,think_asking,think_banner,think_column,think_config,think_dirty_words,think_express,think_file,think_flink,think_idcard,think_member,think_message,think_model,think_order,think_orderlist,think_safe,think_send,think_service,think_track` [ RunTime:0.000267s ]
+ERR: 1103:Incorrect table name 'think_ad,think_address,think_admin,think_article,think_asking,think_banner,think_column,think_config'
+ [ SQL语句 ] : OPTIMIZE TABLE `think_ad,think_address,think_admin,think_article,think_asking,think_banner,think_column,think_config,think_dirty_words,think_express,think_file,think_flink,think_idcard,think_member,think_message,think_model,think_order,think_orderlist,think_safe,think_send,think_service,think_track`
+
+[ 2015-06-14T01:35:40+08:00 ] 127.0.0.1 /Admin/Database/optimize
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002182s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.005488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007884s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.007075s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 and lang="zh-cn" )  [ RunTime:0.002222s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 1 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.002533s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 9 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.001899s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 13 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000818s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 18 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.001085s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 23 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.001125s ]
+SQL: SHOW COLUMNS FROM `think_site_conf` [ RunTime:0.004210s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_site_conf`
+SQL: SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1   [ RunTime:0.000489s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.005717s ]
+SQL: SELECT * FROM `think_column` WHERE ( type=3 and lang="zh-cn" )  [ RunTime:0.000794s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.000412s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 60 行.
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-cn' AND `title` = 'database' LIMIT 1   [ RunTime:0.000524s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=18 and title="optimize" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000468s ]
+SQL: SELECT * FROM `think_model` WHERE ( title="database" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000774s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=18 and title="optimize" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000813s ]
+SQL: OPTIMIZE TABLE `think_ad,think_address,think_admin,think_article,think_asking,think_banner,think_column,think_config,think_dirty_words,think_express,think_file,think_flink,think_idcard,think_member,think_message,think_model,think_order,think_orderlist,think_safe,think_send,think_service,think_track` [ RunTime:0.000478s ]
+ERR: 1103:Incorrect table name 'think_ad,think_address,think_admin,think_article,think_asking,think_banner,think_column,think_config'
+ [ SQL语句 ] : OPTIMIZE TABLE `think_ad,think_address,think_admin,think_article,think_asking,think_banner,think_column,think_config,think_dirty_words,think_express,think_file,think_flink,think_idcard,think_member,think_message,think_model,think_order,think_orderlist,think_safe,think_send,think_service,think_track`
+
+[ 2015-06-14T01:37:08+08:00 ] 127.0.0.1 /Admin/Database/optimize
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004412s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001116s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003155s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.006118s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 and lang="zh-cn" )  [ RunTime:0.000961s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 1 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000844s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 9 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000763s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 13 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000685s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 18 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000529s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 23 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.001917s ]
+SQL: SHOW COLUMNS FROM `think_site_conf` [ RunTime:0.008480s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_site_conf`
+SQL: SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1   [ RunTime:0.000770s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.006326s ]
+SQL: SELECT * FROM `think_column` WHERE ( type=3 and lang="zh-cn" )  [ RunTime:0.000567s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.000947s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 60 行.
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-cn' AND `title` = 'database' LIMIT 1   [ RunTime:0.000552s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=18 and title="optimize" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000540s ]
+SQL: SELECT * FROM `think_model` WHERE ( title="database" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000475s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=18 and title="optimize" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000370s ]
+
+[ 2015-06-14T01:37:43+08:00 ] 127.0.0.1 /Admin/Database/optimize
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002454s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001191s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004054s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.005850s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 and lang="zh-cn" )  [ RunTime:0.000753s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 1 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000767s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 9 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.001037s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 13 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.001834s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 18 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000709s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 23 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.001022s ]
+SQL: SHOW COLUMNS FROM `think_site_conf` [ RunTime:0.006969s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_site_conf`
+SQL: SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1   [ RunTime:0.003799s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.005919s ]
+SQL: SELECT * FROM `think_column` WHERE ( type=3 and lang="zh-cn" )  [ RunTime:0.000515s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.000429s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 60 行.
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-cn' AND `title` = 'database' LIMIT 1   [ RunTime:0.000703s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=18 and title="optimize" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000478s ]
+SQL: SELECT * FROM `think_model` WHERE ( title="database" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000584s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=18 and title="optimize" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000732s ]
+
+[ 2015-06-14T01:38:06+08:00 ] 127.0.0.1 /Admin/Database/optimize
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001447s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003055s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.005209s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 and lang="zh-cn" )  [ RunTime:0.002590s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 1 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.002385s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 9 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000833s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 13 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.001199s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 18 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000693s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 23 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.001160s ]
+SQL: SHOW COLUMNS FROM `think_site_conf` [ RunTime:0.004776s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_site_conf`
+SQL: SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1   [ RunTime:0.002611s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.007092s ]
+SQL: SELECT * FROM `think_column` WHERE ( type=3 and lang="zh-cn" )  [ RunTime:0.000490s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.000446s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 60 行.
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-cn' AND `title` = 'database' LIMIT 1   [ RunTime:0.000525s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=18 and title="optimize" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000456s ]
+SQL: SELECT * FROM `think_model` WHERE ( title="database" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000450s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=18 and title="optimize" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000370s ]
+SQL: OPTIMIZE TABLE `think_ad,think_address,think_admin,think_article,think_asking,think_banner,think_column,think_config,think_dirty_words,think_express,think_file,think_flink,think_idcard,think_member,think_message,think_model,think_order,think_orderlist,think_safe,think_send,think_service,think_track` [ RunTime:0.000164s ]
+ERR: 1103:Incorrect table name 'think_ad,think_address,think_admin,think_article,think_asking,think_banner,think_column,think_config'
+ [ SQL语句 ] : OPTIMIZE TABLE `think_ad,think_address,think_admin,think_article,think_asking,think_banner,think_column,think_config,think_dirty_words,think_express,think_file,think_flink,think_idcard,think_member,think_message,think_model,think_order,think_orderlist,think_safe,think_send,think_service,think_track`
+
+[ 2015-06-14T01:38:34+08:00 ] 127.0.0.1 /Admin/Database/optimize
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002061s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.005406s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 and lang="zh-cn" )  [ RunTime:0.000866s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 1 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000585s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 9 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000519s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 13 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000562s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 18 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000554s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 23 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000574s ]
+SQL: SHOW COLUMNS FROM `think_site_conf` [ RunTime:0.006370s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_site_conf`
+SQL: SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1   [ RunTime:0.000620s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.005927s ]
+SQL: SELECT * FROM `think_column` WHERE ( type=3 and lang="zh-cn" )  [ RunTime:0.000412s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.000585s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 60 行.
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-cn' AND `title` = 'database' LIMIT 1   [ RunTime:0.000865s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=18 and title="optimize" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000736s ]
+SQL: SELECT * FROM `think_model` WHERE ( title="database" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000630s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=18 and title="optimize" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000544s ]
+SQL: OPTIMIZE TABLE `think_ad,think_address,think_admin,think_article,think_asking,think_banner,think_column,think_config,think_dirty_words,think_express,think_file,think_flink,think_idcard,think_member,think_message,think_model,think_order,think_orderlist,think_safe,think_send,think_service,think_track` [ RunTime:0.000214s ]
+ERR: 1103:Incorrect table name 'think_ad,think_address,think_admin,think_article,think_asking,think_banner,think_column,think_config'
+ [ SQL语句 ] : OPTIMIZE TABLE `think_ad,think_address,think_admin,think_article,think_asking,think_banner,think_column,think_config,think_dirty_words,think_express,think_file,think_flink,think_idcard,think_member,think_message,think_model,think_order,think_orderlist,think_safe,think_send,think_service,think_track`
+
+[ 2015-06-14T01:49:14+08:00 ] 127.0.0.1 /Admin/Database/optimize?table=think_ad
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002893s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006633s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.006552s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 and lang="zh-cn" )  [ RunTime:0.002139s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 1 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000957s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 9 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.001158s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 13 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.001028s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 18 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000727s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 23 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000806s ]
+SQL: SHOW COLUMNS FROM `think_site_conf` [ RunTime:0.019065s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_site_conf`
+SQL: SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1   [ RunTime:0.001943s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.007436s ]
+SQL: SELECT * FROM `think_column` WHERE ( type=3 and lang="zh-cn" )  [ RunTime:0.000465s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.000641s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 60 行.
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-cn' AND `title` = 'database' LIMIT 1   [ RunTime:0.000823s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=18 and title="optimize" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000829s ]
+SQL: SELECT * FROM `think_model` WHERE ( title="database" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000886s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=18 and title="optimize" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000486s ]
+SQL: OPTIMIZE TABLE `think_ad` [ RunTime:0.035401s ]
+
+[ 2015-06-14T01:49:38+08:00 ] 127.0.0.1 /Admin/Database/optimize?table=think_ad
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002708s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006165s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.048440s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 and lang="zh-cn" )  [ RunTime:0.000966s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 1 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000777s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 9 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000870s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 13 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000735s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 18 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000636s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 23 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000603s ]
+SQL: SHOW COLUMNS FROM `think_site_conf` [ RunTime:0.004631s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_site_conf`
+SQL: SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1   [ RunTime:0.000520s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.005964s ]
+SQL: SELECT * FROM `think_column` WHERE ( type=3 and lang="zh-cn" )  [ RunTime:0.000459s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.000432s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 60 行.
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-cn' AND `title` = 'database' LIMIT 1   [ RunTime:0.002652s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=18 and title="optimize" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000660s ]
+SQL: SELECT * FROM `think_model` WHERE ( title="database" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000601s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=18 and title="optimize" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000448s ]
+SQL: OPTIMIZE TABLE `think_ad` [ RunTime:0.001971s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000291s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011546s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011690s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000931s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001242s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001375s ]
+
+[ 2015-06-14T01:49:40+08:00 ] 127.0.0.1 /Admin/database/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001243s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004641s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.007608s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 and lang="zh-cn" )  [ RunTime:0.000854s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 1 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.001073s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 9 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000743s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 13 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000870s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 18 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000856s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 23 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000964s ]
+SQL: SHOW COLUMNS FROM `think_site_conf` [ RunTime:0.005098s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_site_conf`
+SQL: SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1   [ RunTime:0.000782s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.006082s ]
+SQL: SELECT * FROM `think_column` WHERE ( type=3 and lang="zh-cn" )  [ RunTime:0.000830s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.000540s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 60 行.
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-cn' AND `title` = 'database' LIMIT 1   [ RunTime:0.001035s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=18 and title="index" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000602s ]
+SQL: SELECT * FROM `think_model` WHERE ( title="database" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000517s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=18 and title="index" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000502s ]
+SQL: SHOW TABLE STATUS [ RunTime:0.062920s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000842s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001011s ]
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 5 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] Undefined variable: page G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 413 行.
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 553 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057828s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057961s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000888s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001707s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001871s ]
+
+[ 2015-06-14T01:49:43+08:00 ] 127.0.0.1 /Admin/Database/repair?table=think_ad
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000958s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001325s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004888s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.005687s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 and lang="zh-cn" )  [ RunTime:0.000877s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 1 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000762s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 9 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000658s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 13 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.001154s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 18 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.001393s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 23 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000785s ]
+SQL: SHOW COLUMNS FROM `think_site_conf` [ RunTime:0.005392s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_site_conf`
+SQL: SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1   [ RunTime:0.000804s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.005829s ]
+SQL: SELECT * FROM `think_column` WHERE ( type=3 and lang="zh-cn" )  [ RunTime:0.000699s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.000621s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 60 行.
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-cn' AND `title` = 'database' LIMIT 1   [ RunTime:0.000656s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=18 and title="repair" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000781s ]
+SQL: SELECT * FROM `think_model` WHERE ( title="database" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000572s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=18 and title="repair" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000613s ]
+SQL: REPAIR TABLE `think_ad` [ RunTime:0.129444s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009609s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009737s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001371s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001488s ]
+
+[ 2015-06-14T01:49:46+08:00 ] 127.0.0.1 /Admin/database/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001056s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001200s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004825s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.004894s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 and lang="zh-cn" )  [ RunTime:0.001042s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 1 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.001086s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 9 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000784s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 13 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.001333s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 18 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000961s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 23 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000830s ]
+SQL: SHOW COLUMNS FROM `think_site_conf` [ RunTime:0.004108s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_site_conf`
+SQL: SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1   [ RunTime:0.000727s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.006397s ]
+SQL: SELECT * FROM `think_column` WHERE ( type=3 and lang="zh-cn" )  [ RunTime:0.000420s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.000318s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 60 行.
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-cn' AND `title` = 'database' LIMIT 1   [ RunTime:0.000573s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=18 and title="index" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000418s ]
+SQL: SELECT * FROM `think_model` WHERE ( title="database" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000406s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=18 and title="index" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000337s ]
+SQL: SHOW TABLE STATUS [ RunTime:0.027084s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000640s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000755s ]
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 5 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] Undefined variable: page G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 413 行.
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 553 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037639s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037899s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000948s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002856s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003025s ]
+
+[ 2015-06-14T14:50:35+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.031559s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001592s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.049437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.051264s ]
+
+[ 2015-06-14T14:50:36+08:00 ] 127.0.0.1 /Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000881s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002429s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000223s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000352s ]
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\32ec6c906c117a7c2bf504769276d87a.php 第 91 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.123456s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.123605s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.023256s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.023381s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007128s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007245s ]
+
+[ 2015-06-14T14:50:36+08:00 ] 127.0.0.1 /Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000997s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001379s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004715s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001555s ]
+
+[ 2015-06-14T14:50:56+08:00 ] 127.0.0.1 /Admin/Login/verify?id0.1996306178625673
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001859s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001560s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003548s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001337s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001546s ]
+
+[ 2015-06-14T14:50:58+08:00 ] 127.0.0.1 /Admin/Login/verify?id0.5963712413795292
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001147s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002747s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001994s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002223s ]
+
+[ 2015-06-14T14:51:00+08:00 ] 127.0.0.1 /Admin/Login/verify?id0.32828034297563136
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000748s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.005392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006618s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002276s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002427s ]
+
+[ 2015-06-14T14:51:12+08:00 ] 127.0.0.1 /Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001116s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.024586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025752s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.093470s ]
+SQL: SELECT * FROM `think_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.012554s ]
+NOTIC: [8] Use of undefined constant intval - assumed 'intval' G:\phpStudy\www\phpcms\Application\Admin\Controller\PublicController.class.php 第 33 行.
+NOTIC: [8] A session had already been started - ignoring session_start() G:\phpStudy\www\phpcms\ThinkPHP\Common\functions.php 第 1191 行.
+SQL: UPDATE `think_admin` SET `last_date`=1434264672,`last_ip`='127.0.0.1' WHERE `id` = 0 [ RunTime:0.001891s ]
+NOTIC: [8] Undefined index: logintime G:\phpStudy\www\phpcms\Application\Admin\Controller\PublicController.class.php 第 53 行.
+NOTIC: [8] Undefined index: loginip G:\phpStudy\www\phpcms\Application\Admin\Controller\PublicController.class.php 第 54 行.
+
+[ 2015-06-14T14:51:14+08:00 ] 127.0.0.1 /Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000791s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001081s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003724s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.051885s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 and lang="zh-cn" )  [ RunTime:0.019746s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 1 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.015361s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 9 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000902s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 13 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000755s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 18 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000692s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 23 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000861s ]
+SQL: SHOW COLUMNS FROM `think_site_conf` [ RunTime:0.005042s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_site_conf`
+SQL: SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1   [ RunTime:0.023119s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.046714s ]
+SQL: SELECT * FROM `think_column` WHERE ( type=3 and lang="zh-cn" )  [ RunTime:0.000444s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.000375s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 60 行.
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-cn' AND `title` = 'index' LIMIT 1   [ RunTime:0.000576s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=2 and title="index" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000358s ]
+SQL: SELECT * FROM `think_model` WHERE ( title="index" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.001299s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=2 and title="index" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000788s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.041036s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `column_id` = 3 AND `lang` = 'zh-cn' LIMIT 1   [ RunTime:0.009100s ]
+SQL: SELECT * FROM `think_article` WHERE `column_id` = 3 AND `lang` = 'zh-cn' ORDER BY create_time desc,id desc LIMIT 0,1   [ RunTime:0.000639s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_column` WHERE ( fid=0 ) LIMIT 1   [ RunTime:0.000382s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000608s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000728s ]
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 5 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 537 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.104151s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.104687s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000942s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001193s ]
+
+[ 2015-06-14T14:51:21+08:00 ] 127.0.0.1 /Admin/database/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000203s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001037s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000970s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.048350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.049534s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.007011s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 and lang="zh-cn" )  [ RunTime:0.000859s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 1 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000859s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 9 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000851s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 13 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000773s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 18 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000818s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 23 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000947s ]
+SQL: SHOW COLUMNS FROM `think_site_conf` [ RunTime:0.005463s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_site_conf`
+SQL: SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1   [ RunTime:0.000845s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.006221s ]
+SQL: SELECT * FROM `think_column` WHERE ( type=3 and lang="zh-cn" )  [ RunTime:0.000871s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.000490s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 60 行.
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-cn' AND `title` = 'database' LIMIT 1   [ RunTime:0.000589s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=18 and title="index" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000583s ]
+SQL: SELECT * FROM `think_model` WHERE ( title="database" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000522s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=18 and title="index" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.002063s ]
+SQL: SHOW TABLE STATUS [ RunTime:0.694251s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000588s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000699s ]
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 5 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] Undefined variable: page G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 413 行.
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 553 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041705s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000859s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001081s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001203s ]
+
+[ 2015-06-14T14:51:25+08:00 ] 127.0.0.1 /Admin/Database/optimize
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003013s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.005523s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 and lang="zh-cn" )  [ RunTime:0.000891s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 1 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.001749s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 9 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000965s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 13 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000804s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 18 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000727s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 23 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000647s ]
+SQL: SHOW COLUMNS FROM `think_site_conf` [ RunTime:0.004998s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_site_conf`
+SQL: SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1   [ RunTime:0.000480s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.005873s ]
+SQL: SELECT * FROM `think_column` WHERE ( type=3 and lang="zh-cn" )  [ RunTime:0.000500s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.000337s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 60 行.
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-cn' AND `title` = 'database' LIMIT 1   [ RunTime:0.000487s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=18 and title="optimize" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000344s ]
+SQL: SELECT * FROM `think_model` WHERE ( title="database" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000401s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=18 and title="optimize" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000338s ]
+SQL: OPTIMIZE TABLE `think_ad,think_address,think_admin,think_article,think_asking,think_banner,think_column,think_config,think_dirty_words,think_express,think_file,think_flink,think_idcard,think_member,think_message,think_model,think_order,think_orderlist,think_safe,think_send,think_service,think_track` [ RunTime:0.000331s ]
+ERR: 1103:Incorrect table name 'think_ad,think_address,think_admin,think_article,think_asking,think_banner,think_column,think_config'
+ [ SQL语句 ] : OPTIMIZE TABLE `think_ad,think_address,think_admin,think_article,think_asking,think_banner,think_column,think_config,think_dirty_words,think_express,think_file,think_flink,think_idcard,think_member,think_message,think_model,think_order,think_orderlist,think_safe,think_send,think_service,think_track`
+
+[ 2015-06-14T14:51:26+08:00 ] 127.0.0.1 /Admin/Database/optimize
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001442s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003537s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.005894s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 and lang="zh-cn" )  [ RunTime:0.001117s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 1 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000694s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 9 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000636s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 13 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000709s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 18 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000779s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 23 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000914s ]
+SQL: SHOW COLUMNS FROM `think_site_conf` [ RunTime:0.004678s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_site_conf`
+SQL: SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1   [ RunTime:0.000873s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.008050s ]
+SQL: SELECT * FROM `think_column` WHERE ( type=3 and lang="zh-cn" )  [ RunTime:0.000487s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.000493s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 60 行.
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-cn' AND `title` = 'database' LIMIT 1   [ RunTime:0.000717s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=18 and title="optimize" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.001833s ]
+SQL: SELECT * FROM `think_model` WHERE ( title="database" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.001370s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=18 and title="optimize" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000561s ]
+SQL: OPTIMIZE TABLE `think_ad,think_address,think_admin,think_article,think_asking,think_banner,think_column,think_config,think_dirty_words,think_express,think_file,think_flink,think_idcard,think_member,think_message,think_model,think_order,think_orderlist,think_safe,think_send,think_service,think_track` [ RunTime:0.000244s ]
+ERR: 1103:Incorrect table name 'think_ad,think_address,think_admin,think_article,think_asking,think_banner,think_column,think_config'
+ [ SQL语句 ] : OPTIMIZE TABLE `think_ad,think_address,think_admin,think_article,think_asking,think_banner,think_column,think_config,think_dirty_words,think_express,think_file,think_flink,think_idcard,think_member,think_message,think_model,think_order,think_orderlist,think_safe,think_send,think_service,think_track`
+
+[ 2015-06-14T14:51:27+08:00 ] 127.0.0.1 /Admin/database/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001691s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001439s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004340s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.005411s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 and lang="zh-cn" )  [ RunTime:0.000763s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 1 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.001027s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 9 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000754s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 13 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000820s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 18 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000993s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 23 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000872s ]
+SQL: SHOW COLUMNS FROM `think_site_conf` [ RunTime:0.004693s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_site_conf`
+SQL: SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1   [ RunTime:0.000776s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.005954s ]
+SQL: SELECT * FROM `think_column` WHERE ( type=3 and lang="zh-cn" )  [ RunTime:0.000478s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.000492s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 60 行.
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-cn' AND `title` = 'database' LIMIT 1   [ RunTime:0.000962s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=18 and title="index" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000397s ]
+SQL: SELECT * FROM `think_model` WHERE ( title="database" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000369s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=18 and title="index" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000320s ]
+SQL: SHOW TABLE STATUS [ RunTime:0.002676s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000604s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000732s ]
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 5 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] Undefined variable: page G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 413 行.
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 553 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039527s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039650s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001245s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000952s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001068s ]
+
+[ 2015-06-14T14:51:28+08:00 ] 127.0.0.1 /Admin/database/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000974s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.005632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006824s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.005678s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 and lang="zh-cn" )  [ RunTime:0.001020s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 1 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.001122s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 9 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000626s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 13 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000611s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 18 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000553s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 23 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000546s ]
+SQL: SHOW COLUMNS FROM `think_site_conf` [ RunTime:0.003960s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_site_conf`
+SQL: SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1   [ RunTime:0.000526s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.024599s ]
+SQL: SELECT * FROM `think_column` WHERE ( type=3 and lang="zh-cn" )  [ RunTime:0.000432s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.000340s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 60 行.
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-cn' AND `title` = 'database' LIMIT 1   [ RunTime:0.000492s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=18 and title="index" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000346s ]
+SQL: SELECT * FROM `think_model` WHERE ( title="database" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000379s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=18 and title="index" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000435s ]
+SQL: SHOW TABLE STATUS [ RunTime:0.002218s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000625s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000737s ]
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 5 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] Undefined variable: page G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 413 行.
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 553 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043094s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043221s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000853s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001731s ]
+
+[ 2015-06-14T14:52:33+08:00 ] 127.0.0.1 /Admin/Database/optimize
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001149s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001019s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004148s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.005419s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 and lang="zh-cn" )  [ RunTime:0.000866s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 1 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000674s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 9 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000645s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 13 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000580s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 18 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000811s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 23 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000874s ]
+SQL: SHOW COLUMNS FROM `think_site_conf` [ RunTime:0.005689s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_site_conf`
+SQL: SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1   [ RunTime:0.000697s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.005657s ]
+SQL: SELECT * FROM `think_column` WHERE ( type=3 and lang="zh-cn" )  [ RunTime:0.000761s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.000358s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 60 行.
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-cn' AND `title` = 'database' LIMIT 1   [ RunTime:0.000713s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=18 and title="optimize" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000489s ]
+SQL: SELECT * FROM `think_model` WHERE ( title="database" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000398s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=18 and title="optimize" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000353s ]
+SQL: OPTIMIZE TABLE `think_ad,think_address,think_admin,think_article,think_asking,think_banner,think_column,think_config,think_dirty_words,think_express,think_file,think_flink,think_idcard,think_member,think_message,think_model,think_order,think_orderlist,think_safe,think_send,think_service,think_track` [ RunTime:0.000156s ]
+ERR: 1103:Incorrect table name 'think_ad,think_address,think_admin,think_article,think_asking,think_banner,think_column,think_config'
+ [ SQL语句 ] : OPTIMIZE TABLE `think_ad,think_address,think_admin,think_article,think_asking,think_banner,think_column,think_config,think_dirty_words,think_express,think_file,think_flink,think_idcard,think_member,think_message,think_model,think_order,think_orderlist,think_safe,think_send,think_service,think_track`
+
+[ 2015-06-14T14:52:34+08:00 ] 127.0.0.1 /Admin/database/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001074s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003922s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.009278s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 and lang="zh-cn" )  [ RunTime:0.000731s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 1 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000621s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 9 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000640s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 13 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.001340s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 18 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000833s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 23 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000850s ]
+SQL: SHOW COLUMNS FROM `think_site_conf` [ RunTime:0.004820s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_site_conf`
+SQL: SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1   [ RunTime:0.000693s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.005795s ]
+SQL: SELECT * FROM `think_column` WHERE ( type=3 and lang="zh-cn" )  [ RunTime:0.000582s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.000587s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 60 行.
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-cn' AND `title` = 'database' LIMIT 1   [ RunTime:0.000644s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=18 and title="index" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000814s ]
+SQL: SELECT * FROM `think_model` WHERE ( title="database" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.001014s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=18 and title="index" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.001754s ]
+SQL: SHOW TABLE STATUS [ RunTime:0.003213s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000590s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000702s ]
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 5 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] Undefined variable: page G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 413 行.
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 553 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049032s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049142s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001520s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001649s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001874s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002136s ]
+
+[ 2015-06-14T14:54:07+08:00 ] 127.0.0.1 /Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001695s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005111s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.006236s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 and lang="zh-cn" )  [ RunTime:0.000939s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 1 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000771s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 9 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.001039s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 13 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.001214s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 18 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000861s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 23 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.001187s ]
+SQL: SHOW COLUMNS FROM `think_site_conf` [ RunTime:0.005741s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_site_conf`
+SQL: SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1   [ RunTime:0.000723s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.005954s ]
+SQL: SELECT * FROM `think_column` WHERE ( type=3 and lang="zh-cn" )  [ RunTime:0.000653s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.000712s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 60 行.
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-cn' AND `title` = 'index' LIMIT 1   [ RunTime:0.000633s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=2 and title="index" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000510s ]
+SQL: SELECT * FROM `think_model` WHERE ( title="index" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000636s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=2 and title="index" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000710s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.006171s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `column_id` = 3 AND `lang` = 'zh-cn' LIMIT 1   [ RunTime:0.000705s ]
+SQL: SELECT * FROM `think_article` WHERE `column_id` = 3 AND `lang` = 'zh-cn' ORDER BY create_time desc,id desc LIMIT 0,1   [ RunTime:0.001017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_column` WHERE ( fid=0 ) LIMIT 1   [ RunTime:0.000401s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000660s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000782s ]
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 5 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 286 行.
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 537 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041841s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041960s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000993s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001561s ]
+
+[ 2015-06-14T14:54:11+08:00 ] 127.0.0.1 /Admin/database/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001075s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001128s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004655s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.006728s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 and lang="zh-cn" )  [ RunTime:0.000847s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 1 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000857s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 9 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.001246s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 13 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000836s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 18 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000662s ]
+SQL: SELECT * FROM `think_model` WHERE `fid` = 23 AND `status` = 0 AND `show` = 0 ORDER BY sort asc  [ RunTime:0.000546s ]
+SQL: SHOW COLUMNS FROM `think_site_conf` [ RunTime:0.004594s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_site_conf`
+SQL: SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1   [ RunTime:0.000503s ]
+ERR: 1146:Table 'phpcms.think_site_conf' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_site_conf` WHERE ( lang=zh-cn ) ORDER BY id desc LIMIT 1  
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.005662s ]
+SQL: SELECT * FROM `think_column` WHERE ( type=3 and lang="zh-cn" )  [ RunTime:0.000486s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.000430s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\phpStudy\www\phpcms\Application\Tool\Category.class.php 第 60 行.
+SQL: SELECT * FROM `think_model` WHERE `lang` = 'zh-cn' AND `title` = 'database' LIMIT 1   [ RunTime:0.000717s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=18 and title="index" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000619s ]
+SQL: SELECT * FROM `think_model` WHERE ( title="database" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000649s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=18 and title="index" and lang="zh-cn" ) LIMIT 1   [ RunTime:0.000610s ]
+SQL: SHOW TABLE STATUS [ RunTime:0.002654s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000663s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000808s ]
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 5 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant volt - assumed 'volt' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] Use of undefined constant control - assumed 'control' G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 289 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] A non well formed numeric value encountered G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 400 行.
+NOTIC: [8] Undefined variable: page G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 413 行.
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\ccc7b197a1af74c5328156e7d3a8fe0b.php 第 553 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041737s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041856s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000799s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002184s ]
+
+[ 2015-06-14T15:18:05+08:00 ] 127.0.0.1 /Public/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001026s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002469s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004626s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000362s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045508s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000794s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001457s ]
+
+[ 2015-06-14T15:18:06+08:00 ] 127.0.0.1 /Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001031s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001055s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005333s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000214s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000337s ]
+NOTIC: [8] Undefined variable: config G:\phpStudy\www\phpcms\Application\Runtime\Cache\Admin\32ec6c906c117a7c2bf504769276d87a.php 第 91 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015455s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000982s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001527s ]
+
+[ 2015-06-14T15:18:07+08:00 ] 127.0.0.1 /Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' G:\phpStudy\www\phpcms\Application\Common\Conf\db.php 第 12 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001155s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003266s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001157s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001317s ]
+

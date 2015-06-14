@@ -10,99 +10,90 @@ use Think\Db;
 use COM\Database;
 
 class DatabaseController extends BaseController {
+
+    public function index(){
+        $Db    = Db::getInstance();
+        $list  = $Db->query('SHOW TABLE STATUS');
+        $this->list = $list  = array_map('array_change_key_case', $list);
+        $this->display();
+    }
+
     /**
      * 数据库备份/还原列表
      * @param String $type String import-还原，export-备份
      */
-    public function index($type = null){
-        switch ($type) {
-            /* 数据还原 */
-            case 'import':
-                //列出备份文件列表
-                $path = realpath(C('DATA_BACKUP_PATH'));
-                $flag = \FilesystemIterator::KEY_AS_FILENAME;
-                $glob = new \FilesystemIterator($path,  $flag);
+    public function export_sql(){
+        //列出备份文件列表
+        $path = realpath(C('data_backup'));
+        $flag = \FilesystemIterator::KEY_AS_FILENAME;
+        $glob = new \FilesystemIterator($path,$flag);
 
-                $list = array();
-                foreach ($glob as $name => $file) {
-                    if(preg_match('/^\d{8,8}-\d{6,6}-\d+\.sql(?:\.gz)?$/', $name)){
-                        $name = sscanf($name, '%4s%2s%2s-%2s%2s%2s-%d');
+        $list = array();
+        foreach ($glob as $name => $file) {
+            if(preg_match('/^\d{8,8}-\d{6,6}-\d+\.sql(?:\.gz)?$/', $name)){
+                $name = sscanf($name, '%4s%2s%2s-%2s%2s%2s-%d');
+                $date = "{$name[0]}-{$name[1]}-{$name[2]}";
+                $time = "{$name[3]}:{$name[4]}:{$name[5]}";
+                $part = $name[6];
 
-                        $date = "{$name[0]}-{$name[1]}-{$name[2]}";
-                        $time = "{$name[3]}:{$name[4]}:{$name[5]}";
-                        $part = $name[6];
-
-                        if(isset($list["{$date} {$time}"])){
-                            $info = $list["{$date} {$time}"];
-                            $info['part'] = max($info['part'], $part);
-                            $info['size'] = $info['size'] + $file->getSize();
-                        } else {
-                            $info['part'] = $part;
-                            $info['size'] = $file->getSize();
-                        }
-
-                        $extension        = strtoupper($file->getExtension());
-                        $info['compress'] = ($extension === 'SQL') ? '-' : $extension;
-                        $info['time']     = strtotime("{$date} {$time}");
-
-                        $list["{$date} {$time}"] = $info;
-                    }
+                if(isset($list["{$date} {$time}"])){
+                    $info = $list["{$date} {$time}"];
+                    $info['part'] = max($info['part'], $part);
+                    $info['size'] = $info['size'] + $file->getSize();
+                } else {
+                    $info['part'] = $part;
+                    $info['size'] = $file->getSize();
                 }
-                $title = '数据还原';
-                break;
+                $extension        = strtoupper($file->getExtension());
+                $info['compress'] = ($extension === 'SQL') ? '-' : $extension;
+                $info['time']     = strtotime("{$date} {$time}");
 
-            /* 数据备份 */
-            case 'export':
-                $Db    = Db::getInstance();
-                $list  = $Db->query('SHOW TABLE STATUS');
-                $list  = array_map('array_change_key_case', $list);
-                $title = '数据备份';
-                break;
-
-            default:
-                $this->error('参数错误！');
+                $list["{$date} {$time}"] = $info;
+            }
         }
+        $title = '数据还原';
 
+        //p($list);die;
         //渲染模板
         $this->assign('meta_title', $title);
         $this->assign('list', $list);
-        $this->display($type);
+        $this->display();
     }
 
     /**
      * 优化表
-     * @param String $tables  表名
      */
-    public function optimize($tables = null){
+    public function optimize(){
+        $tables=I('table');
+
         if($tables) {
             $Db   = Db::getInstance();
             if(is_array($tables)){
                 $tables = implode('`,`', $tables);
                 $list = $Db->query("OPTIMIZE TABLE `{$tables}`");
-
                 if($list){
-                    $this->success("数据表优化完成！");
+                    $this->success(L('optimize_success'));
                 } else {
-                    $this->error("数据表优化出错请重试！");
+                    $this->error(L('optimize_fail'));
                 }
             } else {
                 $list = $Db->query("OPTIMIZE TABLE `{$tables}`");
                 if($list){
-                    $this->success("数据表'{$tables}'优化完成！");
+                        $this->success(L('optimize_success'));
                 } else {
-                    $this->error("数据表'{$tables}'优化出错请重试！");
+                        $this->error(L('optimize_fail'));
                 }
             }
         } else {
-            $this->error("请指定要优化的表！");
+                $this->error(L('optimize_select'));
         }
     }
-
     /**
      * 修复表
-     * @param String $tables  表名
      */
-    public function repair($tables = null){
+    public function repair(){
+        $tables=I('table');
+
         if($tables) {
             $Db   = Db::getInstance();
             if(is_array($tables)){
@@ -110,20 +101,20 @@ class DatabaseController extends BaseController {
                 $list = $Db->query("REPAIR TABLE `{$tables}`");
 
                 if($list){
-                    $this->success("数据表修复完成！");
+                        $this->success(L('repair_success'));
                 } else {
-                    $this->error("数据表修复出错请重试！");
+                    $this->error(L('repair_fail'));
                 }
             } else {
                 $list = $Db->query("REPAIR TABLE `{$tables}`");
                 if($list){
-                    $this->success("数据表'{$tables}'修复完成！");
+                        $this->success(L('repair_success'));
                 } else {
-                    $this->error("数据表'{$tables}'修复出错请重试！");
+                        $this->error(L('repair_fail'));
                 }
             }
         } else {
-            $this->error("请指定要修复的表！");
+                $this->error(L('optimize_select'));
         }
     }
 

@@ -35,6 +35,7 @@
 			$u = window.location.pathname;
 			$u = $u.replace('{$rd}/','').split('/');
 			$r = $controller+"/"+$action;
+            $r = $r.toLowerCase();
             //更改高亮地址
             if($action=='add' || $action=='del' || $action=='edit' || $action=='check'|| $action=='search'){
                 $r = $controller+"/index";

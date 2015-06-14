@@ -1,4 +1,5 @@
 @CHARSET "UTF-8";
+.footer-tools{cursor:pointer;}
 .bg-red{background-color:red;}
 .bg-yellow{background-color:yellow;}
 .bg-pink{background-color:pink;}
@@ -25,6 +26,18 @@ ul>li.rows{height:30px;line-height:30px;margin-left:10px;float: left;border:none
 .line-height40{height:40px;line-height:40px;}
 .line-height50{height:50px;line-height:50px;}
 .line-height60{height:60px;line-height:60px;}
+
+.margin-left10{margin-left:10px;}
+.margin-left13{margin-left:13px;}
+.margin-left20{margin-left:20px;}
+.margin-left25{margin-left:25px;}
+.margin-left30{margin-left:30px;}
+.margin-left35{margin-left:35px;}
+.margin-left40{margin-left:45px;}
+.margin-left45{margin-left:45px;}
+.margin-left50{margin-left:50px;}
+
+
 #search-status{width:80px;float:left;}
 .search-key{float:left;}
 .search-time{float:left;}

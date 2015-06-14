@@ -10,19 +10,19 @@
 	<meta content="" name="description" />
 	<meta content="" name="author" />
 	<!-- BEGIN GLOBAL MANDATORY STYLES -->
-	<link href="/phpcms/Public/Admin/media/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-	<link href="/phpcms/Public/Admin/media/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
-	<link href="/phpcms/Public/Admin/media/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-	<link href="/phpcms/Public/Admin/media/css/style-metro.css" rel="stylesheet" type="text/css"/>
-	<link href="/phpcms/Public/Admin/media/css/style.css" rel="stylesheet" type="text/css"/>
-	<link href="/phpcms/Public/Admin/media/css/style-responsive.css" rel="stylesheet" type="text/css"/>
-	<link href="/phpcms/Public/Admin/media/css/default.css" rel="stylesheet" type="text/css" id="style_color"/>
-	<link href="/phpcms/Public/Admin/media/css/uniform.default.css" rel="stylesheet" type="text/css"/>
+	<link href="/Public/Admin/media/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+	<link href="/Public/Admin/media/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+	<link href="/Public/Admin/media/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+	<link href="/Public/Admin/media/css/style-metro.css" rel="stylesheet" type="text/css"/>
+	<link href="/Public/Admin/media/css/style.css" rel="stylesheet" type="text/css"/>
+	<link href="/Public/Admin/media/css/style-responsive.css" rel="stylesheet" type="text/css"/>
+	<link href="/Public/Admin/media/css/default.css" rel="stylesheet" type="text/css" id="style_color"/>
+	<link href="/Public/Admin/media/css/uniform.default.css" rel="stylesheet" type="text/css"/>
 	<!-- END GLOBAL MANDATORY STYLES -->
 	<!-- BEGIN PAGE LEVEL STYLES -->
-	<link href="/phpcms/Public/Admin/media/css/login.css" rel="stylesheet" type="text/css"/>
+	<link href="/Public/Admin/media/css/login.css" rel="stylesheet" type="text/css"/>
 	<!-- END PAGE LEVEL STYLES -->
-	<link rel="shortcut icon" href="/phpcms/Public/Admin/media/image/favicon.ico" />
+	<link rel="shortcut icon" href="/Public/Admin/media/image/favicon.ico" />
 </head>
 <!-- END HEAD -->
 
@@ -30,7 +30,7 @@
 <body class="login">
 	<!-- BEGIN LOGO -->
 	<div class="logo">
-		<img src="/phpcms/Public/Admin/media/image/logo-big.png" alt="" /> 
+		<img src="/Public/Admin/media/image/logo-big.png" alt="" /> 
 	</div>
 	<!-- END LOGO -->
 
@@ -71,7 +71,7 @@
                     </div>
                 </div>
                 <div class="controls">
-                    <img src="/phpcms/Admin/Login/verify" alt="验证码" width="450" style="cursor:pointer;" id="verify-image"/>
+                    <img src="/Admin/Login/verify" alt="验证码" width="450" style="cursor:pointer;" id="verify-image"/>
                 </div>
             </div>
 			<div class="form-actions">
@@ -94,29 +94,29 @@
 
 	<!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
 	<!-- BEGIN CORE PLUGINS -->
-	<script src="/phpcms/Public/Admin/media/js/jquery-1.10.1.min.js" type="text/javascript"></script>
-	<script src="/phpcms/Public/Admin/media/js/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+	<script src="/Public/Admin/media/js/jquery-1.10.1.min.js" type="text/javascript"></script>
+	<script src="/Public/Admin/media/js/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
 	<!-- IMPORTANT! Load jquery-ui-1.10.1.custom.min.js before bootstrap.min.js to fix bootstrap tooltip conflict with jquery ui tooltip -->
-	<script src="/phpcms/Public/Admin/media/js/jquery-ui-1.10.1.custom.min.js" type="text/javascript"></script>      
-	<script src="/phpcms/Public/Admin/media/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="/Public/Admin/media/js/jquery-ui-1.10.1.custom.min.js" type="text/javascript"></script>      
+	<script src="/Public/Admin/media/js/bootstrap.min.js" type="text/javascript"></script>
 	<!--[if lt IE 9]>
-	<script src="/phpcms/Public/Admin/media/js/excanvas.min.js"></script>
-	<script src="/phpcms/Public/Admin/media/js/respond.min.js"></script>  
+	<script src="/Public/Admin/media/js/excanvas.min.js"></script>
+	<script src="/Public/Admin/media/js/respond.min.js"></script>  
 	<![endif]-->   
 
-	<script src="/phpcms/Public/Admin/media/js/jquery.slimscroll.min.js" type="text/javascript"></script>
-	<script src="/phpcms/Public/Admin/media/js/jquery.blockui.min.js" type="text/javascript"></script>  
-	<script src="/phpcms/Public/Admin/media/js/jquery.cookie.min.js" type="text/javascript"></script>
-	<script src="/phpcms/Public/Admin/media/js/jquery.uniform.min.js" type="text/javascript" ></script>
+	<script src="/Public/Admin/media/js/jquery.slimscroll.min.js" type="text/javascript"></script>
+	<script src="/Public/Admin/media/js/jquery.blockui.min.js" type="text/javascript"></script>  
+	<script src="/Public/Admin/media/js/jquery.cookie.min.js" type="text/javascript"></script>
+	<script src="/Public/Admin/media/js/jquery.uniform.min.js" type="text/javascript" ></script>
 	<!-- END CORE PLUGINS -->
 
 	<!-- BEGIN PAGE LEVEL PLUGINS -->
-	<script src="/phpcms/Public/Admin/media/js/jquery.validate.min.js" type="text/javascript"></script>
+	<script src="/Public/Admin/media/js/jquery.validate.min.js" type="text/javascript"></script>
 	<!-- END PAGE LEVEL PLUGINS -->
 
 	<!-- BEGIN PAGE LEVEL SCRIPTS -->
-	<script src="/phpcms/Public/Admin/media/js/app.js" type="text/javascript"></script>
-	<script src="/phpcms/Public/Admin/media/js/login.js" type="text/javascript"></script>      
+	<script src="/Public/Admin/media/js/app.js" type="text/javascript"></script>
+	<script src="/Public/Admin/media/js/login.js" type="text/javascript"></script>      
 	<!-- END PAGE LEVEL SCRIPTS --> 
 	
 	<script type="text/javascript">
@@ -124,7 +124,7 @@
 			App.init();
 			Login.init();
             $('#verify-image').click(function(){
-                $(this).attr('src','/phpcms/Admin/Login/verify?id'+Math.random());
+                $(this).attr('src','/Admin/Login/verify?id'+Math.random());
             });
 
             if('<?php echo (session('login_remember')); ?>'=='1'){

@@ -7,25 +7,25 @@
 	<meta content="" name="description" />
 	<meta content="" name="author" />
 	<!-- BEGIN GLOBAL MANDATORY STYLES -->
-	<link href="/phpcms/Public/Admin/media/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-	<link href="/phpcms/Public/Admin/media/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
-	<link href="/phpcms/Public/Admin/media/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-	<link href="/phpcms/Public/Admin/media/css/style-metro.css" rel="stylesheet" type="text/css"/>
-	<link href="/phpcms/Public/Admin/media/css/style.css" rel="stylesheet" type="text/css"/>
-	<link href="/phpcms/Public/Admin/media/css/style-responsive.css" rel="stylesheet" type="text/css"/>
-	<link href="/phpcms/Public/Admin/media/css/default.css" rel="stylesheet" type="text/css" id="style_color"/>
-	<link href="/phpcms/Public/Admin/media/css/uniform.default.css" rel="stylesheet" type="text/css"/>
+	<link href="/Public/Admin/media/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+	<link href="/Public/Admin/media/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+	<link href="/Public/Admin/media/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+	<link href="/Public/Admin/media/css/style-metro.css" rel="stylesheet" type="text/css"/>
+	<link href="/Public/Admin/media/css/style.css" rel="stylesheet" type="text/css"/>
+	<link href="/Public/Admin/media/css/style-responsive.css" rel="stylesheet" type="text/css"/>
+	<link href="/Public/Admin/media/css/default.css" rel="stylesheet" type="text/css" id="style_color"/>
+	<link href="/Public/Admin/media/css/uniform.default.css" rel="stylesheet" type="text/css"/>
 	<!-- END GLOBAL MANDATORY STYLES -->
 	<!-- BEGIN PAGE LEVEL STYLES -->
-	<link rel="stylesheet" href="/phpcms/Public/static/common.css" />
+	<link rel="stylesheet" href="/Public/static/common.css" />
 	<!-- END PAGE LEVEL STYLES -->
-	<link rel="shortcut icon" href="/phpcms/Public/Admin/media/image/favicon.ico" />
+	<link rel="shortcut icon" href="/Public/Admin/media/image/favicon.ico" />
     <!--BEGIN JQUERY -->
-    <script src="/phpcms/Public/Admin/media/js/jquery-1.10.1.min.js" type="text/javascript"></script>
+    <script src="/Public/Admin/media/js/jquery-1.10.1.min.js" type="text/javascript"></script>
     <!--END JQUERY  -->
 	<script type="text/javascript">
-		$self='/phpcms/Admin/Column/index';
-		$url='/phpcms/Admin/Column';
+		$self='/Admin/Column/index';
+		$url='/Admin/Column';
 		$module ='<?php echo (MODULE_NAME); ?>';
 		$controller ='<?php echo (CONTROLLER_NAME); ?>';
 		$action = '<?php echo (ACTION_NAME); ?>';
@@ -39,13 +39,13 @@
 			<div class="container-fluid">
 				<!-- BEGIN LOGO -->
 				<a class="brand" href="index.html">
-				<img src="/phpcms/Public/Admin/media/image/logo.png" alt="logo"/>
+				<img src="/Public/Admin/media/image/logo.png" alt="logo"/>
 				</a>
 				<!-- END LOGO -->
 				
 				<!-- BEGIN RESPONSIVE MENU TOGGLER -->
 				<a href="javascript:;" class="btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
-					<img src="/phpcms/Public/Admin/media/image/menu-toggler.png" alt="" />
+					<img src="/Public/Admin/media/image/menu-toggler.png" alt="" />
 				</a>          
 				<!-- END RESPONSIVE MENU TOGGLER -->            
 
@@ -86,7 +86,7 @@
 							</li>
 							<li>
 								<a href="inbox.html?a=view">
-								<span class="photo"><img src="/phpcms/Public/Admin/media/image/avatar2.jpg" alt="" /></span>
+								<span class="photo"><img src="/Public/Admin/media/image/avatar2.jpg" alt="" /></span>
 								<span class="subject">
 									<span class="from">Lisa Wong</span>
 									<span class="time">Just Now</span>
@@ -201,7 +201,7 @@
 					<!-- BEGIN USER LOGIN DROPDOWN -->
 					<li class="dropdown user">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-						<img alt="" src="/phpcms/Public/Admin/media/image/avatar1_small.jpg" />
+						<img alt="" src="/Public/Admin/media/image/avatar1_small.jpg" />
 						<span class="username"><?php echo ((isset($user["username"]) && ($user["username"] !== ""))?($user["username"]):'魏巍'); ?></span>
 						<i class="icon-angle-down"></i>
 						</a>
@@ -224,7 +224,7 @@
 	</div>
 	<!-- END HEADER -->
 <!-- BEGIN PAGE LEVEL STYLES -->
-<link rel="stylesheet" href="/phpcms/Public/Admin/media/css/DT_bootstrap.css" />
+<link rel="stylesheet" href="/Public/Admin/media/css/DT_bootstrap.css" />
 <!-- END PAGE LEVEL STYLES -->
 <!-- BEGIN CONTAINER -->
 <div class="page-container">
@@ -255,10 +255,8 @@
 				<span class="selected"></span>
 			</a>
 		</li>				
-		<?php if(is_array($nav)): $i = 0; $__LIST__ = $nav;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$volt): $mod = ($i % 2 );++$i;?><li class="nav">
+		<?php if(is_array($nav)): $i = 0; $__LIST__ = $nav;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$volt): $mod = ($i % 2 );++$i;?><li class="nav <?php if(($volt["title"]) == "control"): ?>start active open<?php endif; ?> ">
 				<a href="javascript:;">
-					<!--<i class="icon-folder-open"></i> -->
-					<!--<span class="title"><?php echo ($volt["name"]); ?></span>-->
                     <?php if(!empty($volt["ico"])): ?><i class="<?php echo ($volt["ico"]); ?>"></i>
                         <?php else: ?>
                         <i class="icon-folder-open"></i><?php endif; ?>
@@ -267,7 +265,7 @@
 				</a>
 				<?php if(!empty($volt["child"])): ?><ul class="sub-menu">
 							<?php if(is_array($volt["child"])): $i = 0; $__LIST__ = $volt["child"];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$volt1): $mod = ($i % 2 );++$i; if(!empty($volt1["child"])): ?><ul class="sub-menu">
-										<li  class="nav-item">
+										<li  class="nav-item <?php if(($volt["title"]) == "control"): ?>active open<?php endif; ?>">
 											<a href="javascript:;">
 												<?php if(!empty($volt1["ico"])): ?><i class="<?php echo ($volt1["ico"]); ?>"></i>
 													<?php else: ?>
@@ -288,7 +286,7 @@
 										</li>
 									</ul>
 									<?php else: ?>
-									<li  class="nav-item">
+									<li  class="nav-item <?php if(volt.title == control and volt1.title == action): ?>active<?php endif; ?> ">
 										<a href="<?php echo ($rd); ?>/<?php echo ($volt["title"]); ?>/<?php echo ($volt1["title"]); ?>">
 											<?php if(!empty($volt1["ico"])): ?><i class="<?php echo ($volt1["ico"]); ?>"></i>
 												<?php else: ?>
@@ -357,8 +355,8 @@
                 <span id="alert-info-item"></span>
             </div>
             <div class="clear margin10"></div>
-            <script type="text/javascript" src="/phpcms/Public/Admin/plug/My97DatePicker/WdatePicker.js"></script>
-            <script type="text/javascript" src="/phpcms/Public/Admin/scripts/jquery.form.js"></script>
+            <script type="text/javascript" src="/Public/Admin/plug/My97DatePicker/WdatePicker.js"></script>
+            <script type="text/javascript" src="/Public/Admin/scripts/jquery.form.js"></script>
             <script type="text/javascript">
                 $(function(){
                     $('#search-submit').click(function(){
@@ -373,7 +371,7 @@
                         <a href="javascript:void(0);" class="btn grey" id="btn-forbidden" data-role="forbidden"><?php echo (L("forbidden")); ?></a>
                         <a href="javascript:void(0);" class="btn grey" id="btn-delete" data-role="delete"><?php echo (L("delete")); ?></a>
                     </div>
-                    <form action="/phpcms/Admin/Column/search"  method="get" id="form-search">
+                    <form action="/Admin/Column/search"  method="get" id="form-search">
                         <div class="span3" style="text-align:right;">
                             <select name="status" style="width:75px;height:35px;">
                                 <option value="-1"><?php echo (L("all")); ?></option>
@@ -450,12 +448,12 @@
                                 <td class="hidden-480 "><?php if(($vo["status"]) == "1"): ?><label class="label label-error"><?php echo (L("forbidden")); ?></label><?php else: ?><label class="label label-success"><?php echo (L("enable")); ?></label><?php endif; ?></td>
                                 <td class="hidden-480"><?php echo (date('Y-m-d h:i:s',$vo["date"])); ?></td>
                                 <td class="text text-center">
-                                    <a href="/phpcms/Admin/Column/check?id=<?php echo ($vo["id"]); ?>" class="btn mini"><?php echo (L("check")); ?></a>
-                                    <a href="/phpcms/Admin/Column/edit?id=<?php echo ($vo["id"]); ?>" class="btn blue mini"><?php echo (L("edit")); ?></a>
-                                    <?php if(($vo["status"]) == "0"): ?><a href="/phpcms/Admin/Column/status?id=<?php echo ($vo["id"]); ?>&t=forbidden&p=<?php echo ($_GET['p']); ?>&ajax=0" class="btn black mini"><?php echo (L("forbidden")); ?></a>
+                                    <a href="/Admin/Column/check?id=<?php echo ($vo["id"]); ?>" class="btn mini"><?php echo (L("check")); ?></a>
+                                    <a href="/Admin/Column/edit?id=<?php echo ($vo["id"]); ?>" class="btn blue mini"><?php echo (L("edit")); ?></a>
+                                    <?php if(($vo["status"]) == "0"): ?><a href="/Admin/Column/status?id=<?php echo ($vo["id"]); ?>&t=forbidden&p=<?php echo ($_GET['p']); ?>&ajax=0" class="btn black mini"><?php echo (L("forbidden")); ?></a>
                                         <?php else: ?>
-                                        <a href="/phpcms/Admin/Column/status?id=<?php echo ($vo["id"]); ?>&t=enable&p=<?php echo ($_GET['p']); ?>&ajax=0" class="btn yellow mini"><?php echo (L("enable")); ?></a><?php endif; ?>
-                                    <a href="javascript:void(0);" data-role="/phpcms/Admin/Column/status?id=<?php echo ($vo["id"]); ?>&t=delete&p=<?php echo ($_GET['p']); ?>&ajax=0" class="btn red mini btn-del"><?php echo (L("delete")); ?></a>
+                                        <a href="/Admin/Column/status?id=<?php echo ($vo["id"]); ?>&t=enable&p=<?php echo ($_GET['p']); ?>&ajax=0" class="btn yellow mini"><?php echo (L("enable")); ?></a><?php endif; ?>
+                                    <a href="javascript:void(0);" data-role="/Admin/Column/status?id=<?php echo ($vo["id"]); ?>&t=delete&p=<?php echo ($_GET['p']); ?>&ajax=0" class="btn red mini btn-del"><?php echo (L("delete")); ?></a>
                                 </td>
                             </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                         </tbody>
@@ -515,7 +513,7 @@
             });
             $q = $q.substr(1);
             if($q!=''){
-                $.post('/phpcms/Admin/Column/status',{k:$q,t:$t},function(data){
+                $.post('/Admin/Column/status',{k:$q,t:$t},function(data){
                     if(data.status==0){
                         window.location.reload();
                     }else{
@@ -559,10 +557,10 @@
         });
     });
 </script>
-<script type="text/javascript" src="/phpcms/Public/Admin/media/js/select2.min.js"></script>
-<script type="text/javascript" src="/phpcms/Public/Admin/media/js/jquery.dataTables.js"></script>
-<script type="text/javascript" src="/phpcms/Public/Admin/media/js/DT_bootstrap.js"></script>
-<script type="text/javascript" src="/phpcms/Public/Admin/media/js/table-managed.js"></script>
+<script type="text/javascript" src="/Public/Admin/media/js/select2.min.js"></script>
+<script type="text/javascript" src="/Public/Admin/media/js/jquery.dataTables.js"></script>
+<script type="text/javascript" src="/Public/Admin/media/js/DT_bootstrap.js"></script>
+<script type="text/javascript" src="/Public/Admin/media/js/table-managed.js"></script>
 <script type="text/javascript">
     jQuery(document).ready(function() {
         TableManaged.init();
@@ -587,21 +585,21 @@
 	<!-- END FOOTER -->
 	<!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
 	<!-- BEGIN CORE PLUGINS -->
-	<script src="/phpcms/Public/Admin/media/js/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+	<script src="/Public/Admin/media/js/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
 	<!-- IMPORTANT! Load jquery-ui-1.10.1.custom.min.js before bootstrap.min.js to fix bootstrap tooltip conflict with jquery ui tooltip -->
-	<script src="/phpcms/Public/Admin/media/js/jquery-ui-1.10.1.custom.min.js" type="text/javascript"></script>      
-	<script src="/phpcms/Public/Admin/media/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="/Public/Admin/media/js/jquery-ui-1.10.1.custom.min.js" type="text/javascript"></script>      
+	<script src="/Public/Admin/media/js/bootstrap.min.js" type="text/javascript"></script>
     <!--[if lt IE 9]>
-    <script src="/phpcms/Public/Admin/media/js/excanvas.min.js"></script>
-    <script src="/phpcms/Public/Admin/media/js/respond.min.js"></script>
+    <script src="/Public/Admin/media/js/excanvas.min.js"></script>
+    <script src="/Public/Admin/media/js/respond.min.js"></script>
     <![endif]-->
-    <script src="/phpcms/Public/Admin/media/js/jquery.slimscroll.min.js" type="text/javascript"></script>
-    <script src="/phpcms/Public/Admin/media/js/jquery.blockui.min.js" type="text/javascript"></script>
-    <script src="/phpcms/Public/Admin/media/js/jquery.cookie.min.js" type="text/javascript"></script>
-    <script src="/phpcms/Public/Admin/media/js/jquery.uniform.min.js" type="text/javascript" ></script>
+    <script src="/Public/Admin/media/js/jquery.slimscroll.min.js" type="text/javascript"></script>
+    <script src="/Public/Admin/media/js/jquery.blockui.min.js" type="text/javascript"></script>
+    <script src="/Public/Admin/media/js/jquery.cookie.min.js" type="text/javascript"></script>
+    <script src="/Public/Admin/media/js/jquery.uniform.min.js" type="text/javascript" ></script>
     <!-- END CORE PLUGINS -->
     <!-- BEGIN PAGE LEVEL SCRIPTS -->
-	<script src="/phpcms/Public/Admin/media/js/app.js" type="text/javascript"></script>
+	<script src="/Public/Admin/media/js/app.js" type="text/javascript"></script>
 	<!-- END PAGE LEVEL SCRIPTS -->
 
 	<script type="text/javascript">
@@ -644,7 +642,7 @@
             $('#change-lang li').click(function(e){
                 e.preventDefault();
                 $uri = $(this).children('a').attr('href');
-                $.post('/phpcms/Admin/Column/index',{l:$uri},function(d){
+                $.post('/Admin/Column/index',{l:$uri},function(d){
                     window.location.reload();
                 });
             });

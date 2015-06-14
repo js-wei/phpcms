@@ -24,8 +24,8 @@
     <script src="/Public/Admin/media/js/jquery-1.10.1.min.js" type="text/javascript"></script>
     <!--END JQUERY  -->
 	<script type="text/javascript">
-		$self='/Admin/Config/basic';
-		$url='/Admin/Config';
+		$self='/Admin/database/index';
+		$url='/Admin/Database';
 		$module ='<?php echo (MODULE_NAME); ?>';
 		$controller ='<?php echo (CONTROLLER_NAME); ?>';
 		$action = '<?php echo (ACTION_NAME); ?>';
@@ -223,20 +223,9 @@
 		<!-- END TOP NAVIGATION BAR -->
 	</div>
 	<!-- END HEADER -->
-<!--BEGIN FORM STYLE-->
-<link rel="stylesheet" type="text/css" href="/Public/Admin/media/css/uniform.default.css"/>
-<link rel="stylesheet" type="text/css" href="/Public/Admin/media/css/select2_metro.css" />
-<link rel="stylesheet" type="text/css" href="/Public/Admin/media/css/chosen.css" />
-<link rel="stylesheet" type="text/css" href="/Public/Admin/media/css/bootstrap-fileupload.css" />
-<link rel="stylesheet" type="text/css" href="/Public/Admin/media/css/jquery.gritter.css" />
-<link rel="stylesheet" type="text/css" href="/Public/Admin/media/css/chosen.css" />
-<link rel="stylesheet" type="text/css" href="/Public/Admin/media/css/select2_metro.css" />
-<link rel="stylesheet" type="text/css" href="/Public/Admin/media/css/jquery.tagsinput.css" />
-<link rel="stylesheet" type="text/css" href="/Public/Admin/media/css/clockface.css" />
-<link rel="stylesheet" type="text/css" href="/Public/Admin/media/css/bootstrap-wysihtml5.css" />
-<link rel="stylesheet" type="text/css" href="/Public/Admin/media/css/bootstrap-toggle-buttons.css" />
-<link rel="stylesheet" type="text/css" href="/Public/Admin/media/css/multi-select-metro.css" />
-<!--END FORM STYLE-->
+<!-- BEGIN PAGE LEVEL STYLES -->
+<link rel="stylesheet" href="/Public/Admin/media/css/DT_bootstrap.css" />
+<!-- END PAGE LEVEL STYLES -->
 <!-- BEGIN CONTAINER -->
 <div class="page-container">
     <!-- BEGIN SIDEBAR -->
@@ -266,17 +255,19 @@
 				<span class="selected"></span>
 			</a>
 		</li>				
-		<?php if(is_array($nav)): $i = 0; $__LIST__ = $nav;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$volt): $mod = ($i % 2 );++$i;?><li class="nav <?php echo ($volt["title"]); ?> <?php echo ($control); ?>">
+		<?php if(is_array($nav)): $i = 0; $__LIST__ = $nav;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$volt): $mod = ($i % 2 );++$i;?><li class="nav">
 				<a href="javascript:;">
+					<!--<i class="icon-folder-open"></i> -->
+					<!--<span class="title"><?php echo ($volt["name"]); ?></span>-->
                     <?php if(!empty($volt["ico"])): ?><i class="<?php echo ($volt["ico"]); ?>"></i>
                         <?php else: ?>
                         <i class="icon-folder-open"></i><?php endif; ?>
-                    <span class="title"><?php echo ($volt["name"]); ?>-<?php echo ($control); ?></span>
+                    <span class="title"><?php echo ($volt["name"]); ?></span>
                     <span class="arrow"></span>
 				</a>
 				<?php if(!empty($volt["child"])): ?><ul class="sub-menu">
 							<?php if(is_array($volt["child"])): $i = 0; $__LIST__ = $volt["child"];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$volt1): $mod = ($i % 2 );++$i; if(!empty($volt1["child"])): ?><ul class="sub-menu">
-										<li  class="nav-item <?php if(($volt["title"]) == "control"): ?>active open<?php endif; ?>">
+										<li  class="nav-item">
 											<a href="javascript:;">
 												<?php if(!empty($volt1["ico"])): ?><i class="<?php echo ($volt1["ico"]); ?>"></i>
 													<?php else: ?>
@@ -297,7 +288,7 @@
 										</li>
 									</ul>
 									<?php else: ?>
-									<li  class="nav-item <?php if(volt.title == control and volt1.title == action): ?>active<?php endif; ?> ">
+									<li  class="nav-item">
 										<a href="<?php echo ($rd); ?>/<?php echo ($volt["title"]); ?>/<?php echo ($volt1["title"]); ?>">
 											<?php if(!empty($volt1["ico"])): ?><i class="<?php echo ($volt1["ico"]); ?>"></i>
 												<?php else: ?>
@@ -348,8 +339,7 @@
                             <?php else: ?>
                             <li><a href="#">Dashboard</a></li><?php endif; ?>
                         <li class="pull-right no-text-shadow">
-                            <div id="dashboard-report-range" class="dashboard-date-range tooltips no-tooltip-on-touch-device responsive"
-                                 data-tablet="" data-desktop="tooltips" data-placement="top" data-original-title="Change dashboard date range">
+                            <div id="dashboard-report-range" class="dashboard-date-range tooltips no-tooltip-on-touch-device responsive" data-tablet="" data-desktop="tooltips" data-placement="top" data-original-title="Change dashboard date range">
                                 <i class="icon-calendar"></i>
                                 <span></span>
                                 <i class="icon-angle-down"></i>
@@ -360,125 +350,229 @@
                 </div>
             </div>
             <!-- END PAGE HEADER-->
-            <!--BEGIN PAGER FORM-->
+            <!--BEGIN CONTAINER -->
+            <!--BEGIN SEARCH -->
+            <div class="alert-info alert-error">
+                <button class="close alert-btn"></button>
+                <span id="alert-info-item"></span>
+            </div>
+            <div class="clear margin10"></div>
+            <script type="text/javascript" src="/Public/Admin/plug/My97DatePicker/WdatePicker.js"></script>
+            <script type="text/javascript" src="/Public/Admin/scripts/jquery.form.js"></script>
+            <script type="text/javascript">
+                $(function(){
+                    $('#search-submit').click(function(){
+                        $('#form-search').submit();
+                    });
+                });
+            </script>
             <div class="row-fluid">
                 <div class="span12">
-                    <div class="portlet box purple">
-                        <div class="portlet-title">
-                            <div class="caption"><i class="icon-reorder"></i><?php echo ((isset($model["name"]) && ($model["name"] !== ""))?($model["name"]):'添加栏目'); ?></div>
-                            <div class="tools">
-                                <a href="javascript:;" class="collapse"></a>
-                                <a href="#portlet-config" data-toggle="modal" class="config"></a>
-                                <a href="javascript:;" class="reload" data-role="/Public/Admin/media/image/fancybox_loading.gif" data-form="form_sample_1" data-reset="0"></a>
-                                <a href="javascript:;" class="remove"></a>
+                    <div class="span6">
+                        <a href="javascript:void(0);" class="btn grey" id="btn-enable" data-role="enable"><?php echo (L("enable")); ?></a>
+                        <a href="javascript:void(0);" class="btn grey" id="btn-forbidden" data-role="forbidden"><?php echo (L("forbidden")); ?></a>
+                        <a href="javascript:void(0);" class="btn grey" id="btn-delete" data-role="delete"><?php echo (L("delete")); ?></a>
+                    </div>
+                    <form action="/Admin/Database/search"  method="get" id="form-search">
+                        <div class="span3" style="text-align:right;">
+                            <select name="status" style="width:75px;height:35px;">
+                                <option value="-1"><?php echo (L("all")); ?></option>
+                                <option value="0" <?php if(($search["status"]) == "0"): ?>selected<?php endif; ?>><?php echo (L("enable")); ?></option>
+                                <option value="1" <?php if(($search["status"]) == "1"): ?>selected<?php endif; ?>><?php echo (L("forbidden")); ?></option>
+                            </select>
+                            <div class="search-key" style="float:right;">
+                                <input type="text" name="name" value="<?php echo ($search["name"]); ?>" placeholder="<?php echo (L("keyword")); ?>"  style="width:160px;;height:25px;">
                             </div>
                         </div>
-                        <div class="portlet-body form">
-                            <!-- BEGIN FORM-->
-                            <form action="/Admin/Config/addbasehandler" method="post" id="form_sample_1" class="form-horizontal" novalidate="novalidate" enctype="multipart/form-data">
-                                <div class="alert alert-error hide">
-                                    <button class="close" data-dismiss="alert"></button>
-                                    <?php echo (L("form_error")); ?>
-                                </div>
-                                <div class="alert alert-success hide">
-                                    <button class="close" data-dismiss="alert"></button>
-                                    <?php echo (L("form_success")); ?>
-                                </div>
-                                <div class="alert alert-error hide control-name">
-                                    <button class="close" data-dismiss="alert"></button>
-                                    <?php echo (L("column")); echo (L("not_null")); ?>
-                                </div>
+                        <div class="span3" style="text-align:left;margin:0px;padding:0px;margin-left:-10px;width:315px;position:relative;">
+                            <div class="search-button" style="margin-left:20px;">
+                                <botton id="search-submit"  class="btn grey margin-10" ><?php echo (L("search")); ?></botton>
+                                <botton id="search-date"  class="btn blue margin-10" i="0"><?php echo (L("senior")); ?></botton>
+                            </div>
+                            <div class="search-time hide" style="left:-10px;position:relative;width:450px;">
                                 <div class="control-group">
-                                    <label class="control-label"><?php echo (L("site_title")); ?></label>
-                                    <div class="controls">
-                                        <input type="text" name="title" value="<?php echo ($site["title"]); ?>" id="control-name" data-required="1" class="span4 m-wrap" placeholder="<?php echo (L("site_title")); ?>">
-                                        <label class="line-height50">(<?php echo (L("site_title_tip")); ?>)</label>
+                                    <div class="controls pull-left">
+                                        <input class="Wdate" value="<?php echo ($data["from"]); ?>" type="text" id="start" name="from" onfocus="WdatePicker()" style="width:100px;height:25px;"/> To <input value="<?php echo ($data["to"]); ?>" class="Wdate" type="text" name="to" id="end" onfocus="WdatePicker()" style="width:100px;height:25px;"/>
+                                        <a href="javascript:void(0);" id="ok-date"><?php echo (L("confirm_ok")); ?></a>
+                                        <a href="javascript:void(0);" id="clear-date"><?php echo (L("clear")); ?></a>
                                     </div>
                                 </div>
-
-                                <div class="control-group">
-                                    <label class="control-label"><?php echo (L("site_description")); ?></label>
-                                    <div class="controls">
-                                        <textarea  name="description"  class="span4 m-wrap" placeholder="<?php echo (L("site_description")); ?>"><?php echo ($site["description"]); ?></textarea>
-                                        <label class="line-height50">(<?php echo (L("site_description_tip")); ?>)</label>
-                                    </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <hr class="divider"/>
+            <div class="row-fluid">
+                <div class="span12">
+                    <div class="btn-group">
+                        <a id="sample_editable_1_new" class="btn green" href="<?php echo U('add');?>">
+                            <?php echo (L("add")); ?><i class="icon-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <hr class="divider"/>
+            <!--END SEARCH -->
+            <!--BEGIN DATA CONTAINER -->
+            <div class="row-fluid">
+                <div class="span12">
+                    <table class="table table-striped table-bordered table-hover dataTable" id="sample_2" aria-describedby="sample_1_info">
+                        <thead>
+                        <tr role="row" id="dis-sort-simple">
+                            <th style="width:24px;" class="sorting_disabled" role="columnheader" rowspan="1" colspan="1" aria-label="">
+                                <div class="checker">
+                                    <span><input type="checkbox" class="group-checkable" data-set="#sample_1 .checkboxes"></span>
                                 </div>
-                                <div class="control-group">
-                                    <label class="control-label"><?php echo (L("site_keyword")); ?></label>
-                                    <div class="controls">
-                                        <textarea  name="keywords"  class="span4 m-wrap" placeholder="<?php echo (L("site_keyword")); ?>"><?php echo ($site["keywords"]); ?></textarea>
-                                        <label class="line-height50">(<?php echo (L("site_keyword_tip")); ?>)</label>
-                                    </div>
-                                </div>
-                                <div class="control-group">
-                                    <label class="control-label"><?php echo (L("site_off")); ?></label>
-                                    <div class="controls">
-                                        <label class="radio-inline inline-width">
-                                            <input type="radio" name="site_show"  value="0" class="reset-radio" <?php if(($site["site_show"]) == "0"): ?>checked<?php else: ?>checked<?php endif; ?>><?php echo (L("on")); ?>
-                                        </label>
-                                        <label class="radio-inline inline-width">
-                                            <input type="radio" name="site_show" class="reset-radio"  value="1"  <?php if(($site["site_show"]) == "1"): ?>checked<?php endif; ?>><?php echo (L("off")); ?>
-                                        </label>
-                                        <div class="clearfix"></div>
-                                        <label class="line-height35">(<?php echo (L("site_off_tip")); ?>)</label>
-                                    </div>
-                                </div>
-                                <div class="control-group">
-                                    <label class="control-label"><?php echo (L("site_icp")); ?></label>
-                                    <div class="controls">
-                                        <input type="text" name="icp" value="<?php echo ($site["icp"]); ?>" placeholder="<?php echo (L("site_icp")); ?>"/>
-                                        <label class="line-height50">(<?php echo (L("site_icp_tip")); ?>)</label>
-                                    </div>
-                                </div>
-                                <div class="form-actions">
-                                    <button type="submit" class="btn purple"><?php echo (L("submit")); ?></button>
-                                    <button type="button" class="btn" onclick="window.history.go(-1);"><?php echo (L("go_back")); ?></button>
-                                </div>
-                            </form>
-                            <!-- END FORM-->
+                            </th>
+                            <th class="hidden-480" style="width:70px;"><?php echo (L("n")); ?></th>
+                            <th class="sorting_disabled" role="columnheader" tabindex="0" aria-controls="sample_1" rowspan="1" colspan="1" style="width:250px;"><?php echo (L("title")); ?></th>
+                            <th class="hidden-480 sorting_disabled" role="columnheader" rowspan="1" colspan="1" style="width: 220px;"><?php echo (L("name")); ?></th>
+                            <th class="hidden-480 sorting" role="columnheader" tabindex="0" aria-controls="sample_1" rowspan="1" colspan="1"  style="width: 220px;"><?php echo (L("description")); ?></th>
+                            <th class="hidden-480 sorting_disabled" role="columnheader" rowspan="1" colspan="1"  style="width: 237px;"><?php echo (L("ico")); ?></th>
+                            <th class="hidden-480" style="width:50px;"><?php echo (L("show")); ?></th>
+                            <th class="hidden-480" style="width:50px;"><?php echo (L("status")); ?></th>
+                            <th class="hidden-480" style="width:250px;"><?php echo (L("add_time")); ?></th>
+                            <th class="hidden-480 sorting_disabled" role="columnheader" rowspan="1" colspan="1" aria-label="" style="width:450px;"></th>
+                        </tr>
+                        </thead>
+                        <tbody role="alert" aria-live="polite" aria-relevant="all">
+                        <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr class="gradeX <?php if($key%2==0){echo 'odd';}else{echo 'even';} ?>">
+                                <td class=" sorting_1"><div class="checker"><span><input type="checkbox" class="checkboxes" value="<?php echo ($vo["id"]); ?>"></span></div></td>
+                                <td><?php echo ($vo["id"]); ?></td>
+                                <td class="" style="padding-left:<?php echo ($vo['level']*10); ?>px;"><?php echo ($vo["html"]); echo ($vo["title"]); ?></td>
+                                <td class="hidden-480 "><?php echo ($vo["name"]); ?></td>
+                                <td class="hidden-480 "><?php echo ($vo["info"]); ?></td>
+                                <td class="hidden-480 "><?php echo ($vo["ico"]); ?></td>
+                                <td class="hidden-480 text-center"><?php if(($vo["show"]) == "1"): ?><label class="label label-error"><?php echo (L("un_show")); ?></label><?php else: ?><label class="label label-success"><?php echo (L("show")); ?></label><?php endif; ?></td>
+                                <td class="hidden-480 "><?php if(($vo["status"]) == "1"): ?><label class="label label-error"><?php echo (L("forbidden")); ?></label><?php else: ?><label class="label label-success"><?php echo (L("enable")); ?></label><?php endif; ?></td>
+                                <td class="hidden-480"><?php echo (date('Y-m-d h:i:s',$vo["date"])); ?></td>
+                                <td class="text text-center">
+                                    <a href="/Admin/Database/check?id=<?php echo ($vo["id"]); ?>" class="btn mini"><?php echo (L("check")); ?></a>
+                                    <a href="/Admin/Database/edit?id=<?php echo ($vo["id"]); ?>" class="btn blue mini"><?php echo (L("edit")); ?></a>
+                                    <?php if(($vo["status"]) == "0"): ?><a href="/Admin/Database/status?id=<?php echo ($vo["id"]); ?>&t=forbidden&p=<?php echo ($_GET['p']); ?>&ajax=0" class="btn black mini"><?php echo (L("forbidden")); ?></a>
+                                        <?php else: ?>
+                                        <a href="/Admin/Database/status?id=<?php echo ($vo["id"]); ?>&t=enable&p=<?php echo ($_GET['p']); ?>&ajax=0" class="btn yellow mini"><?php echo (L("enable")); ?></a><?php endif; ?>
+                                    <a href="javascript:void(0);" data-role="/Admin/Database/status?id=<?php echo ($vo["id"]); ?>&t=delete&p=<?php echo ($_GET['p']); ?>&ajax=0" class="btn red mini btn-del"><?php echo (L("delete")); ?></a>
+                                </td>
+                            </tr><?php endforeach; endif; else: echo "" ;endif; ?>
+                        </tbody>
+                    </table>
+                    <div class="clearfix"></div>
+                    <div class="row-fluid">
+                        <div class="span12">
+                            <div class="pagination">
+                                <?php echo ($page); ?>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!--END PAGER FORM-->
+            <!--END DATA CONTAINER -->
+            <!--END CONTAINER -->
         </div>
         <!-- END PAGE CONTAINER-->
     </div>
     <!-- END PAGE -->
 </div>
-<!-- END CONTAINER -->
-<!-- BEGIN PAGE LEVEL PLUGINS -->
-<script type="text/javascript" src="/Public/Admin/media/js/ckeditor.js"></script>
-<script type="text/javascript" src="/Public/Admin/media/js/bootstrap-fileupload.js"></script>
-<script type="text/javascript" src="/Public/Admin/media/js/chosen.jquery.min.js"></script>
-<script type="text/javascript" src="/Public/Admin/media/js/select2.min.js"></script>
-<script type="text/javascript" src="/Public/Admin/media/js/wysihtml5-0.3.0.js"></script>
-<script type="text/javascript" src="/Public/Admin/media/js/bootstrap-wysihtml5.js"></script>
-<script type="text/javascript" src="/Public/Admin/media/js/jquery.tagsinput.min.js"></script>
-<script type="text/javascript" src="/Public/Admin/media/js/jquery.toggle.buttons.js"></script>
-<script type="text/javascript" src="/Public/Admin/media/js/bootstrap-datepicker.js"></script>
-<script type="text/javascript" src="/Public/Admin/media/js/bootstrap-datetimepicker.js"></script>
-<script type="text/javascript" src="/Public/Admin/media/js/clockface.js"></script>
-<script type="text/javascript" src="/Public/Admin/media/js/date.js"></script>
-<script type="text/javascript" src="/Public/Admin/media/js/daterangepicker.js"></script>
-<script type="text/javascript" src="/Public/Admin/media/js/bootstrap-colorpicker.js"></script>
-<script type="text/javascript" src="/Public/Admin/media/js/bootstrap-timepicker.js"></script>
-<script type="text/javascript" src="/Public/Admin/media/js/jquery.inputmask.bundle.min.js"></script>
-<script type="text/javascript" src="/Public/Admin/media/js/jquery.input-ip-address-control-1.0.min.js"></script>
-<script type="text/javascript" src="/Public/Admin/media/js/jquery.multi-select.js"></script>
-<!-- END PAGE LEVEL PLUGINS -->
-<!-- BEGIN PAGE LEVEL STYLES -->
-<script type="text/javascript" src="/Public/Admin/media/js/jquery.validate.min.js"></script>
-<script type="text/javascript" src="/Public/Admin/media/js/form-validation.js"></script>
-<script type="text/javascript" src="/Public/Admin/scripts/jquery.han2pin.min.js"></script>
-<script type="text/javascript" src="/Public/Admin/media/js/form-components.js"></script>
 <script type="text/javascript">
     $(function(){
-        FormValidation.init();
-        FormComponents.init();
+        $checkboxes = $('.checkboxes');
+        $('.group-checkable').click(function(){
+            $this = $(this);
+            if($this.attr('checked')=='checked'){
+                $this.parent('span').addClass('checked');
+                $checkboxes.each(function(){
+                    $(this).attr('checked','checked');
+                    $(this).parent('span').addClass('checked');
+                });
+            }else{
+                $this.parent('span').removeClass('checked');
+                $checkboxes.each(function(){
+                    $(this).removeAttr('checked');
+                    $(this).parent('span').removeClass('checked');
+                });
+            }
+        });
+        $checkboxes.click(function(){
+            if($(this).attr('checked')=='checked'){
+                $(this).attr('checked','checked');
+                $(this).parent('span').addClass('checked');
+            }else{
+                $(this).removeAttr('checked');
+                $(this).parent('span').removeClass('checked');
+            }
+        });
+        $('#btn-enable,#btn-forbidden,#btn-delete').click(function(){
+            $t = $(this).attr('data-role');
+            $q='';
+            $('.checkboxes').each(function(){
+                if($(this).attr('checked')=='checked'){
+                    $q += ','+$(this).val();
+                }
+            });
+            $q = $q.substr(1);
+            if($q!=''){
+                $.post('/Admin/Database/status',{k:$q,t:$t},function(data){
+                    if(data.status==0){
+                        window.location.reload();
+                    }else{
+                        $('#alert-info-item').text('<?php echo (L("fail")); ?>');
+                        $('.alert-info').show();
+                    }
+                });
+            }else{
+                $('#alert-info-item').text('<?php echo (L("select_option")); ?>');
+                $('.alert-info').show();
+            }
+        });
+
+        $('.alert-btn').click(function(){
+            $(this).parent('.alert-error').hide();
+        });
+
+        $('.btn-del').click(function(e){
+            e.preventDefault();
+            if(confirm("<?php echo (L("confirm")); ?>")){
+                window.location.href=$(this).attr('data-role');
+            }
+        });
+        $('#search-date').click(function(e){
+            e.preventDefault();
+            $i = $(this).attr('i');
+            if($i=='0'){
+                $('.search-time').show();
+                $(this).attr('i',1);
+            }else{
+                $('.search-time').hide();
+                $(this).attr('i',0);
+            }
+        });
+        $('#clear-date').click(function(){
+            $('#start,#end').val('');
+        });
+        $('#ok-date').click(function(){
+            $('.search-time').hide();
+            $(this).attr('i',1);
+        });
     });
 </script>
-<!-- END PAGE LEVEL STYLES -->
+<script type="text/javascript" src="/Public/Admin/media/js/select2.min.js"></script>
+<script type="text/javascript" src="/Public/Admin/media/js/jquery.dataTables.js"></script>
+<script type="text/javascript" src="/Public/Admin/media/js/DT_bootstrap.js"></script>
+<script type="text/javascript" src="/Public/Admin/media/js/table-managed.js"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+        TableManaged.init();
+        $('#sample_2_wrapper').children('.row-fluid').first().remove();
+        $('#sample_2_wrapper').children('.row-fluid').last().remove();
+        $('#sample_1_wrapper').children('.row-fluid').first().remove();
+        $('#sample_1_wrapper').children('.row-fluid').last().remove();
+    });
+</script>
+<!-- END CONTAINER -->
 <!-- BEGIN FOOTER -->
 	<div class="footer">
 		<div class="footer-inner">
@@ -550,7 +644,7 @@
             $('#change-lang li').click(function(e){
                 e.preventDefault();
                 $uri = $(this).children('a').attr('href');
-                $.post('/Admin/Config/basic',{l:$uri},function(d){
+                $.post('/Admin/database/index',{l:$uri},function(d){
                     window.location.reload();
                 });
             });
