@@ -1,12 +1,4 @@
 <?php
-/**
- *@project    Websocket (server endpoint by php implements)
- *@author     Oshyn Song <dualyangsong@gmail.com>
- *@version    1.0beta
- *@time       2014-3
- *@usage      (new WebSocket($address, $port))->run()
- */
-
 class WebSocket
 {
 	var $master;
